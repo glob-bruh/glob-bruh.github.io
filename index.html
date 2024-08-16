@@ -1,9 +1,52 @@
+
+<!DOCTYPE html>
 <html>
-  <head></head>
-  <body>
-    <p><a href="https://glob-bruh.github.io/globbruh-website/">Click to redirect</a>.</p>
-    <script>
-      window.location.href = "https://glob-bruh.github.io/globbruh-website/";
-    </script>
-  </body>
+    <head>
+        <title>HOME | GlobBruh</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <meta name="application-name" content="GlobBruh">
+        <meta name="description" content="The GlobBruh Homepage">
+        <meta property="og:title" content="GlobBruh">
+        <meta property="og:description" content="The GlobBruh Homepage">
+        <meta property="og:image" content="https://avatars.githubusercontent.com/u/34488272">
+        <meta property="og:image:type" content="image/png">
+    </head>
+    <body>
+        <header>
+            <h1 id="titleText">GlobBruh</h1>
+            <img src="https://avatars.githubusercontent.com/u/34488272">
+            <p title="IN ORDER: Bash, C#, CSS, .NET, HTML, JavaScript, Markdown, MySQL, PHP, PowerShell, Python.">
+                <img id="headIcon" src="https://skillicons.dev/icons?i=bash,cs,css,dotnet,html,js,md,mysql,php,powershell,py" />
+            </p>
+            <p title="IN ORDER: Arduino, Azure, Debian, Docker, Git, Kali Linux, Nginx, Raspberry Pi, VSCodium, Windows.">
+                <img id="headIcon" src="https://skillicons.dev/icons?i=arduino,azure,debian,docker,git,kali,nginx,raspberrypi,vscodium,windows" />
+            </p>
+            <hr>
+            <div id="headerNav">
+                <button id="active">HOME</button>
+                <button onclick="window.location.href = 'projects.html'">PROJECTS</button>
+                <button onclick="window.location.href = 'blog/bloghome.html'">BLOG and RESOURCES</button>
+            </div>
+        </header>
+        <article>
+            <h2>$(whoami):</h2>
+            <p>I spend most of my time on programming, cybersecurity, and networking.</p>
+            <p>Feel free to use and contribute to any of the projects I have available on GitHub.</p>
+        </article>
+        <article>
+            <h2>Websites I use:</h2>
+            <ul>
+                <li><a href="https://app.hackthebox.com/users/279213">Hack The Box (account required)</a></li>
+                <li><a href="https://tryhackme.com/p/globbruh">TryHackMe</a></li>
+                <li><a href="https://blueteamlabs.online/home/user/4b21f74518ba720c207d68>">Blue Team Labs Online (account required)</a></li>
+            </ul>
+        </article>
+        <footer>
+            <p>Website developed from scratch by me.<br />&copy; GlobBruh -  2024.</p>
+            <p>This website is <a href="https://github.com/glob-bruh/glob-bruh.github.io">open-source</a> for transparency.</p>
+        </footer>
+    </body>
 </html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <title>Notes 2024 | GlobBruh Blog</title>
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        <div id="headArt">
+  ▄████  ██▓     ▒█████   ▄▄▄▄    ▄▄▄▄    ██▀███   █    ██  ██░ ██ 
+ ██▒ ▀█▒▓██▒    ▒██▒  ██▒▓█████▄ ▓█████▄ ▓██ ▒ ██▒ ██  ▓██▒▓██░ ██▒
+▒██░▄▄▄░▒██░    ▒██░  ██▒▒██▒ ▄██▒██▒ ▄██▓██ ░▄█ ▒▓██  ▒██░▒██▀▀██░
+░▓█  ██▓▒██░    ▒██   ██░▒██░█▀  ▒██░█▀  ▒██▀▀█▄  ▓▓█  ░██░░▓█ ░██ 
+░▒▓███▀▒░██████▒░ ████▓▒░░▓█  ▀█▓░▓█  ▀█▓░██▓ ▒██▒▒▒█████▓ ░▓█▒░██▓
+░▒   ▒ ░ ▒░▓  ░░ ▒░▒░▒░ ░▒▓███▀▒░▒▓███▀▒░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒  ▒ ░░▒░▒
+    ░   ░ ░ ░ ▒  ░  ░ ▒ ▒░ ▒░▒   ░ ▒░▒   ░   ░▒ ░ ▒░░░▒░ ░ ░  ▒ ░▒░ ░
+░ ░   ░   ░ ░   ░ ░ ░ ▒   ░    ░  ░    ░   ░░   ░  ░░░ ░ ░  ░  ░░ ░
+        ░     ░  ░    ░ ░   ░       ░         ░        ░      ░  ░  ░
+                                ░       ░                           
+        </div>
+    </header>
+    <h1>Notes - 2024:</h1>
+    <center><h4><a href="../bloghome.html">Return to Blog Home</a></h4></center>
+
+    <div alt="Open Rename Computer (Advanced) through RUN" class="collapse">
+        <ol>
+            <li>Press <code>WINDOWS + R</code>.</li>
+            <li>Enter <code>sysdm.cpl</code> and press enter.</li>
+        </ol>
+    </div>
+    
+    <div alt="Linux - Enable TTY Serial Connection" class="collapse">
+        <ol>
+            <li>Run <code>lsusb</code> and <code>ls -l /dev/</code> to find the device to host serial connection.</li>
+            <li>Run <code>sudo systemctl start getty@tty[DEVICE-ID].service</code> to start serial connection.</li>
+            <li>Run <code>sudo systemctl enable getty@tty[DEVICE-ID].service</code> to let serial connection run on boot.</li>
+            <li>Run <code>sudo systemctl status getty@tty[DEVICE-ID].service</code> to get serial connection status.</li>
+        </ol>
+    </div>
+    
+    <div alt="Python - Iterate Amount of Times Per Second" class="collapse">
+        <pre><code>
+import time
+framerate = 5
+fpsCalc = (1 / (framerate / 100)) / 100
+while True:
+    print("Test")
+    time.sleep(fpsCalc)
+        </code></pre>
+    </div>
+    
+    <div alt="Linux Manual Partitioning With Disk Encryption" class="collapse">
+        <p><a href="https://ertugrulharman.com/en/2017/09/06/how-to-install-debian-alongside-windows-dual-boot-with-full-disk-encryption/">Check tutorial on ertugrulharman.com</a></p>
+    </div>
+    
+    <div alt="Tmux - Simple Usage" class="collapse">
+        <ul>
+            <li>Tmux is started by typing <code>tmux</code> into the terminal.</li>
+            <li>To split pane horizontally, press <code>CTRL + A/B</code> then <code>"</code>.</li>
+            <li>To split pane vertically, press <code>CTRL + A/B</code> then <code>%</code>.</li>
+            <li>To select a different pane, press <code>CTRL + A/B</code> then press the arrow key in the direction to select.</li>
+            <li>The command <code>exit</code> will close a pane.</li>
+            <li>If the terminal in a specific pane is hanging or unresponsive, the keybind to kill a single pane that is currently selected in tmux is <code>CTRL + A/B</code> then <code>X</code>. When prompted, press <code>Y</code>.</li>
+        </ul>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
