@@ -130,7 +130,7 @@ a[href]:hover {
 }
 
 footer {
-    padding-top: 0.75em;
+    padding-top: 1.5em;
 }
 
 footer > p {
@@ -138,6 +138,24 @@ footer > p {
     font-style: italic;
     font-size: 75%;
     font-weight: bold;
+}
+
+footer > #footerSites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > #footerSites > img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 57px;
+}
+
+footer > #footerSites > img:hover {
+    filter: brightness(200%);
+    transition-duration: 500ms;
+    cursor: pointer;
 }
 
 #titleText {
@@ -158,4 +176,8 @@ footer > p {
 
 p#center {
     text-align: center;
+}
+
+.fa-solid {
+    color: white;
 }
