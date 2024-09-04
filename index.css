@@ -22,6 +22,11 @@ body {
     div.projFeature > button {
         width: 75%;
     }
+    footer > #footerSites > img {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        width: 40px !important;
+    }
 }
 
 header > h1 {
@@ -176,8 +181,4 @@ footer > #footerSites > img:hover {
 
 p#center {
     text-align: center;
-}
-
-.fa-solid {
-    color: white;
 }
