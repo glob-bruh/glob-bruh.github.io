@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: #070707;
+    margin: 5em auto;
+    width: 60em;
+    max-width: calc(100% - 6em);
+}
+
+@media (max-width: 500px) {
+    header > div#headerNav > button {
+        height: 60px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding: 0px;
+    }
+    header > div#headerNav {
+        width: 100%;
+    }
+    div.projFeature > button {
+        width: 75%;
+    }
+    footer > #footerSites > img {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        width: 40px !important;
+    }
+}
+
+header > h1 {
+    text-align: center;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 26.8px;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+div#headerNav {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 75%
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: #707070;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #a1a1a1;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+button#active {
+    background-color: #a1a1a1;
+}
+
+h2 {
+    color: #159957;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.projFeature {
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #2e2e2e;
+    border-radius: 20px;
+}
+
+div.projFeature > h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.projFeature > img {
+    width: 100%;
+    max-width: 100px;
+    margin: 5px;
+}
+
+div.projFeature > button {
+    max-width: 250px;
+}
+
+div.projFeature > p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a[href] {
+    color: #707070;
+    font-weight: bold;
+}
+
+a[href]:hover {
+    color: #a1a1a1;
+    transition-duration: 500ms;
+}
+
+footer {
+    padding-top: 1.5em;
+}
+
+footer > p {
+    text-align: center;
+    font-style: italic;
+    font-size: 75%;
+    font-weight: bold;
+}
+
+footer > #footerSites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > #footerSites > img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 57px;
+}
+
+footer > #footerSites > img:hover {
+    filter: brightness(200%);
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+#titleText {
+    background-image: linear-gradient(#55ff55, #ff55ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 250%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#headIcon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+p#center {
+    text-align: center;
+}

@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css');
+
+body {
+    background-color: #070707;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin: 5em auto;
+    width: 60em;
+    max-width: calc(100% - 6em);
+}
+
+@media (max-width: 500px) {
+    #headArt {
+        font-size: 6px;
+    }
+    img {
+        max-width: 80%;
+    }
+    #imgReduced {
+        max-width: 65%;
+    }
+}
+
+header {
+    font-family: "Hack";
+}
+
+pre > code {
+    color : black;
+    border: 1px solid #999;
+    display: block;
+    font-family: "Hack";
+    font-size: 12px;
+    background-color: darkgray;
+    padding-left: 15px;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+code {
+    font-family: "Hack";
+    font-size: 75%;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    max-width: 65%;
+    background-color: #a1a1a1;
+}
+
+#imgReduced {
+    max-width: 40%;
+}
+
+a[href] {
+    color: #707070;
+}
+
+a[href]:hover {
+    color: #a1a1a1;
+    transition-duration: 500ms;
+}
+
+h1 {
+	font-size: 43px;
+	text-align: center;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 21.92px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 17.92px;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 17.92px;
+	font-weight: bold;
+	color: #999999;
+}
+
+h6 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #DCDDDE;
+}
+
+hr {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.collapseButton {
+    background-color: #707070;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    text-align: left;
+    outline: none;
+    font-weight: bold;
+    margin-bottom: 7.5px;
+    margin-top: 7.5px;
+}
+  
+.active, .collapseButton:hover {
+    background-color: #a1a1a1;
+    transition-duration: 500ms;
+}
+
+.collapse {
+    padding: 0 15px;
+    display: none;
+    overflow: hidden;
+}
+
+#headArt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    white-space: pre;
+    background-image: linear-gradient(#55ff55, #ff55ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#txtCategory {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    background-color: #55ff55;
+    border-radius: 7px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 5px;
+    text-align: center;
+    width: inherit;
+}
+
+#txtWARN {
+    color: red;
+    font-weight: bolder;
+}
+
+#txtCaption {
+	font-family: 'Sedgwick Ave', cursive;
+    font-size: 13px;
+	display: block;
+	text-align: center;
+}
+
+#forceSameLine {
+    display: flex;
+}
