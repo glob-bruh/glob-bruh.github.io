@@ -27,6 +27,9 @@ body {
         margin-right: 5px !important;
         width: 40px !important;
     }
+    button {
+        margin-bottom: 5px;
+    }
 }
 
 header > h1 {
@@ -71,8 +74,8 @@ button:hover {
     cursor: pointer;
 }
 
-button#active {
-    background-color: #a1a1a1;
+#headerNav > button {
+    min-height: 60px;
 }
 
 h2 {
@@ -131,7 +134,7 @@ a[href] {
 
 a[href]:hover {
     color: #a1a1a1;
-    transition-duration: 500ms;
+    transition-duration: 250ms;
 }
 
 footer {
@@ -159,7 +162,7 @@ footer > #footerSites > img {
 
 footer > #footerSites > img:hover {
     filter: brightness(200%);
-    transition-duration: 500ms;
+    transition-duration: 250ms;
     cursor: pointer;
 }
 
@@ -172,13 +175,21 @@ footer > #footerSites > img:hover {
     font-family: 'Poppins', sans-serif;
 }
 
-#headIcon {
+#headIcon > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5px;
     max-width: 100%;
 }
 
-p#center {
+#aoscsLogo {
+    padding: 5px;
+    border-radius: 7px;
+    border-color: red;
+    border: 2px gray solid;
+}
+
+.center {
     text-align: center;
 }

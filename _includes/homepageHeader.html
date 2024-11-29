@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HOME | GlobBruh</title>
+        <title>GlobBruh</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1.0, width=device-width">
@@ -18,16 +18,22 @@
         <header>
             <h1 id="titleText">GlobBruh</h1>
             <img src="https://avatars.githubusercontent.com/u/34488272">
-            <p title="IN ORDER: Bash, C#, CSS, .NET, HTML, JavaScript, Markdown, MySQL, PHP, PowerShell, Python.">
-                <img id="headIcon" src="https://skillicons.dev/icons?i=bash,cs,css,dotnet,html,js,md,mysql,php,powershell,py" />
-            </p>
-            <p title="IN ORDER: Arduino, Azure, Debian, Docker, Git, Kali Linux, Nginx, Raspberry Pi, VSCodium, Windows.">
-                <img id="headIcon" src="https://skillicons.dev/icons?i=arduino,azure,debian,docker,git,kali,nginx,raspberrypi,vscodium,windows" />
-            </p>
+            <div id="headIcon">
+                <!-- Header icons should only be a maximum of 12 icons -->
+                <img
+                    src="https://skillicons.dev/icons?i=bash,cs,css,dotnet,html,js,md,mysql,php,powershell,py,selenium"
+                    title="IN ORDER: Bash, C#, CSS, .NET, HTML, JavaScript, Markdown, MySQL, PHP, PowerShell, Python, Selenium."
+                />
+                <img
+                    src="https://skillicons.dev/icons?i=androidstudio,arduino,azure,debian,docker,git,kali,linux,nginx,raspberrypi,visualstudio,windows"
+                    title="IN ORDER: Android Studio, Arduino, Azure, Debian, Docker, Git, Kali Linux, Linux, Nginx, Raspberry Pi, Visual Studio, Windows."
+                />
+            </div>
             <hr>
             <div id="headerNav">
                 <button onclick="window.location.href = '/'">HOME</button>
                 <button onclick="window.location.href = '/projects.html'">PROJECTS</button>
                 <button onclick="window.location.href = '/blog/bloghome.html'">BLOG and RESOURCES</button>
+                <button onclick="window.location.href = '/oldschool/'">OLDSCHOOL</button>
             </div>
         </header>

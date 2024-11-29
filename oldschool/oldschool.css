@@ -1,0 +1,86 @@
+
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Trade+Winds&display=swap');
+
+body {
+    background-image: url("pattern.png");
+    background-color: #070707;
+    background-size: 7px;
+    image-rendering: pixelated;
+    font-family: "Hack";
+    color: darkgray;
+}
+
+@media (max-width: 500px) {
+    #content {
+        width: inherit !important;
+    }
+}
+
+a {
+    color: darkred;
+}
+
+#content {
+    background-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkgray;
+    width: 50%;
+    /* width: 750px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+#bannerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-height: 300px;
+    background: linear-gradient(in hsl longer hue 90deg, red 0 0);
+    background-size: 750%;
+    -moz-animation: logoAnimatedGradient 30s linear infinite;
+    animation: logoAnimatedGradient 30s linear infinite;
+}
+
+@keyframes logoAnimatedGradient {
+    0%   {background-position-x: 0%}
+    50%  {background-position-x: 100%}
+    100% {background-position-x: 0%}
+}
+
+#linkDiv {
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+
+#linkDiv > p {
+    display: inline-block;
+}
+
+.marquee {
+	background-color: #620010;
+	color: black;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.marquee p {
+    display: inline-block;
+    font-family: "Press Start 2P";
+    padding-left: 100%;
+    animation: sideScroll 30s linear infinite;
+}
+
+@keyframes sideScroll {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}

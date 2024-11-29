@@ -4,7 +4,7 @@
 {% include blogHeader.html %}
     <h1>Homelab Writeup</h1>
     <center>   
-        <h4>Published: September 3rd, 2024<br>Last Edited: September 3rd, 2024</h4>
+        <h4>Published: September 3rd, 2024<br>Last Edited: November 28th, 2024</h4>
         <h4><a href="../bloghome.html">Return to Blog Home</a></h4>
     </center>
     <h2>What is a "Homelab"?</h2>
@@ -28,7 +28,7 @@
     <p id="txtCaption">Photo of the setup right before rack deployment, cabling disaster included. And yes, the switch and server is sitting on cable boxes.</p>
     <p>I was still running all this equipment on top of cable boxes on a floor, and I would eventually make some money and was able to purchase some really useful equipment:</p>
     <ul>
-        <li>A 24 unit metal equipment rack.</li>
+        <li>A 24 unit (24U) metal equipment rack.</li>
         <li>2 Cyberpower PDU's.</li>
         <li>A 2TB SSD and a 2TB HDD.</li>
         <li>Rack Shelves for the 1U HP server (as the HP server does not have drawers).</li>
@@ -43,41 +43,38 @@
         <img src="currentPic1.jpg" id="imgReduced">
         <img src="currentPic2.jpg" id="imgReduced">
     </div>
-    <p id="txtCaption">The homelab in its current state.</p>
+    <p id="txtCaption">The homelab in its current state. More recently I organized the power cables to go into the right side of the rack (similarly to how the ethernet cables are routed).</p>
     <h3>Power</h3>
-    <p>Power is distributed from 2 15 amp wall outlets into 2 CyberPower PDU’s. Devices are split over each PDU.</p>
+    <p>Power is distributed from 2 15 amp wall outlets into 2 CyberPower PDU's. Devices are split over each PDU.</p>
     <p>I would get a UPS for power outages, however not only is it pricey, but I also want to be sure the setup is completely fire-safe before I do so. The electrical in the new environment is also in-due for an upgrade.</p>
     <h3>Modem/Internet</h3>
     <p>Telus (by default for being an home subscriber) will give you an Actiontec T3200M for your modem. Shaw/Rogers will give you an Arris SBG6782 for being a home subscriber but I moved out of the Shaw/Rogers environment.</p>
     <p>The modem has had most of its actual routing turned off. The only thing it really does is show us if the line out of the house works and keeps a static address for the Cisco router.</p>
-    <p>The big issue between Shaw/Rogers and Telus is that Shaw will by default give you a public dedicated IPv4, but Telus will not provide a public dedicated IPv4 address by default because subscribers are behind a carrier-grade NAT. I can only assume that this is because of IPv4 exhaustion and that Telus doesn't have enough registered address spaces to accommodate home subscribers.</p>
     <h3>Routers</h3>
     <p>The network currently only has 1 router, that being the aforementioned Cisco 2911.</p>
     <p>More recently the VoIP cards have been swapped out for 1GB SFP cards, and currently a SFP connection from the modems SFP port to the routers SFP card is made to send all traffic to the internet. This is done with an SFP cable. I would do this from the router to the C3750-XT but the switch would refuse the SFP cable even when forced to allow 3rd party accessories.</p>
-    <p>The router currently runs a DHCP server. Before the move the router was also running a dedicated sandbox network (all traffic blocked except for DHCP on that network only, and it was on a separate DHCP pool), achieved with virtual bridged ports and ACL’s. There are future plans to add the following networks:</p>
+    <p>The router currently runs multiple DHCP servers for each VLAN. Each VLAN is segmented by ACL's to prevent traffic from traveling between networks that it shouldn't. The following networks are included (some have been excluded for security purposes):</p>
     <ul>
-        <li><b>Primary:</b> Primary LAN.</li>
-        <li><b>Work:</b> Work network that is dedicated to workstations and devices that are for work.</li>
-        <li><b>Sandbox:</b> There are plans to bring back the sandbox network.</li>
-        <li><b>DMZ:</b> DMZ for public-facing systems (like non-personal game servers or rented servers).</li>
+        <li><b>Primary:</b> The private LAN that everyone uses.</li>
+        <li><b>Work:</b> Work network that is dedicated to workstations and devices that are for work. This is not implemented yet.</li>
+        <li><b>Public:</b> This network is for the public server, as that server is designed to run VM's that are forwarded to the internet.</li>
     </ul>
     <p>I also possess a Fortigate firewall but it is not deployed at this time.</p>
     <h3>Switches</h3>
     <p>The switch that powers the entire network is the Cisco Catalyst 3750-XT. This is referred to as the “core” switch.</p>
     <p>One of the switches that is deployed is an 8 port unmanaged gigabit Dlink switch that sits on my desk. This is so I can plug devices on my desk (like my PC) into the network rather than run a cable to another switch or the rack itself.</p>
-    <p>There are future plans to implement VLAN trunking over various <u>managed</u> switches in the network. The aforementioned Dlink switch will likely need to be swapped out for this.</p>
+    <p>VLANS are programmed on every managed switch in the network using Cisco recommended procedure. Trunking is enabled on interfaces that require it, and all ports are configured to only allow use over a single VLAN. There is an unmanaged switch on my desk that cannot be programmed to use a specific VLAN, but it has select networks authorized for use, and my computer is programmed with multiple virtual interfaces to utilize those VLAN's. An native VLAN is also specified in-case im setting up something on my desk and need to get online.</p>
     <h3>Servers</h3>
     <h4>Server A - NAS</h4>
     <p>This is a 1U Hewlett-Packard ProLiant DL165 G7. It has become a bare-metal server with the sole intention to be an networked-attached storage server. The server has about 40GB of RAM, and a combined amount of 6TB of storage (excluding boot drive). The 6TB of total storage is really only 3TB of actual storage because the other 3TB is used as backup.</p>
     <p>The boot drive is a random 225GB HDD that runs the operating system. The drives are added to the fstab configuration so they get mounted on boot, and all application configurations (such as the VSFTPD configuration file) is symlinked to another drive. The configurations are set up this way so that the configs are backed up automatically, and won't be lost if the boot drive dies. The way this system backs up its content is through my <a href="https://github.com/glob-bruh/GBAutoBackupSystem">GABS script</a>, and this script was built as a workaround to RAID card drive type limitations (you cannot use an SSD and HDD in a RAID array). The boot drive used to be the first NAS storage device because it was an SSD, but after nearly accidentally wiping everything on a drive pair when performing a reinstall the decision was made to move it to its own drive.</p>
-    <p>This system currently runs Debian with no desktop installed. The reason why this system was reinstalled was because it used to run Debian 10 and that specific version was nearing end-of-life (Debian 12 was the most recent stable version at the time). The NAS runs VSFTPD for unencrypted traffic and custom OpenSSH server instances for secure traffic. The reason why VSFTPD is running in FTP mode instead of FTPS is primarily because my mobile file browser of choice lacks support for FTPS.</p>
-    <p>VSFTPD might be later swapped out for just SFTP (which would be provided by OpenSSH).</p>
+    <p>This system currently runs Debian with no desktop installed. The reason why this system was reinstalled was because it used to run Debian 10 and that specific version was nearing end-of-life (Debian 12 was the most recent stable version at the time). The NAS only runs custom OpenSSH server instances for secure file transfer. While the server did used to run VSFTPD, it is no longer being used as there was no discernable speed difference between the encrypted option (SFTP) and the unencrypted option (FTP), and most clients that supported FTP also supported SFTP just as well.</p>
     <img src="gabsDiagram.png">
     <p id="txtCaption">Visual representation of the drives in the system, and how GABS backs up data.</p>
     <h4>Server B - VM Server Personal/LAN</h4>
-    <p>This is a 2U Hewlett-Packard ProLiant DL385 G7. This is a bare-metal server with the sole intention to be a virtual machine server for personal use. The server has about 125GB of RAM, and only contains a 1TB HDD (for VM storage) and a around 250GB OS drive for the host. There is currently no backup solution but a plan is in place to put a 1TB SSD and use a tool (like GABS) to backup VM’s in the future. These servers can also hold up to 8 drives and can be expanded to run virtual machines with large capacity storage, though this is a plan much farther down the road.</p>
+    <p>This is a 2U Hewlett-Packard ProLiant DL385 G7. This is a bare-metal server with the sole intention to be a virtual machine server for personal use. The server has about 125GB of RAM, and only contains a 1TB HDD (for VM storage) and a around 250GB OS drive for the host. There is currently no backup solution but a plan is in place to put a 1TB SSD and use a tool (like GABS) to backup VM's in the future. These servers can also hold up to 8 drives and can be expanded to run virtual machines with large capacity storage, though this is a plan much farther down the road.</p>
     <h4>Server C - VM Server Public</h4>
-    <p>This server is also a 2U Hewlett-Packard ProLiant DL385 G7. This is a bare-metal server with the sole intention to be a virtual machine server designed to run VM’s that are lent out to users not in the network. The system will run <a href="https://linux-kvm.org/page/Main_Page">Linux KVM</a> to provide these machines. Because this server is not being utilized at this time information regarding what it will run is limited.</p>
+    <p>This server is also a 2U Hewlett-Packard ProLiant DL385 G7. This is a bare-metal server with the sole intention to be a virtual machine server designed to run VM's that are lent out to users not in the network. The system will run <a href="https://linux-kvm.org/page/Main_Page">Linux KVM</a> to provide these machines. Because this server is not being utilized at this time information regarding what it will run is limited.</p>
     <p>The same ideologies and upgrade plans apply from the personal VM server to this server, though the personal VM server will be prioritized.</p>
     <h3>VM's - Personal VM Server</h3>
     <p>The following is a list of virtual machines present on this server:</p>
@@ -88,7 +85,9 @@
     <h4>PHPSQLServer</h4>
     <p>Debian virtual machine that runs Apache2, PHP, and MySQL. MySQL databases are mostly managed through <a href="https://www.phpmyadmin.net/">phpMyAdmin</a>. The primary use for this virtual machine is for web development and LAN webpage hosting. A Lot of the websites I build and host on here can be found at the <a href="https://github.com/glob-bruh/GlobbruhWebsites">GlobBruh Websites Github Repo</a>. The websites hosted with this VM are not meant to be publicly accessible.</p>
     <h4>VPNBox</h4>
-    <p>This VM technically doesn't exist yet. An OpenVPN server used to run on the NAS itself as that was the only server I had at the time. Overtime that has changed, and with the introduction of the VM server it's now possible to make a dedicated VM for the VPN and migrate everything over.</p>
+    <p>An OpenVPN server used to run on the NAS itself as that was the only server I had at the time. Overtime that has changed, and with the introduction of the VM server it's now possible to make a dedicated VM for the VPN. This VM runs OpenVPN, and allows access into the private network. I built a script that currently runs on this machine with the task of sending SMS messages to my phone when someone connects, regardless of whether they succeeded in logging in or not.</p>
+    <h4>RuneScape Server</h4>
+    <p>This VM runs both a <a href="https://rsc.vet/wiki/index.php/Running_your_own_server">OpenRSC (RuneScape Classic) server</a> and a <a href="https://gitlab.com/2009scape/2009scape">2009scape (RuneScape 2) server</a>. They are configured for play over the local network. I am currently working on a writeup for setting up RuneScape servers in general.</p>
     <h4>SeedBox</h4>
     <p>This VM is designed to seed torrents for things such as installation disc images or content from the Internet Archive. It is a Debian system with the XFCE desktop. The torrent client will likely be <a href="https://transmissionbt.com/">Transmission</a>, unless there is an accessible GUI in which it will likely be <a href="https://deluge-torrent.org/">Deluge</a>.</p>
     <h4>SuricataIDS</h4>
@@ -104,6 +103,9 @@
         <li><b>Storage (primary):</b> Samsung 970 NVMe SSD 1TB MZ-V7 x2 (totalling 2TB).</li>
         <li><b>Storage (secondary):</b> WD Blue 3.5 Inch 1TB x2 (totalling 2TB).</li>
     </ul>
+    <p>Currently the operating system I use the most on my computer is Debian (with KDE Plasma desktop). I do have Windows 11 dual-boot for gaming, but I also have an Windows 11 VM for productivity related tasks.</p>
+    <h4>Laptop</h4>
+    <p>My laptop (mostly used as an on-the-go computer) is the aforementioned Acer Nitro 5 with the HDD swapped out for an Samsung SSD. It has triple-boot between 2 fully-encrypted Linux distros and Windows 10.</p>
     <h4>What happened to the Kali Box?</h4>
     <p>The Kali box (old Dell Optiplex that ran Kali Linux) was pretty much obsolete the moment I built my desktop computer and stopped using laptops as primary machines. Currently I run Kali Linux using the official virtual machine releases on my workstation.</p>
 {% include blogFooter.html %}
