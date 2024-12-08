@@ -143,6 +143,19 @@ hr {
 	width: 75%;
 }
 
+table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+td {
+    border-top:    1px solid white;
+    border-bottom: 1px solid white;
+    padding:       3px;
+}
+
 .collapseButton {
     background-color: #707070;
     color: black;
@@ -199,6 +212,11 @@ hr {
     font-weight: bolder;
 }
 
+#txtNOTE {
+    color: #ad9600;
+    font-weight: bolder;
+}
+
 #txtCaption {
 	font-family: 'Sedgwick Ave', cursive;
     font-size: 13px;
@@ -208,4 +226,11 @@ hr {
 
 #forceSameLine {
     display: flex;
+}
+
+#sameLineList {
+    display: inline-block;
+    vertical-align: top;
+    width: fit-content;
+    margin: 0px;
 }

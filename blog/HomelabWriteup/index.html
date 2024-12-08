@@ -4,7 +4,7 @@
 {% include blogHeader.html %}
     <h1>Homelab Writeup</h1>
     <center>   
-        <h4>Published: September 3rd, 2024<br>Last Edited: November 28th, 2024</h4>
+        <h4>Published: September 3rd, 2024<br>Last Edited: December 7th, 2024</h4>
         <h4><a href="../bloghome.html">Return to Blog Home</a></h4>
     </center>
     <h2>What is a "Homelab"?</h2>
@@ -87,7 +87,15 @@
     <h4>VPNBox</h4>
     <p>An OpenVPN server used to run on the NAS itself as that was the only server I had at the time. Overtime that has changed, and with the introduction of the VM server it's now possible to make a dedicated VM for the VPN. This VM runs OpenVPN, and allows access into the private network. I built a script that currently runs on this machine with the task of sending SMS messages to my phone when someone connects, regardless of whether they succeeded in logging in or not.</p>
     <h4>RuneScape Server</h4>
-    <p>This VM runs both a <a href="https://rsc.vet/wiki/index.php/Running_your_own_server">OpenRSC (RuneScape Classic) server</a> and a <a href="https://gitlab.com/2009scape/2009scape">2009scape (RuneScape 2) server</a>. They are configured for play over the local network. I am currently working on a writeup for setting up RuneScape servers in general.</p>
+    <p>
+        This VM runs both a 
+        <a href="https://rsc.vet/wiki/index.php/Running_your_own_server">OpenRSC (RuneScape Classic) server</a> 
+        and a 
+        <a href="https://gitlab.com/2009scape/2009scape">2009scape (RuneScape 2) server</a>. 
+        They are configured for play over the local network. If you want to read more about how to
+        make your own, or get insight into how I built mine, then give the
+        <a href="/blog/RunescapeWriteup/">RuneScape Writeup</a> a read.
+    </p>
     <h4>SeedBox</h4>
     <p>This VM is designed to seed torrents for things such as installation disc images or content from the Internet Archive. It is a Debian system with the XFCE desktop. The torrent client will likely be <a href="https://transmissionbt.com/">Transmission</a>, unless there is an accessible GUI in which it will likely be <a href="https://deluge-torrent.org/">Deluge</a>.</p>
     <h4>SuricataIDS</h4>

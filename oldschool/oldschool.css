@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Trade+Winds&display=swap');
 
 body {
-    background-image: url("pattern.png");
+    background-image: url("/asset/oldschoolPattern.png");
     background-color: #070707;
     background-size: 7px;
     image-rendering: pixelated;
@@ -14,6 +14,12 @@ body {
 @media (max-width: 500px) {
     #content {
         width: inherit !important;
+    }
+    #linkDiv {
+        overflow: auto !important;
+    }
+    .marquee p {
+        font-size: 75%;
     }
 }
 
@@ -27,7 +33,6 @@ a {
     border-width: 3px;
     border-color: darkgray;
     width: 50%;
-    /* width: 750px; */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
