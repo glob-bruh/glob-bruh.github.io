@@ -94,6 +94,11 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+p.noScripting {
+    text-align: center; 
+    font-size: 70%;
+}
+
 ul {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
