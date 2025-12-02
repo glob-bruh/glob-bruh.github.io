@@ -94,6 +94,12 @@ function genCaption(line) {
   return elem;
 }
 
+function genDrop(line) {
+  const text = line.split(" ").slice(1).join(" ");
+  elem = "<br /><div alt='" + text + "' class='collapse'>";
+  return elem;
+}
+
 function markdownExtensions(l) {
   for (let i = 0; i < l.length; i++) {
       switch (l[i].split(" ")[0]) {
@@ -105,6 +111,8 @@ function markdownExtensions(l) {
           case "#IMGSML#": l[i] = genReducedImage(l[i]); break;
           case "#IMGTWOR#": l[i] = genTwoReducedImages(l[i]); break;
           case "#CAPT#": l[i] = genCaption(l[i]); break;
+          case "#DROP#": l[i] = genDrop(l[i]); break;
+          case "#PORD#": l[i] = "</div>"; break;
       }
   }
   return l.join("\n");
@@ -141,8 +149,10 @@ async function markdownInitiator() {
   var genContent = markdown(x);
   var elem = document.querySelector("#MARKDOWN-CONTENT-HERE");
   elem.innerHTML = genContent;
+  await collapseParser(); // THIS CONVERTS THE DROPDOWN TAGS TO ACTUAL DROPDOWNS
+  return;
 }
+
 // --------------------
 
 markdownInitiator();
-collapseParser();

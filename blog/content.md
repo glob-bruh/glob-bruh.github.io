@@ -3,7 +3,7 @@
 
 #HOME# 
 
-## Documents: 
+## Blog Posts: 
 
 * [How to Pretend That Your Jagex](./RunescapeWriteup/)
 * [Homelab Writeup](?doc=HomelabWriteup)
@@ -14,7 +14,7 @@
 ## Resources: 
 
 * [Useful Websites](./Resources/websites.html)
-* [Notes - 2024](./Resources/notes2024.html)
+* [Notes](?doc=Notes)
 
 ## Usage:
 
