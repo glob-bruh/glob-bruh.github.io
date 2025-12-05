@@ -43,14 +43,12 @@ It is recommended that images are edited with Krita.
 #DROP# Python - Iterate Amount of Times Per Second
 
 ```
-
 import time
 framerate = 5
 fpsCalc = (1 / (framerate / 100)) / 100
 while True:
     print("Test")
     time.sleep(fpsCalc)
-
 ```
 
 #PORD#

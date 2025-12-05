@@ -96,7 +96,7 @@ function genCaption(line) {
 
 function genDrop(line) {
   const text = line.split(" ").slice(1).join(" ");
-  elem = "<br /><div alt='" + text + "' class='collapse'>";
+  elem = "<div alt='" + text + "' class='collapse'>";
   return elem;
 }
 

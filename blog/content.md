@@ -13,7 +13,7 @@
 
 ## Resources: 
 
-* [Useful Websites](./Resources/websites.html)
+* [Useful Websites](?doc=Websites)
 * [Notes](?doc=Notes)
 
 ## Usage:
