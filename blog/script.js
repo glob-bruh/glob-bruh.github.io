@@ -135,6 +135,18 @@ async function getDocument(url) {
   return await response.text();
 }
 
+async function safetyEngine(location) {
+  if (location.includes("://") || location.includes("%3A%2F%2F")) {
+    console.warn(":( POTENTIAL XSS DETECTED - Refusing to load Markdown document from this URL");
+    return "!# BAD URL\n\n!## Please try visiting a different page.";
+  } else {
+    let x = await getDocument(location);
+    x = x.replaceAll("<", "&lt;");
+    x = x.replaceAll(">", "&gt;");
+    return x
+  }
+}
+
 async function markdownInitiator() {
   dir = getDir();
   if (dir === 2) {
@@ -144,7 +156,7 @@ async function markdownInitiator() {
     mdLocation = dir + "/content.md";
   }
   document.title = dir + " | GlobBruh Blog";
-  const unformattedContent = await getDocument(mdLocation);
+  const unformattedContent = await safetyEngine(mdLocation);
   x = markdownExtensions(unformattedContent.split("\n"));
   var genContent = markdown(x);
   var elem = document.querySelector("#MARKDOWN-CONTENT-HERE");
