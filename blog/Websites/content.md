@@ -32,7 +32,6 @@
 #DROP# Ransomware
 * [Ransomware.LIVE](https://www.ransomware.live/) ([Canada only](https://www.ransomware.live/map/CA))
 * [ID-Ransomware](https://id-ransomware.malwarehunterteam.com/)
-* [Malcore Ransom Note](https://app.malcore.io/ransom-note)
 * [Ransom Chat](https://ransomch.at/)
 #PORD# 
 
@@ -109,6 +108,10 @@
 * [Clearsky](https://clearsky.app/)
 #PORD#
 
+#DROP# Twitch
+* [TwitchTracker](https://twitchtracker.com/)
+#PORD#
+
 #DROP# MEGA Cloud Storage
 Nothing here. 
 #PORD#
@@ -138,6 +141,7 @@ Nothing here.
 
 #DROP# Cloud
 * [Microsoft Entra Dashboard](https://entra.microsoft.com/)
+* [Microsoft 365 Compromised Accounts Test](https://aka.ms/diagca)
 * [Cloudflare Radar](https://radar.cloudflare.com/)
 #PORD#
 
@@ -222,7 +226,7 @@ Nothing here.
 #DROP# Self
 * [Device Info](https://www.deviceinfo.me/)
 * [IP and DNS Leaking](https://ipleak.net/)
-* [Firefox Debug Runtime (open in new tab and refresh)](about:debugging#/runtime/this-firefox)
+* [Firefox Debug Runtime](about:debugging#/runtime/this-firefox) - open in new tab and refresh
 #PORD#
 
 #DROP# IRL

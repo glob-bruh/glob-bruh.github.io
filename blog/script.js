@@ -51,8 +51,8 @@ function genSubTitle(line) {
   const text = line.split(" ").slice(1).join(" ");
   elemZ = "<h4>" + text + "</h4>";
   elemX = "<a href='/blog/'>Return to Blog Home</a>";
-  elem = "<center>" + elemZ + elemX + "</center>";
-  return elem
+  elemY = "<center>" + elemZ + elemX + "</center>";
+  return elemY;
 }
 
 function genHomePage(line) {
@@ -100,11 +100,19 @@ function genDrop(line) {
   return elem;
 }
 
+function genToC() {
+  let x = "<br />"
+  x = x + genDrop("#DROP# Table of Contents");
+  x = x + globalThis.chapterElem + "</div>";
+  return x
+}
+
 function markdownExtensions(l) {
   for (let i = 0; i < l.length; i++) {
       switch (l[i].split(" ")[0]) {
           case "!#": l[i] = genTitle(l[i]); break;
           case "!##": l[i] = genSubTitle(l[i]); break;
+          case "#TOC#": l[i] = genToC(); break;
           case "#HOME#": l[i] = genHomePage(l[i]); break;
           case "#WARN#": l[i] = genWarning(l[i]); break;
           case "#NOTE#": l[i] = genNote(l[i]); break;
@@ -119,6 +127,41 @@ function markdownExtensions(l) {
 }
 
 // * * * 
+
+// Needed to covert text to anchor ID's.
+;function safeAnchroage(z) {
+    let x = z.replaceAll(" ", "");
+    x = x.replaceAll("?", "");
+    x = x.replaceAll(".", "");
+    x = x.replaceAll(":", "");
+    x = x.replaceAll("'", ""); x = x.replaceAll('"', "");
+    x = x.replaceAll("/", "-");
+    x = x.toLowerCase();
+    return x;
+}
+
+function tocGenerator(l) {
+  var arr = [];
+  for (let i = 0; i < l.length; i++) {
+    let origName = l[i].split(" ").slice(1).join(" ")
+    let fmtName  = safeAnchroage(origName);
+    switch(l[i].split(" ")[0]) {
+      case "##": arr.push([2, fmtName, origName]); break;
+      case "###": arr.push([3, fmtName, origName]); break;
+      case "####": arr.push([4, fmtName, origName]); break;
+      case "#####": arr.push([5, fmtName, origName]); break;
+      case "######": arr.push([6, fmtName, origName]); break;
+    }
+  }
+  if (arr.length > 0) {
+    let elem = "<ul>";
+    for (let i = 0; i < arr.length; i++) {
+      elem = elem + `<li><a href='#${arr[i][1]}'>${arr[i][2]}</a></li>`;
+    }
+    elem = elem + "</ul>"
+    return elem
+  }
+}
 
 // This is set as a global function so that DrawDown can find it for image processing.
 ;function getDir() {
@@ -156,11 +199,12 @@ async function markdownInitiator() {
     mdLocation = dir + "/content.md";
   }
   document.title = dir + " | GlobBruh Blog";
-  const unformattedContent = await safetyEngine(mdLocation);
-  x = markdownExtensions(unformattedContent.split("\n"));
-  var genContent = markdown(x);
-  var elem = document.querySelector("#MARKDOWN-CONTENT-HERE");
-  elem.innerHTML = genContent;
+  const ufContent = (await safetyEngine(mdLocation)).split("\n");
+  globalThis.chapterElem = tocGenerator(ufContent)
+  x = markdownExtensions(ufContent);
+  x = markdown(x);
+  var mdElem = document.querySelector("#MARKDOWN-CONTENT-HERE");
+  mdElem.innerHTML = x;
   await collapseParser(); // THIS CONVERTS THE DROPDOWN TAGS TO ACTUAL DROPDOWNS
   return;
 }

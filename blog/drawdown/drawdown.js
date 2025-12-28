@@ -119,7 +119,11 @@
     });
 
     // heading
-    replace(rx_heading, function(all, _, p1, p2) { return _ + element('h' + p1.length, unesc(highlight(p2))) });
+    replace(rx_heading, function(all, _, p1, p2) {
+        let x =  _ + element('h' + p1.length, unesc(highlight(p2)))
+        x = x + `<a id='${safeAnchroage(p2)}'></a>`
+        return x
+    });
 
     // paragraph
     replace(rx_para, function(all, content) { return element('p', unesc(highlight(content))) });

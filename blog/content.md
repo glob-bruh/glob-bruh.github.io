@@ -5,7 +5,7 @@
 
 ## Blog Posts: 
 
-* [How to Pretend That Your Jagex](./RunescapeWriteup/)
+* [How to Pretend That Your Jagex](?doc=RunescapeWriteup)
 * [Homelab Writeup](?doc=HomelabWriteup)
 * [The Mystery of the Cheap Amazon Flash Drives](./TheMysteryOfTheAmazonUSB/)
 * [Everett Isle Speed-Run - Guide #1](?doc=EverettIsleSpeedrun)

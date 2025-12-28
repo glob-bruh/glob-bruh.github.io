@@ -3,6 +3,8 @@
 
 !## Published: September 3rd, 2024 /// Last Edited: December 7th, 2024
 
+#TOC#
+
 ## What is a "Homelab"?
 
 A homelab (aka a home server) is exactly as it sounds: a technology laboratory for home. Most homelabs will consist of switches, routers, and servers, however some might be more unique in that they feature custom hardware or have completely different setups altogether (like VoIP or PBX homelabs for testing phone systems).
@@ -101,7 +103,7 @@ VLANS are programmed on every managed switch in the network using Cisco recommen
 
 This is a 1U Hewlett-Packard ProLiant DL165 G7. It has become a bare-metal server with the sole intention to be an networked-attached storage server. The server has about 40GB of RAM, and a combined amount of 6TB of storage (excluding boot drive). The 6TB of total storage is really only 3TB of actual storage because the other 3TB is used as backup.
 
-The boot drive is a random 225GB HDD that runs the operating system. The drives are added to the fstab configuration so they get mounted on boot, and all application configurations (such as the VSFTPD configuration file) is symlinked to another drive. The configurations are set up this way so that the configs are backed up automatically, and won't be lost if the boot drive dies. The way this system backs up its content is through my [GABS script](https://github.com/glob-bruh/GBAutoBackupSystem), and this script was built as a workaround to RAID card drive type limitations (you cannot use an SSD and HDD in a RAID array). The boot drive used to be the first NAS storage device because it was an SSD, but after nearly accidentally wiping everything on a drive pair when performing a reinstall the decision was made to move it to its own drive.</p>
+The boot drive is a random 225GB HDD that runs the operating system. The drives are added to the fstab configuration so they get mounted on boot, and all application configurations (such as the VSFTPD configuration file) is symlinked to another drive. The configurations are set up this way so that the configs are backed up automatically, and won't be lost if the boot drive dies. The way this system backs up its content is through my [GABS script](https://github.com/glob-bruh/GBAutoBackupSystem), and this script was built as a workaround to RAID card drive type limitations (you cannot use an SSD and HDD in a RAID array). The boot drive used to be the first NAS storage device because it was an SSD, but after nearly accidentally wiping everything on a drive pair when performing a reinstall the decision was made to move it to its own drive.
 
 This system currently runs Debian with no desktop installed. The reason why this system was reinstalled was because it used to run Debian 10 and that specific version was nearing end-of-life (Debian 12 was the most recent stable version at the time). The NAS only runs custom OpenSSH server instances for secure file transfer. While the server did used to run VSFTPD, it is no longer being used as there was no discernable speed difference between the encrypted option (SFTP) and the unencrypted option (FTP), and most clients that supported FTP also supported SFTP just as well.
 
