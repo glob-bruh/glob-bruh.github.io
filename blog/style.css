@@ -255,3 +255,10 @@ p.noScripting > a {
     width: fit-content;
     margin: 0px;
 }
+
+iframe[title="YouTube video player"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65%;
+}

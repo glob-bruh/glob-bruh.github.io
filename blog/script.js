@@ -107,6 +107,21 @@ function genToC() {
   return x
 }
 
+function genYTEmbed(url) {
+  console.log("yt url: " + url);
+  let elem = '<iframe title="YouTube video player" width="560" height="315" src="' + url + '" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+  console.log(elem)
+  return elem
+}
+
+function genEmbeddedContent(line) {
+  let platform = line.split(" ")[1].split(",")[0];
+  let url = line.split(" ")[1].split(",")[1];
+  switch (platform) {
+    case "YT": return genYTEmbed(url); break;
+  }
+}
+
 function markdownExtensions(l) {
   for (let i = 0; i < l.length; i++) {
       switch (l[i].split(" ")[0]) {
@@ -122,6 +137,7 @@ function markdownExtensions(l) {
           case "#DROP#": l[i] = genDrop(l[i]); break;
           case "#PORD#": l[i] = "</div>"; break;
           case "#BRK#": l[i] = "<hr>"; break;
+          case "#EMB#": l[i] = genEmbeddedContent(l[i]); break;
       }
   }
   return l.join("\n");
