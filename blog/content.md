@@ -8,8 +8,8 @@
 * [How to Pretend That Your Jagex](?doc=RunescapeWriteup)
 * [Homelab Writeup](?doc=HomelabWriteup)
 * [The Mystery of the Cheap Amazon Flash Drives](./TheMysteryOfTheAmazonUSB/)
-* [Everett Isle Speed-Run - Guide #1](?doc=EverettIsleSpeedrun)
-* [Writeup for Hackthebox: Oopsie](./HackTheBox-OopsieWriteup/)
+* [Everett Isle Speedrun](?doc=EverettIsleSpeedrun)
+* [Writeup for Hackthebox: Oopsie](?doc=HackTheBox-OopsieWriteup)
 
 ## Resources: 
 

@@ -121,6 +121,7 @@ function markdownExtensions(l) {
           case "#CAPT#": l[i] = genCaption(l[i]); break;
           case "#DROP#": l[i] = genDrop(l[i]); break;
           case "#PORD#": l[i] = "</div>"; break;
+          case "#BRK#": l[i] = "<hr>"; break;
       }
   }
   return l.join("\n");
@@ -136,6 +137,7 @@ function markdownExtensions(l) {
     x = x.replaceAll(":", "");
     x = x.replaceAll("'", ""); x = x.replaceAll('"', "");
     x = x.replaceAll("/", "-");
+    x = x.replaceAll("`", "");
     x = x.toLowerCase();
     return x;
 }
@@ -143,7 +145,8 @@ function markdownExtensions(l) {
 function tocGenerator(l) {
   var arr = [];
   for (let i = 0; i < l.length; i++) {
-    let origName = l[i].split(" ").slice(1).join(" ")
+    let origName = l[i].split(" ").slice(1).join(" ");
+    origName = origName.replaceAll("`", "");
     let fmtName  = safeAnchroage(origName);
     switch(l[i].split(" ")[0]) {
       case "##": arr.push([2, fmtName, origName]); break;
@@ -175,7 +178,10 @@ function tocGenerator(l) {
 
 async function getDocument(url) {
   const response = await fetch(url);
-  return await response.text();
+  switch (response.status) {
+    case 200: return await response.text(); break;
+    case 404: return "!# PAGE NOT FOUND\n\n!## Please try visiting a different page."; break;
+  }
 }
 
 async function safetyEngine(location) {

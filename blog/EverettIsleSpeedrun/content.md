@@ -5,7 +5,7 @@
 
 #TOC#
 
-## Intro:
+## Intro
 
 #NOTE# This guide no longer works in the latest version. 
 
@@ -13,7 +13,7 @@ The time it took to complete the game (from hitting `continue` until the screen 
 
 This speed-run uses 2 different glitches to work: Wall Jumping and Out of Bounds. On some angles walls, you can jump and get stuck on them, which will allow you to jump again. Also, some places on the map have points that will not reset your character back to land, so in some instances you can get stuck underneath the water. This will allow you to move around underneath the map.
 
-## Starting the Game:
+## Starting the Game
 
 In order to wipe your save and restart from the beginning:
 
@@ -29,7 +29,7 @@ First, walk up to the rock near the first platform. Walk into this rock, jump tw
 
 To get on top of the second platform, there is a sloped part of the wall that you can jump on. Get caught on it and jump again to get on top.
 
-## Going Out of Bounds:
+## Going Out of Bounds
 
 By this point you should see a gear objective machine. On the right side of the machine is a path to get to a western mining part of the map.
 

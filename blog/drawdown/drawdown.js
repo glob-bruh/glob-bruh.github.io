@@ -83,9 +83,6 @@
     // blockquote
     src = blockquote(src);
 
-    // horizontal rule
-    replace(rx_hr, '<hr/>');
-
     // list
     src = list(src);
     replace(rx_listjoin, '');
