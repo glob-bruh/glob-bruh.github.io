@@ -2,9 +2,10 @@
 !## This page contains a list of useful websites that I have found online.
 
 ## Legend: 
-* `###` - Non-functional website.
-* `REG` - Account required. 
-* `!!!` - NSFW/L.
+* `###` - Non-functional website. May no longer work as expected. 
+* `REG` - Service severely hindered or unaccessible without account registration. 
+* `$$$` - Payment required. Included on services that also hide payment behind signup.
+* `!!!` - NSFW/L. Use caution when visiting these websites. 
 
 ## Websites:
 #WARN# I cannot be held liable for what these external pages contain or the actions they perform, nor do I condone their content. Visit them at your own risk. 
@@ -24,7 +25,7 @@
 
 #DROP# People
 * [Recruit'em X-Ray Search](http://recruitin.net/)
-* [Voter Registration Records](https://voterrecords.com/)
+* [(###) Voter Registration Records](https://voterrecords.com/) 
 #PORD#
 
 #DROP# Programs/Executables
@@ -40,8 +41,9 @@
 * [Hybrid Analysis](https://www.hybrid-analysis.com/)
 * [Any.Run](https://any.run/) ([Public submissions](https://app.any.run/submissions/))
 * [Joe's Sandbox](https://www.joesandbox.com/)
-* [Intezer (REG)](https://analyze.intezer.com/)
+* [(REG) Intezer](https://analyze.intezer.com/)
 * [Sophos Intelix](https://intelix.sophos.com/)
+* [ClickFix Hunter](https://clickfix.carsonww.com/)
 #PORD#
 
 #DROP# Virus Samples
@@ -58,6 +60,7 @@
 
 #DROP# Detection
 * [ZeroGPT AI Text Detector](https://www.zerogpt.com/)
+* [OpenAI Image Verification](https://openai.com/research/verify/)
 #PORD#
 
 #PORD#
@@ -76,6 +79,7 @@
 * [SocialBlade](https://socialblade.com/)
 * [Youtube Metadata](https://mattw.io/youtube-metadata/)
 * [YouTube Video Finder](https://findyoutubevideo.thetechrobo.ca/)
+* [KVN AUST YouTube Recycle Bin Google Doc](https://docs.google.com/document/d/1mV5PhumaIJ8mtH8XmohqXkk5fjK_HlqcineMccPQm5A)
 #PORD#
 
 #DROP# &#120143;
@@ -83,7 +87,7 @@
 #PORD#
 
 #DROP# Instagram
-* [Pixnoy (IG Mirror)](https://www.pixnoy.com/)
+* [Picnob (IG Mirror)](https://www.picnob.com/)
 * [StoriesIG](https://storiesig.info/en/)
 #PORD#
 
@@ -101,7 +105,7 @@
 #PORD#
 
 #DROP# Discord
-* [Discord Lookup (###)](https://discordlookup.com/)
+Nothing here.
 #PORD#
 
 #DROP# Bluesky
@@ -140,8 +144,9 @@ Nothing here.
 #PORD#
 
 #DROP# Cloud
-* [Microsoft Entra Dashboard](https://entra.microsoft.com/)
-* [Microsoft 365 Compromised Accounts Test](https://aka.ms/diagca)
+* [(REG) Microsoft Admin Console](https://admin.cloud.microsoft/)
+* [(REG) Microsoft Entra Dashboard](https://entra.microsoft.com/)
+* [(REG) Microsoft 365 Compromised Accounts Test](https://aka.ms/diagca)
 * [Cloudflare Radar](https://radar.cloudflare.com/)
 #PORD#
 
@@ -149,13 +154,14 @@ Nothing here.
 * [Terms of Service; Didn't Read](https://tosdr.org/)
 * [WhereGoes (redirect checker)](https://wheregoes.com/)
 * [WGET Wizard (web scraping)](https://www.whatismybrowser.com/developers/tools/wget-wizard/)
-* [Cobalt Tools (media downloader)](https://cobalt.tools/)
+* [Cobalt Tools (media downloader)](https://cobalt.tools/) ([Cobalt w/ YT support](https://cobalt.meowing.de/), [Cobalt Directory](https://cobalt.directory/))
 
 #DROP# Security
 * [Just Delete Me](https://backgroundchecks.org/justdeleteme/)
-* [Intelligence X](https://intelx.io/)
+* [($$$) Intelligence X](https://intelx.io/)
 * [Qualys SSL Test](https://www.ssllabs.com/ssltest/)
 * [GeoPeeker](https://geopeeker.com/)
+* [URL Scan](https://urlscan.io/)
 #PORD#
 
 #DROP# Domains
@@ -163,10 +169,16 @@ Nothing here.
 * [WhoIs](https://www.whois.com/whois/)
 * [BrightCloud URL/IP Lookup](https://www.brightcloud.com/tools/url-ip-lookup.php)
 * [Cisco Talos Intelligence Search](https://www.talosintelligence.com/reputation_center)
+* [RDAP Lookup](https://client.rdap.org/)
 #PORD#
 
 #DROP# Subdomains
-* [Sectigo Certificate Search](https://crt.sh/)
+* [(###) Sectigo Certificate Search](https://crt.sh/)
+* [($$$) Merklemap](https://www.merklemap.com/) - Limited results without payment
+#PORD#
+
+#DROP# User Interests/Monitoring
+* [Google Trends](https://trends.google.com/trending)
 #PORD#
 
 #DROP# Google Dorking
@@ -179,22 +191,33 @@ Nothing here.
 * [Instant IP Address Lookup](https://whatismyipaddress.com/ip-lookup)
 * [Shodan](https://www.shodan.io/)
 * [IP Address Range by Country](https://lite.ip2location.com/ip-address-ranges-by-country)
-* [ZoomEye](https://www.zoomeye.org/)
-* [IP-API (Free IP Geolocation API)](https://ip-api.com/)
+* [(REG) ZoomEye](https://www.zoomeye.org/) - Chinese intelligence search engine
+* [IP-API](https://ip-api.com/) - Free IP Geolocation API
+* [(REG) Censys](https://platform.censys.io/home)
 * [DNS Dumpster](https://dnsdumpster.com/)
+* [Hexillion CentralOps](https://centralops.net/co/)
 
 #DROP# WiFi
 * [WiGLE](https://www.wigle.net/)
 #PORD#
 
 #DROP# SpeedTest
-* [NFOrce SpeedTests (file downloads)](https://mirror.nforce.com/pub/speedtests/)
+* [Ookla Speedtest](https://www.speedtest.net/)
+* [NFOrce Speedtest (file downloads)](https://mirror.nforce.com/pub/speedtests/)
 #PORD#
 
 #PORD#
 
 #DROP# Phone
-* [IMEI Check](https://imeicheck.com/imei-check)
+
+#DROP# IMEI
+IMEI Numbers for testing:
+* Clean IMEI number: `350962370052232` (Samsung Galaxy S22 Ultra, sourced from [mobiles.co.uk](https://www.mobiles.co.uk/blog/how-to-find-a-phones-imei-number/)).
+* Blocked IMEI number: `861536030196001` (Unknown, sourced from [Pirate Mobile](https://www.piratemobile.gg/blog/what-is-imei)). 
+
+Links:
+* [Swappa IMEI Check](https://swappa.com/imei)
+#PORD#
 
 #DROP# Cellular 
 * [Carrier Lookup](https://www.ipqualityscore.com/free-carrier-lookup)
@@ -205,13 +228,16 @@ Nothing here.
 
 #DROP# Hardware
 * [FCC ID Search](https://fccid.io/)
-* [TechInfoDepot](http://en.techinfodepot.shoutwiki.com/wiki/Main_Page)
+* [TechInfoDepot](https://techinfodepot.shoutwiki.com/)
 * [MAC Lookup](https://maclookup.app/)
 * [Microsoft Keyboard Ghosting Demo (keyboard tester)](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo)
 #PORD#
 
 #DROP# Software
-* [DistroSea (Linux distro demo)](https://distrosea.com/)
+* [DistroSea](https://distrosea.com/) - Linux distro demo
+* [(REG) Microsoft Azure Education Software Portal](https://portal.azure.com/#view/Microsoft_Azure_Education/EducationMenuBlade/~/software)
+* [FOG Project](https://fogproject.org/) - Deployment tool
+* [PiHole Big Blocklist Collection](https://firebog.net/)
 
 #DROP# Firmware
 * [BIOS Password](https://bios-pw.org/)
@@ -226,22 +252,24 @@ Nothing here.
 #DROP# Self
 * [Device Info](https://www.deviceinfo.me/)
 * [IP and DNS Leaking](https://ipleak.net/)
-* [Firefox Debug Runtime](about:debugging#/runtime/this-firefox) - open in new tab and refresh
+* [Firefox Debug Runtime](about:debugging#/runtime/this-firefox) - Open in new tab and refresh
 #PORD#
 
 #DROP# IRL
-* [KeyGen (physical key 3D model generator)](https://keygen.co/)
+* [KeyGen](https://keygen.co/) - Physical key 3D model generator
+* [Overpass Turbo](https://overpass-turbo.eu/)
 
 #DROP# Automobiles
-* [Carfax Canada Vehicle History](https://www.carfax.ca/)
+* [($$$) Carfax Canada Vehicle History](https://www.carfax.ca/)
 * [Canadian Police Vehicle Search](https://www.cpic-cipc.ca/sve-rve-eng.htm)
 * [OBD-II PIDs](https://en.wikipedia.org/wiki/OBD-II_PIDs)
-* [VIN Check Digit Algorithm](https://www.angelfire.com/ca/TORONTO/VIN/checkdigit.html)
+* [VIN Check Digit Algorithm](https://web.archive.org/web/20240623055530/https://www.angelfire.com/ca/TORONTO/VIN/checkdigit.html)
+* [Random VIN Generator](https://randomvin.com/)
 #PORD#
 
 #DROP# Air Travel
 * [LiveATC](https://www.liveatc.net/)
-* [FlightAware Flight Tracker](https://www.flightaware.com/)
+* [FlightAware Flight Tracker](https://www.flightaware.com/) ([MiseryMap](https://www.flightaware.com/miserymap/))
 #PORD# 
 
 #DROP# Conferences
@@ -252,7 +280,7 @@ DEF CON LINKS:
 * [DEF CON Media Server](https://media.defcon.org/)
 * [DEFCON.SOCIAL](https://defcon.social/explore)
 * [DEF CON Forum](https://forum.defcon.org/)
-* [DEF CON NOC](https://noc.defcon.org/)
+* [(###) DEF CON NOC](https://noc.defcon.org/)
 * [DEF CON Transparency](https://defcon.org/html/links/dc-transparency.html)
 
 DEF CON LIVE: 
@@ -269,29 +297,33 @@ DEF CON LIVE:
 #PORD#
 
 #DROP# Documentation
-* [Simple Markdown Editor](http://markdown.pioul.fr/)
+* [(###) Simple Markdown Editor](http://markdown.pioul.fr/)
+* [Dillinger Markdown Editor](https://dillinger.io/)
 * [Excalidraw Whiteboard](https://excalidraw.com/)
 #PORD#
 
 #DROP# Training
 * [iRed.Team](https://www.ired.team/)
-* [The DIFR Report](https://thedfirreport.com/)
+* [The DIFR Report](https://thedfirreport.com/reports/)
 * [OSINT Framework](https://osintframework.com/)
 * [Free Harvard Courses in Technology](https://pll.harvard.edu/catalog?topics[702]=702&topics[715]=715&price[1]=1&modality[Online]=Online&modality[OnlineLive]=OnlineLive)
 * [sh3llm4g1ck's CTF Sites](https://ctfsites.github.io/)
-* [IRGame](https://www.irgames.ai/)
+* [(REG) IRGame](https://www.irgames.ai/)
 * [SmashTheStack](https://www.smashthestack.org/main.html)
+* [Antisyphon Training](https://www.antisyphontraining.com/)
+* [OnlyLANs](https://onlylans.justhacking.com/) - AI CTF
+* [LevelUp](https://levelupctf.com/) - AI CTF
 
 #DROP# Hack The Box
-* [HTB Dashboard](https://app.hackthebox.com/home)
-* [HTB Starting Point](https://app.hackthebox.com/starting-point)
+* [(REG) HTB Dashboard](https://app.hackthebox.com/home)
+* [(REG) HTB Starting Point](https://app.hackthebox.com/starting-point)
 * [HTB Forums](https://forum.hackthebox.com/)
-* [HTB Job Board](https://app.hackthebox.com/careers/jobs/board)
+* [(###) HTB Job Board](https://app.hackthebox.com/careers/jobs/board)
 #PORD#
 
 #DROP# TryHackMe
-* [THM Dashboard](https://tryhackme.com/dashboard)
-* [THM Network Access](https://tryhackme.com/access)
+* [(REG) THM Dashboard](https://tryhackme.com/dashboard)
+* [(REG) THM Network Access](https://tryhackme.com/access)
 #PORD#
 
 #DROP# Kusto Query Language (KQL)
@@ -299,6 +331,11 @@ DEF CON LIVE:
 * [Kusto Detective Agency](https://detective.kusto.io/)
 #PORD#
 
+#PORD#
+
+#DROP# Miscellaneous/Community
+* [Nettwerked](https://nettwerked.org/)
+* [Defacto2](https://defacto2.net/) - Warez/Scene archive
 #PORD#
 
 #DROP# Mobile/On-Site Tools
