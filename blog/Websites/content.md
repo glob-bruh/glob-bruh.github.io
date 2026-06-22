@@ -25,7 +25,13 @@
 
 #DROP# People
 * [Recruit'em X-Ray Search](http://recruitin.net/)
-* [(###) Voter Registration Records](https://voterrecords.com/) 
+* [(###) Voter Registration Records](https://voterrecords.com/)
+* [Florida Residents Directory](https://www.floridaresidentsdirectory.com/)
+
+#DROP# Law
+* [Court Listener (Primarily USA)](https://www.courtlistener.com/)
+#PORD#
+
 #PORD#
 
 #DROP# Programs/Executables
@@ -70,6 +76,12 @@
 * [CyberChef](https://gchq.github.io/CyberChef/)
 * [TunnelsUp Hash Analyzer](https://www.tunnelsup.com/hash-analyzer/)
 * [The Black Chamber (Ciphers)](https://www.simonsingh.net/The_Black_Chamber/index.html)
+* [Password Pusher](https://eu.pwpush.com/p/new) - Self-destructing password sharing. 
+
+#DROP# Generator
+* [1password Password Generator](https://1password.com/password-generator)
+#PORD#
+
 #PORD#
 
 #DROP# Social Media
@@ -97,6 +109,7 @@
 
 #DROP# Facebook/META
 * [Facebook Contacts Removal](https://www.facebook.com/contacts/removal)
+* [Facebook numeric ID Search](https://lookup-id.com/#)
 #PORD#
 
 #DROP# Snapchat
@@ -105,7 +118,7 @@
 #PORD#
 
 #DROP# Discord
-Nothing here.
+* [Discord Status](https://discordstatus.com/)
 #PORD#
 
 #DROP# Bluesky
@@ -118,6 +131,10 @@ Nothing here.
 
 #DROP# MEGA Cloud Storage
 Nothing here. 
+#PORD#
+
+#DROP# Other
+* [(!!!) OnlyFans Mirror](https://fapello.com/)
 #PORD#
 
 #PORD#
@@ -144,10 +161,25 @@ Nothing here.
 #PORD#
 
 #DROP# Cloud
+* [(REG) Adobe Enterprise Admin Panel](https://adminconsole.adobe.com/)
+
+#DROP# Microsoft
 * [(REG) Microsoft Admin Console](https://admin.cloud.microsoft/)
+* [(REG) Microsoft Partner Customers Portal](https://partner.microsoft.com/dashboard/v2/customers/list)
 * [(REG) Microsoft Entra Dashboard](https://entra.microsoft.com/)
 * [(REG) Microsoft 365 Compromised Accounts Test](https://aka.ms/diagca)
+* [Microsoft Public Service Health](https://status.cloud.microsoft/)
+#PORD#
+
+#DROP# Google
+* [(REG) Google Workspace Admin](https://admin.google.com/)
+#PORD#
+
+#DROP# Cloudflare
 * [Cloudflare Radar](https://radar.cloudflare.com/)
+* [(REG) Cloudflare Dashboard](https://dash.cloudflare.com/)
+#PORD#
+
 #PORD#
 
 #DROP# Websites
@@ -189,6 +221,7 @@ Nothing here.
 
 #DROP# Networks
 * [Instant IP Address Lookup](https://whatismyipaddress.com/ip-lookup)
+* [IPinfo](https://ipinfo.io/)
 * [Shodan](https://www.shodan.io/)
 * [IP Address Range by Country](https://lite.ip2location.com/ip-address-ranges-by-country)
 * [(REG) ZoomEye](https://www.zoomeye.org/) - Chinese intelligence search engine
@@ -196,6 +229,7 @@ Nothing here.
 * [(REG) Censys](https://platform.censys.io/home)
 * [DNS Dumpster](https://dnsdumpster.com/)
 * [Hexillion CentralOps](https://centralops.net/co/)
+* [AbuseIPDB](https://www.abuseipdb.com/)
 
 #DROP# WiFi
 * [WiGLE](https://www.wigle.net/)
@@ -203,7 +237,12 @@ Nothing here.
 
 #DROP# SpeedTest
 * [Ookla Speedtest](https://www.speedtest.net/)
-* [NFOrce Speedtest (file downloads)](https://mirror.nforce.com/pub/speedtests/)
+* [NFOrce Speedtest](https://mirror.nforce.com/pub/speedtests/) - File download test.
+#PORD#
+
+#DROP# ISP
+* [Telus Reported Outages](https://www.telus.com/en/qc/outages)
+* [Rogers/Shaw Reported Outages](https://www.rogers.com/support/outage)
 #PORD#
 
 #PORD#
@@ -239,12 +278,30 @@ Links:
 * [FOG Project](https://fogproject.org/) - Deployment tool
 * [PiHole Big Blocklist Collection](https://firebog.net/)
 
+#DROP# Windows
+* [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/home.aspx)
+
+#DROP# Active Directory
+* [Group Policy Search](https://gpsearch.azurewebsites.net/)
+#PORD#
+
+#PORD#
+
+#DROP# Adobe
+* [Adobe Reader Direct Download (x64)](https://admdownload.adobe.com/rdcm/installers/live/readerdc64_ha_cra_gocd_install.exe)
+* [Adobe Reader Enterprise Distributions](https://get.adobe.com/ca/reader/enterprise/)
+#PORD#
+
 #DROP# Firmware
 * [BIOS Password](https://bios-pw.org/)
 #PORD#
 
 #DROP# Apple
 * [Apple Internal Applications](https://theapplewiki.com/wiki/Apple_Internal_Apps)
+#PORD#
+
+#DROP# Videogames
+* [Save Editor](https://www.saveeditonline.com/)
 #PORD#
 
 #PORD#
@@ -269,7 +326,7 @@ Links:
 
 #DROP# Air Travel
 * [LiveATC](https://www.liveatc.net/)
-* [FlightAware Flight Tracker](https://www.flightaware.com/) ([MiseryMap](https://www.flightaware.com/miserymap/))
+* [FlightAware Flight Tracker](https://www.flightaware.com/) ([MiseryMap USA](https://www.flightaware.com/miserymap/))
 #PORD# 
 
 #DROP# Conferences
@@ -278,9 +335,9 @@ Links:
 DEF CON LINKS: 
 * [INFO CON](https://infocon.org/)
 * [DEF CON Media Server](https://media.defcon.org/)
-* [DEFCON.SOCIAL](https://defcon.social/explore)
+* [DEFCON.SOCIAL (Mastodon)](https://defcon.social/explore)
 * [DEF CON Forum](https://forum.defcon.org/)
-* [(###) DEF CON NOC](https://noc.defcon.org/)
+* [DEF CON NOC](https://noc.defcon.org/)
 * [DEF CON Transparency](https://defcon.org/html/links/dc-transparency.html)
 
 DEF CON LIVE: 
@@ -293,6 +350,10 @@ DEF CON LIVE:
 #PORD# 
 
 #PORD# 
+
+#DROP# Time
+* [Google - Current Time in UTC](https://www.google.com/search?q=time+to+UTC)
+#PORD#
 
 #PORD#
 
@@ -311,8 +372,9 @@ DEF CON LIVE:
 * [(REG) IRGame](https://www.irgames.ai/)
 * [SmashTheStack](https://www.smashthestack.org/main.html)
 * [Antisyphon Training](https://www.antisyphontraining.com/)
-* [OnlyLANs](https://onlylans.justhacking.com/) - AI CTF
+* [OnlyLANs](https://onlylans.justhacking.com/) - AI prompt injection CTF
 * [LevelUp](https://levelupctf.com/) - AI CTF
+* [(REG) ChatGPT RansomSim](https://chatgpt.com/g/g-679a6253574c8191a998145044b9c651-ransomsim-ransomware-negotiation-trainer) - AI ransomware negotiation simulation.
 
 #DROP# Hack The Box
 * [(REG) HTB Dashboard](https://app.hackthebox.com/home)
@@ -336,6 +398,20 @@ DEF CON LIVE:
 #DROP# Miscellaneous/Community
 * [Nettwerked](https://nettwerked.org/)
 * [Defacto2](https://defacto2.net/) - Warez/Scene archive
+* [(!!!) Jason Scott's Textfiles](http://textfiles.com/)
+* [INFOSEC.EXCHANGE (Mastodon)](https://infosec.exchange/)
+
+#DROP# Status Pages
+* [Atlassian](https://status.atlassian.com/)
+* [Barracuda](https://status.barracuda.com/)
+* [Cisco DUO](https://status.duo.com/)
+* [ITRANS Insurance](https://www.goitrans.com/itransstatus/) ([Bluesky](https://bsky.app/profile/itransstatuspage.bsky.social))
+* [Kaseya](https://status.kaseya.com/)
+* [Mailprotector](https://status.mailprotector.com/)
+* [Sherweb](https://status.sherweb.com/)
+* [SonicWall](https://status.sonicwall.com/)
+#PORD#
+
 #PORD#
 
 #DROP# Mobile/On-Site Tools
