@@ -107,14 +107,6 @@ function genToC() {
   return x
 }
 
-function genEmbeddedContent(line) {
-  let platform = line.split(" ")[1].split(",")[0];
-  let url = line.split(" ")[1].split(",")[1];
-  switch (platform) {
-    case "YT": return '<iframe title="YouTube video player" width="560" height="315" src="' + url + '" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'; break;
-  }
-}
-
 function markdownExtensions(l) {
   for (let i = 0; i < l.length; i++) {
       switch (l[i].split(" ")[0]) {
@@ -193,8 +185,11 @@ async function getDocument(url) {
   }
 }
 
+// This is not a catch-all for security. Most browsers should prevent Cross-Origin Requests by default. 
+// Github Pages by default lacks the ability to modify headers, and without that, good security is not possible. 
+// The below function is designed to be best-effort. 
 async function safetyEngine(location) {
-  if (location.includes("://") || location.includes("%3A%2F%2F")) {
+  if (location.includes("//") || location.includes("%2F%2F")) {
     console.warn(":( POTENTIAL XSS DETECTED - Refusing to load Markdown document from this URL");
     return "!# BAD URL\n\n!## Please try visiting a different page.";
   } else {

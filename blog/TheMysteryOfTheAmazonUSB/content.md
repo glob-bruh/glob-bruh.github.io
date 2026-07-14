@@ -287,6 +287,4 @@ Unfortunately I was unable to get in touch with Amazon, as I have purchased the 
 
 Since then the product seems to be selling more, with Amazon indicating that the product has been purchased over 200 times in the past month (November). In fact, YouTuber Louis Rossmann has recently made a [video](https://www.youtube.com/watch?v=y83BS_mK9GE) covering the low quality products seen on Amazon.
 
-#EMB# YT,https://www.youtube-nocookie.com/embed/y83BS_mK9GE
-
 With that being said, caution should still be taken when purchasing any non-name brand USB flash drives.
