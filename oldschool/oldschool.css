@@ -1,9 +1,20 @@
 
+/* ----------------- CSS VARS ----------------- */
+:root {
+    --cursorNormal: url('/asset/os-cursor-normal.png') 10 10, auto;
+    --cursorPointing: url('/asset/os-cursor-point.png') 10 10, auto;
+}
+/* -------------------------------------------- */
+
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Trade+Winds&display=swap');
 
+html {
+    cursor: var(--cursorNormal);
+}
+
 body {
-    background-image: url("/asset/oldschoolPattern.png");
+    background-image: url("/asset/os-pattern.png");
     background-color: #070707;
     background-size: 7px;
     image-rendering: pixelated;
@@ -27,6 +38,10 @@ a {
     color: darkred;
 }
 
+a:hover {
+    cursor: var(--cursorPointing);
+}
+
 #content {
     background-color: black;
     border-style: solid;
@@ -46,10 +61,10 @@ a {
     margin-right: auto;
     width: 100%;
     max-height: 300px;
-    background: linear-gradient(in hsl longer hue 90deg, red 0 0);
-    background-size: 750%;
-    -moz-animation: logoAnimatedGradient 30s linear infinite;
-    animation: logoAnimatedGradient 30s linear infinite;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: darkred;
 }
 
 @keyframes logoAnimatedGradient {
@@ -88,4 +103,8 @@ a {
 @keyframes sideScroll {
     0%   { transform: translate(0, 0); }
     100% { transform: translate(-100%, 0); }
+}
+
+textarea:hover {
+    cursor: var(--cursorNormal);
 }

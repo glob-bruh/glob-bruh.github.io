@@ -13,6 +13,8 @@ Are you sure you want to continue?`;
     }
 }
 
+// -------------------- MARKDOWN CODE --------------------
+
 function collapseParser() {
     const collapses = document.getElementsByClassName("collapse");
     for (let i = 0; i < collapses.length; i++) {
@@ -37,9 +39,7 @@ function collapseParser() {
     }
 }
 
-// --------------------
 // MARKDOWN GENERATION:
-// --------------------
 
 function genTitle(line) {
   const text = line.split(" ").slice(1).join(" ");
@@ -55,9 +55,13 @@ function genSubTitle(line) {
   return elemY;
 }
 
-function genHomePage(line) {
-  const text = line.split(" ").slice(1).join(" ");
-  elem = "<center><a href='/'>Return to Homepage</a></center>";
+function genHomePage() {
+  var pathToReturnTo = sessionStorage.getItem("initReferrer");
+  if (pathToReturnTo.includes("oldschool")) {
+    elem = "<center><a href='" + location.origin + "/oldschool/" + "'>Return to Homepage</a></center>";
+  } else {
+    elem = "<center><a href='/'>Return to Homepage</a></center>";
+  }
   return elem
 }
 
@@ -128,7 +132,7 @@ function markdownExtensions(l) {
   return l.join("\n");
 }
 
-// * * * 
+// MARKDOWN LOGIC:
 
 // Needed to covert text to anchor ID's.
 ;function safeAnchroage(z) {
@@ -194,8 +198,7 @@ async function safetyEngine(location) {
     return "!# BAD URL\n\n!## Please try visiting a different page.";
   } else {
     let x = await getDocument(location);
-    x = x.replaceAll("<", "&lt;");
-    x = x.replaceAll(">", "&gt;");
+    x = x.replaceAll("<", "&lt;").replaceAll(">", "&gt;");
     return x
   }
 }
@@ -219,6 +222,38 @@ async function markdownInitiator() {
   return;
 }
 
-// --------------------
+// -------------------- CSS SELECTION CODE --------------------
 
+async function loadCss(stylesheetFilename) {
+  var styleHead = document.getElementById("baseCSS");
+  styleHead.href = "style/" + stylesheetFilename; 
+  window.addEventListener('load', (event) => {
+    document.getElementById("preventPeopleFromGoingBlind").remove();
+  })
+}
+
+async function referrerChecks() {
+  if (document.referrer === null || document.referrer === "") {
+    var referrerUrl = new URL(location.origin + location.pathname); // Empty referrer, set var as current page. 
+  } else {
+    var referrerUrl = new URL(document.referrer); // Populated referrer, set var as actual referrer.
+  }
+  if (referrerUrl.pathname !== sessionStorage.getItem("initReferrer") && referrerUrl.pathname !== "/blog/") {
+    sessionStorage.setItem("initReferrer", referrerUrl.pathname) // If referrer var's path is not equivalent to the saved one, or is not the blog subsection, then replace it. 
+  }
+}
+
+async function cssSelect() {
+  referrerChecks()
+  var initRefer = sessionStorage.getItem("initReferrer")
+  var pathToCheck = initRefer.split("/")[1]
+  switch (pathToCheck) {
+    case "oldschool": loadCss("oldschool.css"); break; 
+    default: loadCss("main.css"); break;
+  }
+}
+
+// -------------------- BASE CODE --------------------
+
+cssSelect();
 markdownInitiator();

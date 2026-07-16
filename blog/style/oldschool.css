@@ -1,15 +1,28 @@
 
+/* ----------------- CSS VARS ----------------- */
+:root {
+    --cursorNormal: url('/asset/os-cursor-normal.png') 10 10, auto;
+    --cursorPointing: url('/asset/os-cursor-point.png') 10 10, auto;
+}
+/* -------------------------------------------- */
+
+/* ------------------- FONTS ------------------ */ 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css');
+/* -------------------------------------------- */
 
 body {
+    background-image: url("/asset/os-pattern.png");
     background-color: #070707;
+    background-size: 7px;
+    image-rendering: pixelated;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Hack';
     margin: 5em auto;
     width: 60em;
     max-width: calc(100% - 6em);
+    cursor: var(--cursorNormal); 
 }
 
 @media (max-width: 500px) {
@@ -22,46 +35,6 @@ body {
     #imgReduced {
         max-width: 65%;
     }
-}
-
-@media print {
-    #headArt {
-        color: black !important;
-        background-image: none !important;
-        background-clip: none !important;
-        -webkit-background-clip: none !important;
-        -webkit-text-fill-color: black !important;
-    }
-    a[href] {
-        color: inherit;
-        text-decoration: none;
-    }
-    a[href="/blog/"] {
-        display: none !important;
-    }
-    b {
-        font-weight: bold !important;
-    }
-    pre > code {
-        overflow: unset !important;
-    }
-    h1 {
-        margin-top: 0px !important;
-    }
-    img {
-        break-inside: avoid !important;
-        break-before: avoid !important;
-        break-after: avoid !important;
-        display: unset !important;
-        /* max-width: unset !important;*/
-    }
-    #txtCaption {
-        text-align: left !important;
-    }
-}
-
-header {
-    font-family: "Hack";
 }
 
 pre > code {
@@ -100,6 +73,7 @@ a[href] {
 a[href]:hover {
     color: #a1a1a1;
     transition-duration: 500ms;
+    cursor: var(--cursorPointing);
 }
 
 h1 {
@@ -186,6 +160,7 @@ p.noScripting > a {
 .active, .collapseButton:hover {
     background-color: #a1a1a1;
     transition-duration: 500ms;
+    cursor: var(--cursorPointing);
 }
 
 .collapse {
@@ -228,9 +203,19 @@ p.noScripting > a {
     width: inherit;
 }
 
+p:has(> #txtWARN) {
+    border-left: 5px solid red;
+    padding-left: 3%;
+}
+
 #txtWARN {
     color: red;
     font-weight: bolder;
+}
+
+p:has(> #txtNOTE) {
+    border-left: 5px solid #ad9600;
+    padding-left: 3%;
 }
 
 #txtNOTE {
@@ -254,11 +239,4 @@ p.noScripting > a {
     vertical-align: top;
     width: fit-content;
     margin: 0px;
-}
-
-iframe[title="YouTube video player"] {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 65%;
 }

@@ -117,8 +117,8 @@
 
     // heading
     replace(rx_heading, function(all, _, p1, p2) {
-        let x =  _ + element('h' + p1.length, unesc(highlight(p2)))
-        x = x + `<a id='${safeAnchroage(p2)}'></a>`
+        let x = _ + `<a id='${safeAnchroage(p2)}'></a>`
+        x = x + element('h' + p1.length, unesc(highlight(p2)))
         return x
     });
 

@@ -161,10 +161,8 @@ Old School RuneScape is [still kicking around](https://store.steampowered.com/ap
 2009scpae was way more difficult to set up than OpenRSC, primarily due to the sparse amount of documentation surrounding the project. Despite this, I managed to stumble around for a bit and still get it running. 
 
 #NOTE# I also want to express that the team behind this revitalization project mostly consists of hobbyists doing this on their own time. I want to relay their wishes to not be contacted in regards to setting up your own server. The only time they want to be contacted is when it involves their own server they host. I am writing this here to explain what I did to get 2009scape running on my own server, but besides that if you want to run a private server then you're on your own. I will also put here what the team has written on their [GitLabs page](https://gitlab.com/2009scape/2009scape/-/blob/master/README.md):
-
-*“Bug reports and support are only accepted by/offered to players of our live hosted server. We will not provide support to those running their own copies.”*
-
-I also want to shout out the [2009scape team](https://2009scape.org/site/community/staff.html) for working on this amazing project, essentially rebuilding RuneScape 2 from the ground up.
+#NOTE# *“Bug reports and support are only accepted by/offered to players of our live hosted server. We will not provide support to those running their own copies.”* 
+#NOTE# I also want to shout out the [2009scape team](https://2009scape.org/site/community/staff.html) for working on this amazing project, essentially rebuilding RuneScape 2 from the ground up.
 
 2009scape offers 3 ways to play, which are as follows:
 

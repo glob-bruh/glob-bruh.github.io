@@ -3,11 +3,17 @@
 
 {% include blogHeader.html %}
     <noscript>
-        <p class="noScripting">
-            Your browser is either blocking JavaScript or does not support it.<br />
-            JavaScript is required to convert the markdown pages and display their content.<br />
+        <div class="noScripting">
+            <p>------------------------------------------</p>
+            <p><b>Your browser is either blocking JavaScript or does not support it.</b></p>
+            <p>JavaScript is required to perform the following actions:</p>
+            <ul>
+                <li><p>Load and parse markdown documents.</p></li>
+                <li><p>Load custom CSS stylesheets.</p></li>
+            </ul>
             <a href="/">RETURN TO HOMEPAGE</a>
-        </p>
+            <p>------------------------------------------</p>
+        </div>
     </noscript>
     <div id="MARKDOWN-CONTENT-HERE"></div>
 {% include blogFooter.html %}
