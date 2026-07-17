@@ -1,28 +1,41 @@
 
-/* ----------------- CSS VARS ----------------- */
-:root {
-    --cursorNormal: url('/asset/os-cursor-normal.png') 10 10, auto;
-    --cursorPointing: url('/asset/os-cursor-point.png') 10 10, auto;
-}
-/* -------------------------------------------- */
-
 /* ------------------- FONTS ------------------ */ 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css');
 /* -------------------------------------------- */
 
+/* ----------------- CSS VARS ----------------- */
+:root {
+    --cursorNormal: url('/asset/os-cursor-normal.png') 10 10, auto;
+    --cursorPointing: url('/asset/os-cursor-point.png') 10 10, auto;
+    --borderWinRB: 3px solid #444444;
+    --borderWinLT: 3px solid #c3c3c3;
+}
+/* -------------------------------------------- */
+
 body {
-    background-image: url("/asset/os-pattern.png");
-    background-color: #070707;
-    background-size: 7px;
-    image-rendering: pixelated;
+    background-image: url("/asset/os-wallpaper.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     color: white;
     font-family: 'Hack';
     margin: 5em auto;
     width: 60em;
     max-width: calc(100% - 6em);
     cursor: var(--cursorNormal); 
+}
+
+#content {
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(7px);
+    border-style: solid;
+    border-width: 3px;
+    border-color: darkgray;
+    margin-top: 50px;
+    padding: 25px;
 }
 
 @media (max-width: 500px) {
@@ -38,14 +51,16 @@ body {
 }
 
 pre > code {
-    color : black;
-    border: 1px solid #999;
+    color : magenta;
+    background-color: black;
+    border-bottom: var(--borderWinRB);
+    border-right: var(--borderWinRB);
+    border-top: var(--borderWinLT);
+    border-left: var(--borderWinLT);
     display: block;
     font-family: "Hack";
     font-size: 12px;
-    background-color: darkgray;
-    padding: 15px;
-    border-radius: 20px;
+    padding: 10px;
     overflow: auto;
 }
 
@@ -67,12 +82,13 @@ img {
 }
 
 a[href] {
-    color: #707070;
+    color: #bf00ff;
+    text-decoration: none;
 }
 
 a[href]:hover {
-    color: #a1a1a1;
-    transition-duration: 500ms;
+    color: #ff00ff;
+    text-decoration: underline;
     cursor: var(--cursorPointing);
 }
 
@@ -143,23 +159,26 @@ p.noScripting > a {
 }
 
 .collapseButton {
-    background-color: #707070;
-    color: black;
+    background-color: #c0c4c8;
+    color: #010002;
     cursor: pointer;
-    padding: 15px;
+    padding: 5px;
     width: 100%;
-    border: 1px solid lightgray;
-    border-radius: 20px;
+    border-bottom: var(--borderWinRB);
+    border-right: var(--borderWinRB);
+    border-top: var(--borderWinLT);
+    border-left: var(--borderWinLT);
     text-align: left;
     outline: none;
     font-weight: bold;
+    font-family: "Hack";
     margin-bottom: 7.5px;
     margin-top: 7.5px;
 }
   
 .active, .collapseButton:hover {
-    background-color: #a1a1a1;
-    transition-duration: 500ms;
+    background-color: #0000a8;
+    color: white;
     cursor: var(--cursorPointing);
 }
 
@@ -175,13 +194,12 @@ p.noScripting > a {
     margin-right: auto;
     text-align: center;
     white-space: pre;
-    background-image: linear-gradient(#55ff55, #ff55ff);
+    color: transparent;
+    background-image: linear-gradient(magenta, red);
     background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
-#footerUsageDisclaimer {
+.footerUsageDisclaimer {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -205,7 +223,7 @@ p.noScripting > a {
 
 p:has(> #txtWARN) {
     border-left: 5px solid red;
-    padding-left: 3%;
+    padding-left: 2%;
 }
 
 #txtWARN {
@@ -215,7 +233,7 @@ p:has(> #txtWARN) {
 
 p:has(> #txtNOTE) {
     border-left: 5px solid #ad9600;
-    padding-left: 3%;
+    padding-left: 2%;
 }
 
 #txtNOTE {

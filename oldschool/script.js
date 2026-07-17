@@ -37,6 +37,10 @@ async function printTxt(text, newline) {
     }
 }
 
+async function scrollToBottom() {
+    commandText.scrollTop = commandText.scrollHeight;
+}
+
 async function cmdSent() {
     cmd = commandBox.value;
     cmdSplit = commandBox.value.split(" ");
@@ -47,9 +51,23 @@ async function cmdSent() {
             commandText.value = "";
             printTxt("Terminal cleared.");
             break;
+        case "discord":
+            printTxt("ADD ME ON DISCORD: globbruh");
+            break;
+        case "email":
+            window.open("mailto:globbruh@proton.me")
+            printTxt("A mailto link has been opened in a new window.");
+            break;
+        case "github":
+            window.open("https://github.com/glob-bruh");
+            printTxt("A new tab for my GitHub has been opened.");
+            break;
         case "help":
             printTxt(`=== Help Menu: ===
 * cls:          clears terminal screen.
+* discord:      i do have a discord. 
+* email:        shoot me an email.
+* github:       i do have a github.
 * help:         shows this menu.
 * intro:        read my intro. 
 * man:          redirect to blog page. 
@@ -67,8 +85,6 @@ async function cmdSent() {
             x = x.split("\n")
             let y = [];
             for (let i = 0; i < x.length; i++) {
-                console.log(i)
-                console.log(x[i])
                 if (x[i].includes("* [")) {
                     var blogName = x[i].split("[")[1].split("]")[0];
                     var blogFile = x[i].split("(")[1].split(")")[0].split("=")[1];
@@ -76,14 +92,17 @@ async function cmdSent() {
                 }
             }
             printTxt("MAN - Manuals? Or blog pages...")
+            printTxt ("Usage: man [blogcode]");
             if (cmdSplit[1] !== undefined) {
                 for (let i = 0; i < y.length; i++) {
                     if (y[i][1] === cmdSplit[1]) {
-                        window.location = location.origin + "/blog?doc=" + cmdSplit[1];
+                        window.open(location.origin + "/blog?doc=" + cmdSplit[1]);
+                        printTxt("A new tab for the blog page has been opened.");
+                        scrollToBottom();
+                        return;
                     }
                 }
             }
-            printTxt ("Usage: man [blogcode]");
             printTxt ("Blogs in database:")
             for (let i = 0; i < y.length; i++) {
                 printTxt("* " + y[i][0] + " (blogcode: " + y[i][1] + ").");
@@ -119,7 +138,7 @@ async function cmdSent() {
             printTxt("Command not found.");
             break;
     }
-    commandText.scrollTop = commandText.scrollHeight;
+    scrollToBottom();
 }
 
 async function searchKey() {

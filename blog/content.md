@@ -15,10 +15,3 @@
 
 * [Useful Websites](?doc=Websites)
 * [Notes](?doc=Notes)
-
-## Usage:
-
-You can feature these documents in other works and redistribute on the following grounds:
-
-* You do not modify their content.
-* You credit my GitHub account.

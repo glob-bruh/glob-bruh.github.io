@@ -170,7 +170,7 @@ p.noScripting > a {
     -webkit-text-fill-color: transparent;
 }
 
-#footerUsageDisclaimer {
+.footerUsageDisclaimer {
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -29,12 +29,12 @@
 * [Florida Residents Directory](https://www.floridaresidentsdirectory.com/)
 
 #DROP# Law
-* [Court Listener (Primarily USA)](https://www.courtlistener.com/)
+* [Court Listener](https://www.courtlistener.com/) - Primarily USA.
 #PORD#
 
 #PORD#
 
-#DROP# Programs/Executables
+#DROP# Programs/executables
 
 #DROP# Ransomware
 * [Ransomware.LIVE](https://www.ransomware.live/) ([Canada only](https://www.ransomware.live/map/CA))
@@ -56,6 +56,10 @@
 * [VX-Underground](https://www.vx-underground.org) ([&#120143;](https://x.com/vxunderground))
 #PORD#
 
+#PORD#
+
+#DROP# Exploits/vulnerabilities
+* [MSRC Vulnerabilities Tracker](https://msrc.microsoft.com/update-guide/vulnerability)
 #PORD#
 
 #DROP# Artificial Intelligence
@@ -91,7 +95,10 @@
 * [SocialBlade](https://socialblade.com/)
 * [Youtube Metadata](https://mattw.io/youtube-metadata/)
 * [YouTube Video Finder](https://findyoutubevideo.thetechrobo.ca/)
-* [KVN AUST YouTube Recycle Bin Google Doc](https://docs.google.com/document/d/1mV5PhumaIJ8mtH8XmohqXkk5fjK_HlqcineMccPQm5A)
+
+KVN AUST YouTube search tools:
+* [(REG) Non-biased Video Searcher](https://kvnaust.github.io/YouTube-NonBiasedVideoSearcher/)
+* [YouTube Recycle Bin Google Doc](https://docs.google.com/document/d/1mV5PhumaIJ8mtH8XmohqXkk5fjK_HlqcineMccPQm5A)
 #PORD#
 
 #DROP# &#120143;
@@ -127,6 +134,7 @@
 
 #DROP# Twitch
 * [TwitchTracker](https://twitchtracker.com/)
+* [SUPA.SH Twitch Utilities](https://tv.supa.sh/logs)
 #PORD#
 
 #DROP# MEGA Cloud Storage
@@ -151,7 +159,9 @@ Nothing here.
 
 #DROP# WebDev
 * [How To Center In CSS](http://howtocenterincss.com/)
+* [CSS Color Filter Generator](https://angel-rs.github.io/css-color-filter-generator/)
 * [JS Console](https://jsconsole.com/)
+* [JS Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp)
 #PORD#
 
 #DROP# Assembly
@@ -178,6 +188,10 @@ Nothing here.
 #DROP# Cloudflare
 * [Cloudflare Radar](https://radar.cloudflare.com/)
 * [(REG) Cloudflare Dashboard](https://dash.cloudflare.com/)
+#PORD#
+
+#DROP# Cisco
+* [(REG) Cisco Meraki Dashboard](https://account.meraki.com/login)
 #PORD#
 
 #PORD#
@@ -245,6 +259,10 @@ Nothing here.
 * [Rogers/Shaw Reported Outages](https://www.rogers.com/support/outage)
 #PORD#
 
+#DROP# Informational
+* [TLDRBins](https://tldrbins.github.io/) - Cybersecurity command resource.
+#PORD#
+
 #PORD#
 
 #DROP# Phone
@@ -270,6 +288,7 @@ Links:
 * [TechInfoDepot](https://techinfodepot.shoutwiki.com/)
 * [MAC Lookup](https://maclookup.app/)
 * [Microsoft Keyboard Ghosting Demo (keyboard tester)](https://www.microsoft.com/applied-sciences/projects/anti-ghosting-demo)
+* [ZoneMinder Camera Database](https://cloud.zoneminder.com/camera_database.html) - Camera models that support RTSP.
 #PORD#
 
 #DROP# Software
@@ -287,6 +306,11 @@ Links:
 
 #PORD#
 
+#DROP# Linux
+* [Chmod Calculator](https://chmod-calculator.com/)
+* [Crontab Guru](https://crontab.guru/)
+#PORD#
+
 #DROP# Adobe
 * [Adobe Reader Direct Download (x64)](https://admdownload.adobe.com/rdcm/installers/live/readerdc64_ha_cra_gocd_install.exe)
 * [Adobe Reader Enterprise Distributions](https://get.adobe.com/ca/reader/enterprise/)
@@ -294,6 +318,7 @@ Links:
 
 #DROP# Firmware
 * [BIOS Password](https://bios-pw.org/)
+* [Boring Boredom's UEFI Editor](https://boringboredom.github.io/UEFI-Editor/)
 #PORD#
 
 #DROP# Apple
@@ -375,6 +400,7 @@ DEF CON LIVE:
 * [OnlyLANs](https://onlylans.justhacking.com/) - AI prompt injection CTF
 * [LevelUp](https://levelupctf.com/) - AI CTF
 * [(REG) ChatGPT RansomSim](https://chatgpt.com/g/g-679a6253574c8191a998145044b9c651-ransomsim-ransomware-negotiation-trainer) - AI ransomware negotiation simulation.
+* [VulnHub](https://www.vulnhub.com/) - VM's, vulnerable by design. 
 
 #DROP# Hack The Box
 * [(REG) HTB Dashboard](https://app.hackthebox.com/home)

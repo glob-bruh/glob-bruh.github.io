@@ -48,32 +48,41 @@ function genTitle(line) {
 }
 
 function genSubTitle(line) {
+  var pathToReturnTo = sessionStorage.getItem("initReferrer");
   const text = line.split(" ").slice(1).join(" ");
   elemZ = "<h4>" + text + "</h4>";
-  elemX = "<a href='/blog/'>Return to Blog Home</a>";
+  if (pathToReturnTo.includes("oldschool")) {
+    elemX = "<a href='" + location.origin + "/oldschool/" + "'>Return to Homepage</a>";
+  }
+  else {
+    elemX = "<a href='/blog/'>Return to Blog Home</a>";
+  }
   elemY = "<center>" + elemZ + elemX + "</center>";
   return elemY;
 }
 
 function genHomePage() {
-  var pathToReturnTo = sessionStorage.getItem("initReferrer");
-  if (pathToReturnTo.includes("oldschool")) {
-    elem = "<center><a href='" + location.origin + "/oldschool/" + "'>Return to Homepage</a></center>";
-  } else {
-    elem = "<center><a href='/'>Return to Homepage</a></center>";
-  }
+  elem = "<center><a href='/'>Return to Homepage</a></center>";
   return elem
 }
 
-function genWarning(line) {
+function genWarning(line, previousLine) {
   const text = line.split(" ").slice(1).join(" ");
-  elem = "<p><a id='txtWARN'>WARNING:</a> " + text + "</p>";
+  if (previousLine.includes("<p><a id='txtWARN'>")) {
+    elem = "<p><a id='txtWARN'></a> " + text + "</p>";
+  } else {
+    elem = "<p><a id='txtWARN'>WARNING:</a> " + text + "</p>";
+  }
   return elem;
 }
 
-function genNote(line) {
+function genNote(line, previousLine) {
   const text = line.split(" ").slice(1).join(" ");
-  elem = "<p><a id='txtNOTE'>NOTE:</a> " + text + "</p>";
+  if (previousLine.includes("<p><a id='txtNOTE'>")) {
+    elem = "<p><a id='txtNOTE'></a> " + text + "</p>";
+  } else {
+    elem = "<p><a id='txtNOTE'>NOTE:</a> " + text + "</p>";
+  }
   return elem;
 }
 
@@ -118,8 +127,8 @@ function markdownExtensions(l) {
           case "!##": l[i] = genSubTitle(l[i]); break;
           case "#TOC#": l[i] = genToC(); break;
           case "#HOME#": l[i] = genHomePage(l[i]); break;
-          case "#WARN#": l[i] = genWarning(l[i]); break;
-          case "#NOTE#": l[i] = genNote(l[i]); break;
+          case "#WARN#": l[i] = genWarning(l[i], l[i-1]); break;
+          case "#NOTE#": l[i] = genNote(l[i], l[i-1]); break;
           case "#IMGSML#": l[i] = genReducedImage(l[i]); break;
           case "#IMGTWOR#": l[i] = genTwoReducedImages(l[i]); break;
           case "#CAPT#": l[i] = genCaption(l[i]); break;
@@ -248,8 +257,13 @@ async function cssSelect() {
   var initRefer = sessionStorage.getItem("initReferrer")
   var pathToCheck = initRefer.split("/")[1]
   switch (pathToCheck) {
-    case "oldschool": loadCss("oldschool.css"); break; 
-    default: loadCss("main.css"); break;
+    case "oldschool":
+      loadCss("oldschool.css");
+      break; 
+    default:
+      loadCss("main.css");
+      document.getElementById("osWallAttribution").style.display = "none";
+      break;
   }
 }
 
