@@ -1,5 +1,5 @@
 !# Useful Websites
-!## This page contains a list of useful websites that I have found online.
+!## This page contains a list of useful OSINT websites or resources that prove useful throughout the IT industry that I have found online.
 
 ## Legend: 
 * `###` - Non-functional website. May no longer work as expected. 
@@ -65,7 +65,7 @@
 #DROP# Artificial Intelligence
 
 #DROP# Engines
-* [Duck AI](https://duck.ai/)
+* [Duck AI](https://duck.ai/) - AI provided by DuckDuckGo.
 #PORD#
 
 #DROP# Detection
@@ -206,6 +206,7 @@ Nothing here.
 * [Just Delete Me](https://backgroundchecks.org/justdeleteme/)
 * [($$$) Intelligence X](https://intelx.io/)
 * [Qualys SSL Test](https://www.ssllabs.com/ssltest/)
+* [BadSSL](https://badssl.com/) - Problematic certificate test.
 * [GeoPeeker](https://geopeeker.com/)
 * [URL Scan](https://urlscan.io/)
 #PORD#
@@ -321,8 +322,16 @@ Links:
 * [Boring Boredom's UEFI Editor](https://boringboredom.github.io/UEFI-Editor/)
 #PORD#
 
+#DROP# Mobile
+
 #DROP# Apple
 * [Apple Internal Applications](https://theapplewiki.com/wiki/Apple_Internal_Apps)
+#PORD#
+
+#DROP# Android
+* [Android OS Comparison Chart](https://eylenburg.github.io/android_comparison.htm)
+#PORD#
+
 #PORD#
 
 #DROP# Videogames
@@ -356,22 +365,28 @@ Links:
 
 #DROP# Conferences
 
-#DROP# DEF CON
-DEF CON LINKS: 
+#DROP# DEFCON
+DEFCON LINKS: 
 * [INFO CON](https://infocon.org/)
-* [DEF CON Media Server](https://media.defcon.org/)
+* [DEFCON Media Server](https://media.defcon.org/)
+* [DEFCON TV](https://dctv.defcon.org/)
 * [DEFCON.SOCIAL (Mastodon)](https://defcon.social/explore)
-* [DEF CON Forum](https://forum.defcon.org/)
-* [DEF CON NOC](https://noc.defcon.org/)
-* [DEF CON Transparency](https://defcon.org/html/links/dc-transparency.html)
+* [DEFCON Forum](https://forum.defcon.org/)
+* [DEFCON NOC](https://noc.defcon.org/)
+* [DEFCON Transparency](https://defcon.org/html/links/dc-transparency.html)
 
-DEF CON LIVE: 
-* DEF CON ORG: [Twitch](https://www.twitch.tv/defconorg)
+DEFCON CLUBS/COMMUNITIES:
+* [Lonely Hackers Club](https://lonelyhackers.club/)
+
+DEFCON LIVE: 
+* DEFCON ORG: [Twitch](https://www.twitch.tv/defconorg), [YouTube](https://www.youtube.com/@DEFCONConference)
 * Track 1: [Twitch](https://www.twitch.tv/defcon_dctv_one)
 * Track 2: [Twitch](https://www.twitch.tv/defcon_dctv_two)
 * Track 3: [Twitch](https://www.twitch.tv/defcon_dctv_three)
 * Track 4: [Twitch](https://www.twitch.tv/defcon_dctv_four)
 * Track 5: [Twitch](https://www.twitch.tv/defcon_dctv_five)
+* Track 6: [Twitch](https://www.twitch.tv/defcon_dctv_six)
+* DEFCON Entertainment: [Twitch](https://www.twitch.tv/defconorg_entertainment)
 #PORD# 
 
 #PORD# 
@@ -426,6 +441,10 @@ DEF CON LIVE:
 * [Defacto2](https://defacto2.net/) - Warez/Scene archive
 * [(!!!) Jason Scott's Textfiles](http://textfiles.com/)
 * [INFOSEC.EXCHANGE (Mastodon)](https://infosec.exchange/)
+* [Digital Gangster Enterprises](https://digitalgangster.com/)
+* [Bomberfish Homepage](https://bomberfish.ca/)
+* [aura/void Homepage](https://vddco.re/)
+#PORD#
 
 #DROP# Status Pages
 * [Atlassian](https://status.atlassian.com/)
