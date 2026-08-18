@@ -48,13 +48,7 @@ function project_buildSection(k, z) {
 }
 
 function main() {
-    x = document.createElement("link");
-    x.rel = "icon";
-    x.href = location.origin + "/favicon.ico";
-    x.type = "image/x-icon";
-    document.getElementsByTagName("head")[0].append(x)
-
-    if (location.pathname == "/projects/") {
+    if (location.pathname == "/projects.html") {
         x = document.createElement("link");
         x.rel = "stylesheet";
         x.href = "/project.css";
