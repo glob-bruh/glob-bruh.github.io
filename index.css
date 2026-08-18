@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
     background-color: #070707;
@@ -17,6 +17,9 @@ body {
         padding: 0px;
     }
     header > div#headerNav {
+        width: 100%;
+    }
+    header > #titleTextDiv{
         width: 100%;
     }
     div.projFeature > button {
@@ -36,23 +39,11 @@ header > h1 {
     text-align: center;
 }
 
-header > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 26.8px;
-    border-radius: 50%;
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-}
-
 div#headerNav {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    width: 75%
 }
 
 button {
@@ -60,6 +51,7 @@ button {
     margin-right: 10px;
     color: black;
     font-weight: bold;
+    font-family: 'Noto Sans';
     background-color: #707070;
     outline: none;
     border: 1px solid lightgray;
@@ -79,57 +71,36 @@ button:hover {
 }
 
 h2 {
-    color: #159957;
-    font-family: 'Open Sans', sans-serif;
+    color: #B0B0B0;
+    font-family: 'Noto Sans';
 }
 
 h3 {
     color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans';
     text-decoration: underline;
 }
 
 p {
     color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans';
+}
+
+#noScriptContatiner {
+    background-color: white;
+    border-radius: 20px;
 }
 
 p.noScripting {
     text-align: center; 
-    font-size: 70%;
+    font-size: 75%;
+    font-weight: bold;
+    color: black;
 }
 
 ul {
     color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-}
-
-div.projFeature {
-    text-align: center;
-    margin: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #2e2e2e;
-    border-radius: 20px;
-}
-
-div.projFeature > h3 {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-div.projFeature > img {
-    width: 100%;
-    max-width: 100px;
-    margin: 5px;
-}
-
-div.projFeature > button {
-    max-width: 250px;
-}
-
-div.projFeature > p {
-    padding-left: 30px;
-    padding-right: 30px;
+    font-family: 'Noto Sans';
 }
 
 a[href] {
@@ -171,28 +142,49 @@ footer > #footerSites > img:hover {
     cursor: pointer;
 }
 
-#titleText {
-    background-image: linear-gradient(#55ff55, #ff55ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 250%;
-    font-family: 'Poppins', sans-serif;
+#titleTextDiv {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 16 / 4;
 }
 
-#headIcon > img {
+#titleTextDiv > img {
+    position: absolute;
+    width: 100%;
+}
+
+#titleTextDiv > #titleTextOne {
+    z-index: 2;
+}
+
+#titleTextDiv > #titleTextTwo {
+    z-index: 1;
+    filter: blur(15px);
+}
+
+#titleLogo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5px;
-    max-width: 100%;
+    margin-bottom: 26.8px;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
 }
 
-#aoscsLogo {
-    padding: 5px;
-    border-radius: 7px;
-    border-color: red;
-    border: 2px gray solid;
+#headIcon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#headIcon > img {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 3px;
 }
 
 .center {

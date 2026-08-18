@@ -48,15 +48,9 @@ function genTitle(line) {
 }
 
 function genSubTitle(line) {
-  var pathToReturnTo = sessionStorage.getItem("initReferrer");
   const text = line.split(" ").slice(1).join(" ");
   elemZ = "<h4>" + text + "</h4>";
-  if (pathToReturnTo.includes("oldschool")) {
-    elemX = "<a href='" + location.origin + "/oldschool/" + "'>Return to Homepage</a>";
-  }
-  else {
-    elemX = "<a href='/blog/'>Return to Blog Home</a>";
-  }
+  elemX = "<a href='/blog/'>Return to Blog Home</a>";
   elemY = "<center>" + elemZ + elemX + "</center>";
   return elemY;
 }
@@ -89,7 +83,7 @@ function genNote(line, previousLine) {
 function genReducedImage(line) {
   x = getDir();
   const text = line.split(" ").slice(1).join(" ");
-  elem = "<img id='imgReduced' src='" + x + "/" + text + "' />";
+  elem = "<img id='imgReduced' loading='lazy' src='" + x + "/" + text + "' />";
   return elem;
 }
 
@@ -97,7 +91,7 @@ function genTwoReducedImages(line) {
   x = ( getDir() + "/" );
   const text = line.split(" ").slice(1).join(" ");
   y = text.split(",");
-  elem = "<div id='forceSameLine'><img src='" + (x + y[0]) + "' id='imgReduced'><img src='" + (x + y[1]) + "' id='imgReduced'></div>";
+  elem = "<div id='forceSameLine'><img loading='lazy' src='" + (x + y[0]) + "' id='imgReduced'><img src='" + (x + y[1]) + "' id='imgReduced'></div>";
   return elem;
 }
 
@@ -190,84 +184,58 @@ function tocGenerator(l) {
   }
 }
 
-async function getDocument(url) {
-  const response = await fetch(url);
-  switch (response.status) {
-    case 200: return await response.text(); break;
-    case 404: return "!# PAGE NOT FOUND\n\n!## Please try visiting a different page."; break;
+function getDocument(url) {
+  const response = DL_getDocumentNonAsync(url);
+  switch (response[0]) {
+    case 200: return response[1];
+    case 404: return "!# PAGE NOT FOUND\n\n!## Please try visiting a different page.";
   }
 }
 
 // This is not a catch-all for security. Most browsers should prevent Cross-Origin Requests by default. 
 // Github Pages by default lacks the ability to modify headers, and without that, good security is not possible. 
 // The below function is designed to be best-effort. 
-async function safetyEngine(location) {
+function safetyEngine(location) {
   if (location.includes("//") || location.includes("%2F%2F")) {
     console.warn(":( POTENTIAL XSS DETECTED - Refusing to load Markdown document from this URL");
     return "!# BAD URL\n\n!## Please try visiting a different page.";
   } else {
-    let x = await getDocument(location);
+    let x = getDocument(location);
     x = x.replaceAll("<", "&lt;").replaceAll(">", "&gt;");
     return x
   }
 }
 
-async function markdownInitiator() {
-  dir = getDir();
-  if (dir === 2) {
-    dir = "blog";
-    mdLocation = "./content.md";
+;function MARKDOWN_markdownInitiator(providedText) {
+  if (providedText === undefined) {
+    dir = getDir();
+    if (dir === 2) {
+      dir = "Blog & Resources";
+      mdLocation = "./content.md";
+    } else {
+      mdLocation = dir + "/content.md";
+    }
+    document.title = dir + " | gl0bSECURE Blog";
+    ufContent = (safetyEngine(mdLocation)).split("\n");
   } else {
-    mdLocation = dir + "/content.md";
+    ufContent = providedText.split("\n");
   }
-  document.title = dir + " | GlobBruh Blog";
-  const ufContent = (await safetyEngine(mdLocation)).split("\n");
   globalThis.chapterElem = tocGenerator(ufContent)
   x = markdownExtensions(ufContent);
   x = markdown(x);
   var mdElem = document.querySelector("#MARKDOWN-CONTENT-HERE");
   mdElem.innerHTML = x;
-  await collapseParser(); // THIS CONVERTS THE DROPDOWN TAGS TO ACTUAL DROPDOWNS
+  collapseParser(); // THIS CONVERTS THE DROPDOWN TAGS TO ACTUAL DROPDOWNS
   return;
-}
-
-// -------------------- CSS SELECTION CODE --------------------
-
-async function loadCss(stylesheetFilename) {
-  var styleHead = document.getElementById("baseCSS");
-  styleHead.href = "style/" + stylesheetFilename; 
-  window.addEventListener('load', (event) => {
-    document.getElementById("preventPeopleFromGoingBlind").remove();
-  })
-}
-
-async function referrerChecks() {
-  if (document.referrer === null || document.referrer === "") {
-    var referrerUrl = new URL(location.origin + location.pathname); // Empty referrer, set var as current page. 
-  } else {
-    var referrerUrl = new URL(document.referrer); // Populated referrer, set var as actual referrer.
-  }
-  if (referrerUrl.pathname !== sessionStorage.getItem("initReferrer") && referrerUrl.pathname !== "/blog/") {
-    sessionStorage.setItem("initReferrer", referrerUrl.pathname) // If referrer var's path is not equivalent to the saved one, or is not the blog subsection, then replace it. 
-  }
-}
-
-async function cssSelect() {
-  referrerChecks()
-  var initRefer = sessionStorage.getItem("initReferrer")
-  var pathToCheck = initRefer.split("/")[1]
-  switch (pathToCheck) {
-    case "oldschool":
-      loadCss("oldschool.css");
-      break; 
-    default:
-      loadCss("main.css");
-      document.getElementById("osWallAttribution").style.display = "none";
-      break;
-  }
 }
 
 // -------------------- BASE CODE --------------------
 
-cssSelect();
-markdownInitiator();
+function attachUsageTxt() {
+  x = document.getElementById("usageTxt");
+  y = DL_getDocumentNonAsync("usage.txt");
+  x.innerText = y[1];
+}
+
+MARKDOWN_markdownInitiator();
+attachUsageTxt();

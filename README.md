@@ -1,4 +1,4 @@
-# GlobBruh Website and Blog
+# gl0bSECURE Website and Blog
 
 **License:**
 

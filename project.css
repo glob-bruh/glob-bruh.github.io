@@ -1,0 +1,44 @@
+
+@media (max-width: 500px) {
+    div#PROJECT-LIST {
+        display: block !important;
+    }
+}
+
+div#PROJECT-LIST {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+div.projFeature {
+    margin: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #2e2e2e;
+    border-radius: 20px;
+}
+
+div.projFeature:hover {
+    background-color: #2e2e2e;
+    transition-duration: 500ms;
+}
+
+div.projFeature > h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+div.projFeature > img {
+    width: 100%;
+    max-width: 100px;
+    margin: 5px;
+}
+
+div.projFeature > button {
+    max-width: 250px;
+    margin-bottom: 5px;
+}
+
+div.projFeature > p {
+    padding-left: 30px;
+    padding-right: 30px;
+}

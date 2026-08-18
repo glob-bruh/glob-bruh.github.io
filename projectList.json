@@ -1,0 +1,178 @@
+
+{
+    "Personal Homelab": {
+        "desc": "Blog page outlining my personal homelab setup.",
+        "picture": {
+            "hasPicture": false,
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": false,
+            "hasWebsite": false,
+            "hasBlogPage": true, 
+            "githubURL": "",
+            "websiteURL": "",
+            "blogPageURL": "HomelabWriteup"
+        }
+    },
+
+    "Amethyst Administrator": {
+        "desc": "Purple team security and network management tool written in Python that is designed to map out and allow pre-configured easy access to devices over large networks.",
+        "picture": {
+            "hasPicture": true,
+            "pictureURL": "https://raw.githubusercontent.com/glob-bruh/AmethystAdministrator/main/resources/pic/logo/logoNormal.png"
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false,
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/AmethystAdministrator",
+            "websiteURL": "",
+            "blogPageURL": ""
+        }
+    },
+
+    "gl0bSECURE OBD-II Tool": {
+        "desc": "Custom-built Python tool designed to streamline development for other automotive diagnostic tools. Utilizes the CAN protocol that is widely used in automobiles.",
+        "picture": {
+            "hasPicture": true,
+            "pictureURL": "https://raw.githubusercontent.com/glob-bruh/OBDIITerm/main/logo.png"
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false,
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/OBDIITerm",
+            "websiteURL": "",
+            "blogPageURL": ""
+        }
+    },
+
+    "CrossJoin (As Maintainer)": {
+        "desc": "Discord bot designed to monitor and post information from the Alberta Electric System Operator (AESO) and Alberta 511.",
+        "picture": {
+            "hasPicture": true,
+            "pictureURL": "https://cdn.discordapp.com/avatars/1311647687698944020/393c8f415d82619aa6aa703df266f38f.webp"
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false,
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/SouthAlbertaAI/CrossJoin-AESO",
+            "websiteURL": "",
+            "blogPageURL": ""
+        }
+    },
+
+    "AOSCS": {
+        "desc": "Advanced Open-Source Certification System.\n\n An successor to both TIGRS and OGRS independent media rating systems, while also being compatible with FreeDesktop AppStream. AOSCS is the 'be-all-end-all' solution to independent rating and certification services.",
+        "picture": {
+            "hasPicture": true,
+            "pictureURL": "https://raw.githubusercontent.com/glob-bruh/AOSCS/main/aoscsLogo.png"
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": true,
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/AOSCS",
+            "websiteURL": "https://glob-bruh.github.io/AOSCS/",
+            "blogPageURL": ""
+        }
+    },
+
+    "EmbedTube": {
+        "desc": "Browser extension designed to replace the built-in YouTube video player with embedded versions.",
+        "picture": {
+            "hasPicture": true,
+            "pictureURL": "https://raw.githubusercontent.com/glob-bruh/EmbedTube/main/src/icons/50.png"
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false,
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/EmbedTube",
+            "websiteURL": "",
+            "blogPageURL": ""
+        }
+    },
+
+    "NoQuoraLogin": {
+        "desc": "UserScript that allows users visiting Quora to circumvent requests to login and use features that would normally require a account.",
+        "picture": {
+            "hasPicture": true,
+            "pictureURL": "https://raw.githubusercontent.com/glob-bruh/NoQuoraLogin/main/logo.png"
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false,
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/NoQuoraLogin",
+            "websiteURL": "",
+            "blogPageURL": ""
+        }
+    },
+
+    "GABS": {
+        "desc": "gl0bSECURE Automated Backup System\n\n Linux script designed to automatically replicate contents from one drive to another. Its intended use is to have data replication without the use of RAID.",
+        "picture": {
+            "hasPicture": false,
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false,
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/GBAutoBackupSystem",
+            "websiteURL": "",
+            "blogPageURL": ""
+        }
+    },
+
+    "Lost Media Wiki Retheme": {
+        "desc": "UserScript that adaptively changes how pages look on the Lost Media Wiki based on what categories they have been assigned. This is achieved by injecting CSS pages from an external source.",
+        "picture": {
+            "hasPicture": false,
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false,
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/LostMediaWikiRetheme",
+            "websiteURL": "",
+            "blogPageURL": ""
+        }
+    },
+
+    "LiteNVR": {
+        "desc": "Minimal self-healing NVR system engineered to capture raw RTSP camera streams via FFmpeg and write them directly to a remote network-attached storage (NAS) share.",
+        "picture": {
+            "hasPicture": false,
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false,
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/LiteNVR",
+            "websiteURL": "",
+            "blogPageURL": ""
+        }
+    },
+
+    "Slack Door Access Notify": {
+        "desc": "Lightweight PHP webpage designed to post users IP address and user agent to a Slack webhook. Intended to notify someone inside the room that someone else is at the door.",
+        "picture": {
+            "hasPicture": false, 
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false, 
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/Slack-DoorAccess-Notification",
+            "websiteURL": "", 
+            "blogPageURL": ""
+        }
+    }
+}
