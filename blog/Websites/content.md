@@ -1,5 +1,7 @@
+
 !# Useful Websites
-!## This page contains a list of useful OSINT websites or resources that prove useful throughout the IT industry that I have found online.
+
+!## This page contains a list of OSINT tools and resources that have provide useful during investigations. 
 
 ## Legend: 
 * `###` - Non-functional website. May no longer work as expected. 
@@ -83,7 +85,7 @@
 * [Password Pusher](https://eu.pwpush.com/p/new) - Self-destructing password sharing. 
 
 #DROP# Generator
-* [1password Password Generator](https://1password.com/password-generator)
+* [1Password Password Generator](https://1password.com/password-generator)
 #PORD#
 
 #PORD#
@@ -442,6 +444,7 @@ DEFCON LIVE:
 * [(!!!) Jason Scott's Textfiles](http://textfiles.com/)
 * [INFOSEC.EXCHANGE (Mastodon)](https://infosec.exchange/)
 * [Digital Gangster Enterprises](https://digitalgangster.com/)
+* [YYCMesh](https://yycmesh.com/)
 * [Bomberfish Homepage](https://bomberfish.ca/)
 * [aura/void Homepage](https://vddco.re/)
 #PORD#
