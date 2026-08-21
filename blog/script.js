@@ -206,8 +206,17 @@ function safetyEngine(location) {
   }
 }
 
+function attachUsageTxt() {
+  x = document.getElementById("usageTxt");
+  y = DL_getDocumentNonAsync("usage.txt");
+  x.innerText = y[1];
+}
+
 ;function MARKDOWN_markdownInitiator(providedText) {
   if (providedText === undefined) {
+    if (document.getElementById("windowControl") === null) {
+        attachUsageTxt();
+    }
     dir = getDir();
     if (dir === 2) {
       dir = "Blog & Resources";
@@ -229,13 +238,4 @@ function safetyEngine(location) {
   return;
 }
 
-// -------------------- BASE CODE --------------------
-
-function attachUsageTxt() {
-  x = document.getElementById("usageTxt");
-  y = DL_getDocumentNonAsync("usage.txt");
-  x.innerText = y[1];
-}
-
 MARKDOWN_markdownInitiator();
-attachUsageTxt();

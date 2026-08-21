@@ -61,9 +61,7 @@ function main() {
             projArr = JSON.parse(x[1]);
             for (let i = 0; i < Object.keys(projArr).length; i++) {
                 keyName = Object.keys(projArr)[i];
-                console.log(keyName);
                 project_buildSection(keyName, projArr[keyName]);
-                console.log(keyName + " built");
             }
         } else {
             elem = document.getElementById("subTxt");
