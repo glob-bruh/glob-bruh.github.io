@@ -144,6 +144,70 @@
         }
     },
 
+    "Wake on LAN Website": {
+        "desc": "Website built in PHP designed to send Wake on LAN magic packets to hosts on an internal network by MAC address.",
+        "picture": {
+            "hasPicture": true, 
+            "pictureURL": "https://raw.githubusercontent.com/glob-bruh/GlobbruhWebsites/refs/heads/main/WakeOnLan/logo.png"
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false, 
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/GlobbruhWebsites/tree/main/WakeOnLan",
+            "websiteURL": "", 
+            "blogPageURL": ""
+        }
+    },
+
+    "Youtube Download-and-Delete": {
+        "desc": "Website built with PHP designed to provide a simple-to-use frontend for YT-DLP. Its built for low-capacity systems and designed for temporary viewing and downloading of media.",
+        "picture": {
+            "hasPicture": true, 
+            "pictureURL": "https://raw.githubusercontent.com/glob-bruh/GlobbruhWebsites/refs/heads/main/GB-D%26D/logo.png"
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false, 
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/GlobbruhWebsites/tree/main/GB-D%26D",
+            "websiteURL": "", 
+            "blogPageURL": ""
+        }
+    },
+
+    "Filespeed": {
+        "desc": "Created for a college midterm, FileSpeed is a simple file sharing website that uses randomly generated filenames for shareable links. The website is built with PHP and features a SHA1 upload blacklist and extensive logging.",
+        "picture": {
+            "hasPicture": true, 
+            "pictureURL": "https://raw.githubusercontent.com/glob-bruh/GlobbruhWebsites/refs/heads/main/FileSpeed/public/logo.png"
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false, 
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/GlobbruhWebsites/tree/main/FileSpeed",
+            "websiteURL": "", 
+            "blogPageURL": ""
+        }
+    },
+
+    "Cisco4FPBX": {
+        "desc": "Script designed to simplify TFTP configuration for Cisco phones using FreePBX.",
+        "picture": {
+            "hasPicture": false, 
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false, 
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/Cisco4FPBX",
+            "websiteURL": "", 
+            "blogPageURL": ""
+        }
+    },
+
     "LiteNVR": {
         "desc": "Minimal self-healing NVR system engineered to capture raw RTSP camera streams via FFmpeg and write them directly to a remote network-attached storage (NAS) share.",
         "picture": {
@@ -171,6 +235,86 @@
             "hasWebsite": false, 
             "hasBlogPage": false, 
             "githubURL": "https://github.com/glob-bruh/Slack-DoorAccess-Notification",
+            "websiteURL": "", 
+            "blogPageURL": ""
+        }
+    },
+
+    "JS DVD Menu Simulator": {
+        "desc": "Client-side web framework designed to simulate menu systems from DVD's.",
+        "picture": {
+            "hasPicture": false, 
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false, 
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/DVDMenuSimulator",
+            "websiteURL": "", 
+            "blogPageURL": ""
+        }
+    },
+
+    "Test Drive Pong for Windows": {
+        "desc": "Created for an assignment and released with permission from the instructor, this Windows form project is a remake of the loading screen from the racing video-game Test Drive on the PlayStation 2.",
+        "picture": {
+            "hasPicture": false, 
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false, 
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/TestDrivePongRemake",
+            "websiteURL": "", 
+            "blogPageURL": ""
+        }
+    },
+
+    "DiskSmasher": {
+        "desc": "Open-source version of a proprietary disk scanning script built in PowerShell. It has also been written from scratch and does not modify settings (only scans).",
+        "picture": {
+            "hasPicture": false, 
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false, 
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/DiskSmasher",
+            "websiteURL": "", 
+            "blogPageURL": ""
+        }
+    },
+
+    "BrowserNeedle": {
+        "desc": "PowerShell script designed to analyze web browsers on a Windows system. It can extract browser history, installed extensions, and other relevant data from popular browsers like Microsoft Edge, Google Chrome, and Mozilla Firefox. Used for both blue-team and red-team purposes.",
+        "picture": {
+            "hasPicture": false, 
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false, 
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/PowerShellScripts/tree/main/BrowserNeedle",
+            "websiteURL": "", 
+            "blogPageURL": ""
+        }
+    },
+
+    "AuditDeepscan": {
+        "desc": "PowerShell script designed to process audit log entries from a Microsoft Purview Audit Export CSV file, extracts IP addresses, and queries an external API to retrieve detailed information about those IPs. It enriches the audit log entries with this information and provides options to filter based on multiple criteria such as IP type, UserID, and Operation type.",
+        "picture": {
+            "hasPicture": false, 
+            "pictureURL": ""
+        },
+        "buttons": {
+            "hasGithub": true,
+            "hasWebsite": false, 
+            "hasBlogPage": false, 
+            "githubURL": "https://github.com/glob-bruh/PowerShellScripts/tree/main/AuditDeepscan",
             "websiteURL": "", 
             "blogPageURL": ""
         }
