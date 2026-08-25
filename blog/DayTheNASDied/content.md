@@ -1,7 +1,7 @@
 
 !# Day the NAS Died
 
-!## Published: June 16th, 2021 /// Last Edited: June 16th, 2021
+!## Published: August 25th, 2026
 
 ![](graphic.png)
 
