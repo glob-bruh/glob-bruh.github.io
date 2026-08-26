@@ -235,7 +235,7 @@ function attachUsageTxt() {
   var mdElem = document.querySelector("#MARKDOWN-CONTENT-HERE");
   mdElem.innerHTML = x;
   collapseParser(); // THIS CONVERTS THE DROPDOWN TAGS TO ACTUAL DROPDOWNS
-  document.getElementById("preventPeopleFromGoingBlind").remove();
+  if (providedText === undefined) { document.getElementById("preventPeopleFromGoingBlind").remove(); } // Aero will break if this is not inside an IF statement. 
   return;
 }
 
