@@ -7,6 +7,8 @@
 
 If you find yourself interested in my collection, or perhaps know something I don't, feel free to connect with me. 
 
+#WARN# Any enterprises seeking to contact the operator of this page regarding the content displayed should send their concerns and reasons for contact and  directly to the following addresses instead of the hosting provider: [email 1](mailto:g0@beyondgone.xyz), [email 2](mailto:globbruh@proton.me). Expect mail to be read between 24-48 hours. Any communication sent to these emails is subject to publication. 
+
 #WARN# All screeners contained in this blog have been legally acquired through second-hand marketplaces. I have always had a personal rule to never purchase any screeners for unreleased content, and to never purchase any screeners that have been produced in the last 12 months (to ensure that the content is no longer in the award season). This is done to deliberately avoid possessing stolen unreleased content, or content that has active confidentiality. 
 
 #WARN# This blog post will be extremely large, contains numerous images, and will be slated for migration to its own platform/website if it exceeds the size limit for my personal website repo. Despite lazy loading being enabled for the entire blog, be weary of your bandwidth usage. If the page migrates, please consult the homepage as a new link will likely be posted under the blogs section. 
