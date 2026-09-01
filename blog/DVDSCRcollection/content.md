@@ -5,29 +5,63 @@
 
 ## Intro: 
 
+This article is an in-depth analysis and study into the film industry, its behaviors, and how it operates during the award season by using screener DVD's. 
+
 If you find yourself interested in my collection, or perhaps know something I don't, feel free to connect with me. 
 
-#WARN# Any enterprises seeking to contact the operator of this page regarding the content displayed should send their concerns and reasons for contact and  directly to the following addresses instead of the hosting provider: [email 1](mailto:g0@beyondgone.xyz), [email 2](mailto:globbruh@proton.me). Expect mail to be read between 24-48 hours. Any communication sent to these emails is subject to publication. 
+#WARN# Any enterprises seeking to contact the operator of this page regarding the content displayed should send their concerns and reasons for contact directly to the following addresses instead of the hosting provider: [email 1](mailto:g0@beyondgone.xyz), [email 2](mailto:globbruh@proton.me). Expect mail to be read between 24-48 hours. Any communication sent to these emails is subject to publication. 
 
 #WARN# All screeners contained in this blog have been legally acquired through second-hand marketplaces. I have always had a personal rule to never purchase any screeners for unreleased content, and to never purchase any screeners that have been produced in the last 12 months (to ensure that the content is no longer in the award season). This is done to deliberately avoid possessing stolen unreleased content, or content that has active confidentiality. 
 
 #WARN# This blog post will be extremely large, contains numerous images, and will be slated for migration to its own platform/website if it exceeds the size limit for my personal website repo. Despite lazy loading being enabled for the entire blog, be weary of your bandwidth usage. If the page migrates, please consult the homepage as a new link will likely be posted under the blogs section. 
 
-#NOTE# Some covers may have been post-edited to be stitched together, especially if the case folds out to be significantly long. All image collages read from left-to-right unless otherwise specified.
+#NOTE# Most content has been post-edited to be stitched together, especially if cases folds out to be significantly long. All image collages read from left-to-right unless otherwise specified.
+
+#NOTE# All entries are categorized by year. The year is determined from the year of the screeners production (the one printed on the box), not the year of the presentations release.
 
 #NOTE# Please note that these screeners can both physically and digitally contain sensitive information, such as personal details or watermarks that trace back to Screen Actor Guild (or other unionized) members or login codes to secure FYC portals. Personal or identifiable details have been redacted. 
 
+#DROP# FAQ
+
+**Why do some of the screeners on DVD mention videocassettes or look like they came from a tape?**
+
+A long time ago before DVD's were mainstream, some guild members (and video rental stores) would receive VHS screeners. These would be the production essentially copied to a videocassette tape, to which the recipient would then insert and play. During the VHS-to-DVD era from the early 2000's, some guild members had abandoned VHS in favor of DVD while others were still relying on VHS. This created a conundrum where studios needed to keep track of which members preferred which type of media, which led to high costs due to producing the same material across different media formats. Sometimes companies would cut costs by taking internal VHS copies of their production and burn the digitized version to DVD. This would sometimes leave mentions that the viewer was watching on a VHS or would have lower quality despite using optical media. 
+
+**Why are there no really recent titles (even with your self-imposed rules)?**
+
+Aside from my personal rules as described in the warnings above, many guilds and award ceremonies have simply phased out optical media entirely. Guild members will often access their content through codes emailed (or mailed) to them, and stream it from a dedicated FYC page provisioned by the studio/publisher. Optical media also had issues where it was easy to pass around, and studios often could not physically track where the disc itself went. With streaming, those risks are evaporated. Leaks and unauthorized logins are also extremely easy to remediate and troubleshoot with streaming, as there is a complete log of the members activity stored on the studios infrastructure. Optical media also had environmental risks, as guild members would be instructed to destroy their screener DVD's leading to significant plastic waste buildup.
+
+**Why is the same show split into multiple sets of screeners, sometimes with different episodes?** 
+
+Award ceremonies (especially the Emmy's) work on very specific per-category basis, such as those separated by both genre and role. Studios will often press and ship multiple screeners to target these specific roles as opposed to one big screener collection. Think one disc set for the main actors, and another disc set for the guest actors. This also allows studios to physically separate the content you will be ingesting for that category, so that other episodes don't bleed into the voters decision-making, or leave them searching for the specific actor across multiple episodes. Online FYC portals still have the control to segment their content for voter accessibility and ease-of-use, however the Emmy's no longer permit optical media to be mailed. 
+
+#PORD#
+
 ## Collection: 
 
-#DROP# How To Train Your Dragon: The Hidden World - DreamWorks - 2018
+#DROP# 2018 - How To Train Your Dragon: The Hidden World - DreamWorks
 
 ### Intro: 
 A screener for one of DreamWorks [later installments](https://www.imdb.com/title/tt2386490/) in the How To Train Your Dragon series. 
 
+### Physical content: 
+
+#### Case: 
+
+Ships in a relatively standard foldout-style mailer case. Case feels constructed from cardboard.
+
+![](HowToTrainYourDragonTheHiddenWorld/covers.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case. 
+
+#### DVD: 
+
+Branded DVD containing the film.
+
+#IMGSML# HowToTrainYourDragonTheHiddenWorld/dvd.png
+
 ### Digital content:
 File listing: 
 ```
-.
 ├── AUDIO_TS
 └── VIDEO_TS
     ├── VIDEO_TS.BUP
@@ -57,7 +91,7 @@ Screenshots:
 
 #PORD#
 
-#DROP# Emmy Screener Set - Netflix - 2016
+#DROP# 2016 - Emmy Screener Set - Netflix
 
 ### Intro:
 This thing was **infamous** during the awards season for the sheer size and weight of the set. It [made the news](https://www.independent.co.uk/arts-entertainment/tv/news/netflix-makes-a-statement-by-sending-emmy-voters-20-pounds-worth-of-screeners-a7068476.html), and weighed in at [over 20 pounds](https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/07/08/emmys.jpg). Even more impressive is that guild members who received this behemoth never actually paid for it, they were shipped courtesy of Netflix for the award season. 
@@ -141,17 +175,48 @@ Nothing yet
 
 #PORD# 
 
-#DROP# Manchester By The Sea - Amazon Studios - 2016
+#DROP# 2016 - Manchester By The Sea - Amazon Studios
 
 ### Intro:
 
 A screener for the film [Manchester By The Sea](https://www.imdb.com/title/tt4034228/) for the SAG-AFTRA awards consideration. I watched a bit of the film from the screener disc and its a very well-made film.
 
+### Physical content: 
+
+#### Case: 
+
+Ships in a relatively standard foldout-style case. Case feels constructed from cardboard. 
+
+![](ManchesterByTheSea2016SAGAFTA/covers.png)
+#CAPT# TOP: Exterior content of the case that folds out. BOTTOM: Inside content of the case that folds out. 
+
+#### DVD:
+
+The disc itself is pretty much a standard Amazon issued disc. It contains none of the features branding or artwork. 
+
+#IMGSML# ManchesterByTheSea2016SAGAFTA/dvd.png
+
+**Redacted content:**
+1) Identifiable serial number/ID with barcode. 
+
+#### SAG-AFTRA Voting Card: 
+
+This screener also contained a rather rare and interesting item, that being the SAG-AFTRA calling card still inside the screeners case.    
+
+![](ManchesterByTheSea2016SAGAFTA/votingcard.png)
+
+**Redacted content:**
+1) Handwritten 7-character code, likely either a code to sign in digitally or tracking information.
+2) ZIP code for recipient.
+3) Intelligent mail barcode. 
+4) Recipient name. 
+5) Recipient address. 
+6) Internal postal tracking codes. 
+
 ### Digital content:
 
 File listing: 
 ```
-.
 ├── AUDIO_TS
 └── VIDEO_TS
     ├── VIDEO_TS.BUP
@@ -174,38 +239,115 @@ Screenshots:
 ![](ManchesterByTheSea2016SAGAFTA/subtitle.png)
 #CAPT# Screenshot of the subtitle programming.
 
+#PORD#
+
+#DROP# 2015 - The Hateful Eight - The Weinstein Company
+
+### Intro: 
+
+Oscar-winning film [The Hateful Eight](https://www.imdb.com/title/tt3460252/) is a post-civil-war drama and thriller directed by Quentin Tarantino. 
+
+One interesting fact about this film was that before it released, it [was reported to have leaked online](https://www.hollywoodreporter.com/movies/movie-news/hateful-eight-pirated-screener-traced-850899/) during awards consideration season by warez group `Hive-CM8`. The group claims the film was acquired by a street vendor at the time. 
+
 ### Physical content: 
 
 #### Case: 
 
-Ships in a relatively standard foldout-style case. Case feels constructed from cardboard. 
+Ships in a very to-the-point case that holds the DVD. DVD label contains no special branding.
 
-![](ManchesterByTheSea2016SAGAFTA/covers.png)
-#CAPT# TOP: Exterior content of the case that folds out. BOTTOM: Inside content of the case that folds out. 
+![](Hateful8/covers.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case, including DVD.
 
+**Redacted content:**
+1) Identifiable serial number/ID with barcode. 
+
+### Digital content:
+
+**File listing:**
+```
+├── AUDIO_TS
+├── DISC.ID
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    └── VTS_01_7.VOB
+```
+
+**What is `DISC.ID`?**
+
+When I `cat` this file, it reveals a 15-character string. The first character is a lowercase letter, with the rest being numbers. This is most definitely a weak method of watermarking, however it does not exclude the fact that watermarking may be burned into the video and audio tracks. This is likely a deterrent to prevent copying, or a way to very quickly identify whose copy it is if someone gets lazy and uploads it without stripping the file out. The numbers in this string has no apparent correlation with the numbers printed on the DVD. 
+
+**Screenshots:**
+![](Hateful8/preshow.png)
+#CAPT# Images of all content before the film starts. 
+![](Hateful8/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](Hateful8/subtitle.png)
+#CAPT# Screenshot of the subtitle programming.
+
+#PORD#
+
+#DROP# 2003 - ER - Warner Brothers
+
+### Intro:
+
+[ER](https://www.imdb.com/title/tt0108757/) was a television medical drama that lasted from 1994 to 2009. It was well very well received and was awarded many times during its time on the air. 
+
+These screeners seem to have originally been VHS screeners copied to DVD, as the video contains VHS artifacts. 
+
+#DROP# Guest Performances Set
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a regular black plastic DVD case, features very heavenly-like white and black artwork printed on the front and back.
+
+![](ER03-GuestPerf/covers.png)
 
 #### DVD:
 
-The disc itself is pretty much a standard Amazon issued disc. It contains none of the features branding or artwork. 
+A very basic DVD. The label feels like its a sticker applied to a disc, not so much an actual professional print.
 
-#IMGSML# ManchesterByTheSea2016SAGAFTA/dvd.png
+#IMGSML# ER03-GuestPerf/dvd.png
 
-**Redacted content:**
+### Digital content:
 
-1) Identifiable serial number/ID with barcode. 
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    └── VTS_03_1.VOB
+```
 
-#### SAG-AFTRA Voting Card: 
-
-This screener also contained a rather rare and interesting item, that being the SAG-AFTRA calling card still inside the screeners case.    
-
-![](ManchesterByTheSea2016SAGAFTA/votingcard.png)
-
-**Redacted content:**
-1) Handwritten 7-character code, likely either a code to sign in digitally or tracking information.
-2) ZIP code for recipient.
-3) Intelligent mail barcode. 
-4) Recipient name. 
-5) Recipient address. 
-6) Internal postal tracking codes. 
+**Screenshots:**
+![](ER03-GuestPerf/preshow.png)
+#CAPT# Images of all content before either episode starts. The last 2 images depend on which option was selected on the DVD menu.
 
 #PORD#
