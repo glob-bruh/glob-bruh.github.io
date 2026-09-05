@@ -91,9 +91,34 @@ Screenshots:
 
 #PORD#
 
+#DROP# 2017 - The 3 Worlds of Gulliver Pre-Production Blu-ray - Powerhouse
+
+### Intro:
+
+Assumed to be a pre-production re-release of the [1960 film](https://www.imdb.com/title/tt0053882/) pressed to Blu-ray.
+
+### Physical contents: 
+
+#### DVD:
+
+#IMGSML# 3WorldsGulliver/dvd.png
+
+**Redacted content:**
+1) Text-based product code.
+2) Day and month of creation date. Use unknown, could be linked back to individual pressings if limited.
+
+### Digital content:
+
+Screenshots: 
+![](3WorldsGulliver/preshow.png)
+#CAPT# Images of all content before the film starts. The first image on row 2 is the special features, and the second image on row 2 is the setup menu.
+
+#PORD#
+
 #DROP# 2016 - Emmy Screener Set - Netflix
 
 ### Intro:
+
 This thing was **infamous** during the awards season for the sheer size and weight of the set. It [made the news](https://www.independent.co.uk/arts-entertainment/tv/news/netflix-makes-a-statement-by-sending-emmy-voters-20-pounds-worth-of-screeners-a7068476.html), and weighed in at [over 20 pounds](https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/07/08/emmys.jpg). Even more impressive is that guild members who received this behemoth never actually paid for it, they were shipped courtesy of Netflix for the award season. 
 
 And I got one. 
@@ -300,7 +325,7 @@ When I `cat` this file, it reveals a 15-character string. The first character is
 
 ### Intro:
 
-[ER](https://www.imdb.com/title/tt0108757/) was a television medical drama that lasted from 1994 to 2009. It was well very well received and was awarded many times during its time on the air. 
+[ER](https://www.imdb.com/title/tt0108757/) was a television medical drama that lasted from 1994 to 2009. It was very well received and was awarded many times during its time on the air. 
 
 These screeners seem to have originally been VHS screeners copied to DVD, as the video contains VHS artifacts. 
 
@@ -312,13 +337,13 @@ These screeners seem to have originally been VHS screeners copied to DVD, as the
 
 Ships in a regular black plastic DVD case, features very heavenly-like white and black artwork printed on the front and back.
 
-![](ER03-GuestPerf/covers.png)
+![](ER2003/GuestPerformance/covers.png)
 
 #### DVD:
 
 A very basic DVD. The label feels like its a sticker applied to a disc, not so much an actual professional print.
 
-#IMGSML# ER03-GuestPerf/dvd.png
+#IMGSML# ER2003/GuestPerformance/dvd.png
 
 ### Digital content:
 
@@ -347,7 +372,7 @@ A very basic DVD. The label feels like its a sticker applied to a disc, not so m
 ```
 
 **Screenshots:**
-![](ER03-GuestPerf/preshow.png)
+![](ER2003/GuestPerformance/preshow.png)
 #CAPT# Images of all content before either episode starts. The last 2 images depend on which option was selected on the DVD menu.
 
 #PORD#
