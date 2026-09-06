@@ -33,7 +33,7 @@ Aside from my personal rules as described in the warnings above, many guilds and
 
 **Why is the same show split into multiple sets of screeners, sometimes with different episodes?** 
 
-Award ceremonies (especially the Emmy's) work on very specific per-category basis, such as those separated by both genre and role. Studios will often press and ship multiple screeners to target these specific roles as opposed to one big screener collection. Think one disc set for the main actors, and another disc set for the guest actors. This also allows studios to physically separate the content you will be ingesting for that category, so that other episodes don't bleed into the voters decision-making, or leave them searching for the specific actor across multiple episodes. Online FYC portals still have the control to segment their content for voter accessibility and ease-of-use, however the Emmy's no longer permit optical media to be mailed. 
+Award ceremonies (especially the Emmy's) work on very specific per-category basis, such as those separated by both genre and role. Studios will often press and ship multiple screeners to target these specific roles as opposed to one big screener collection. Think one disc set for the main actors, and another disc set for the guest actors. This also allows studios to physically separate the content you will be ingesting for that category, so that other episodes don't bleed into the voters decision-making, or leave them searching for the specific actor across multiple episodes. Online FYC portals still have the control to segment their content for voter accessibility and ease-of-use, however most award ceremonies no longer permit optical media to be mailed. 
 
 #PORD#
 
@@ -325,9 +325,108 @@ When I `cat` this file, it reveals a 15-character string. The first character is
 
 ### Intro:
 
-[ER](https://www.imdb.com/title/tt0108757/) was a television medical drama that lasted from 1994 to 2009. It was very well received and was awarded many times during its time on the air. 
+[ER](https://www.imdb.com/title/tt0108757/) was a television medical drama that lasted from 1994 to 2009. It was very well received and was awarded many times during its time on the air. DVD's ship in a black plastic DVD case. While previewing the episodes I actually got hooked on the episodes across these discs, and the show is very well made. Turns out the covers can be very deceiving, as this show can get quite graphic despite the very heavenly-like white and black artwork printed on the front and back (which I should of seen coming for a medical drama). The labels on the discs themselves feels like its a sticker, not so much an actual professional print.
 
-These screeners seem to have originally been VHS screeners copied to DVD, as the video contains VHS artifacts. 
+These 3 sets are from season 9. These screeners seem to have originally been VHS screeners copied to DVD, as the video contains VHS artifacts. What is also fascinating is that the episode "First Snowfall" appears on all 3 sets, which likely means the studio wanted to get as many eyes on this episode as possible. 
+
+I found out the general set was named such from the DVD volume name. The name burned to the DVD was `ER_GENERAL`.
+
+#DROP# Outstanding Performances Set
+
+### Intro: 
+
+These appear to be some of the most powerful and action-packed selections picked out for guild consideration.  
+
+### Physical content: 
+
+#### Case: 
+
+![](ER2003/OutstandingPerformance/cover.png)
+
+#### DVD:
+
+![](ER2003/OutstandingPerformance/dvd.png)
+
+### Digital content:
+
+#DROP# Disc 1
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    ├── VTS_03_1.VOB
+    ├── VTS_03_2.VOB
+    ├── VTS_04_0.BUP
+    ├── VTS_04_0.IFO
+    ├── VTS_04_0.VOB
+    └── VTS_04_1.VOB
+```
+
+**Screenshots:**
+#IMGSML# ER2003/OutstandingPerformance/D1/preshow.png
+#CAPT# Images of all content before either episode starts. The last 3 rows of images depend on which option was selected on the DVD menu. 
+
+#PORD#
+
+#DROP# Disc 2
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    ├── VTS_03_1.VOB
+    ├── VTS_03_2.VOB
+    ├── VTS_04_0.BUP
+    ├── VTS_04_0.IFO
+    ├── VTS_04_0.VOB
+    ├── VTS_04_1.VOB
+    ├── VTS_04_2.VOB
+    ├── VTS_05_0.BUP
+    ├── VTS_05_0.IFO
+    ├── VTS_05_0.VOB
+    ├── VTS_05_1.VOB
+    └── VTS_05_2.VOB
+```
+
+**Screenshots:**
+#IMGSML# ER2003/OutstandingPerformance/D2/preshow.png
+#CAPT# Images of all content before either episode starts. The last 4 images depend on which option was selected on the DVD menu. 
+
+#PORD#
+
+#PORD#
 
 #DROP# Guest Performances Set
 
@@ -335,13 +434,9 @@ These screeners seem to have originally been VHS screeners copied to DVD, as the
 
 #### Case: 
 
-Ships in a regular black plastic DVD case, features very heavenly-like white and black artwork printed on the front and back.
-
 ![](ER2003/GuestPerformance/covers.png)
 
 #### DVD:
-
-A very basic DVD. The label feels like its a sticker applied to a disc, not so much an actual professional print.
 
 #IMGSML# ER2003/GuestPerformance/dvd.png
 
@@ -373,6 +468,51 @@ A very basic DVD. The label feels like its a sticker applied to a disc, not so m
 
 **Screenshots:**
 ![](ER2003/GuestPerformance/preshow.png)
+#CAPT# Images of all content before either episode starts. The last 2 images depend on which option was selected on the DVD menu. 
+
+#PORD#
+
+#DROP# General Set 
+
+### Physical content: 
+
+#### Case: 
+
+![](ER2003/General/covers.png)
+
+#### DVD:
+
+#IMGSML# ER2003/General/dvd.png
+
+### Digital content:
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    └── VTS_03_1.VOB
+```
+
+**Screenshots:**
+![](ER2003/General/preshow.png)
 #CAPT# Images of all content before either episode starts. The last 2 images depend on which option was selected on the DVD menu.
 
 #PORD#
