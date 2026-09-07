@@ -35,9 +35,52 @@ Aside from my personal rules as described in the warnings above, many guilds and
 
 Award ceremonies (especially the Emmy's) work on very specific per-category basis, such as those separated by both genre and role. Studios will often press and ship multiple screeners to target these specific roles as opposed to one big screener collection. Think one disc set for the main actors, and another disc set for the guest actors. This also allows studios to physically separate the content you will be ingesting for that category, so that other episodes don't bleed into the voters decision-making, or leave them searching for the specific actor across multiple episodes. Online FYC portals still have the control to segment their content for voter accessibility and ease-of-use, however most award ceremonies no longer permit optical media to be mailed. 
 
+**What is a Technicolor security seal (or security seals in general)?**
+
+During award seasons piracy groups knew when FYC content would ship from studios and press factories to the voters. Studios knew that once discs left the warehouse, they needed to trust the mail system to ensure that the discs make it to their destination and remain confidential. Theft was becoming rampant due to intermediary groups from shipping companies or office associates being incentivized by piracy groups to steal the disc or mailer itself before the recipient could actually receive it. Once the disc (or a copy of it) is in the hands of a piracy group, they would rush as fast as possible to release the film illegally for scenegroup reputation, especially considering some of these films were HD versions of unreleased blockbuster hits. To discourage this, Technicolor made a security seal that would be stuck to the mailers covers to ensure the mailer cannot be opened until either the sticker is peeled off (which leaves VOID text on the package) or is cut, which is also noticeable. If the recipient received a mailer with a broken seal, they would be instructed to report the tampering to the studio who shipped it so they can investigate who is responsible. 
+
+![](TC-seal1.png)
+#CAPT# Example of a Technicolor security seal with each side of the sticker put together.
+
 #PORD#
 
 ## Collection: 
+
+#DROP# 2023 - Priscilla - A24
+
+### Intro:
+
+[Priscilla](https://www.imdb.com/title/tt22041854/) is a film that follows Priscilla Presley, rock legend Elvis Presley's wife. Priscilla is also named as a writer for this film. 
+
+### Digital content:
+File listing: 
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    └── VTS_01_7.VOB
+```
+
+Screenshots:
+![](Priscilla/preshow.png)
+#CAPT# Images of all content before the film starts. Selecting the NO option returns DVDNAV_STOP, a command from the DVD letting the DVD player know to halt playback.
+![](Priscilla/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](Priscilla/subtitle.png)
+#CAPT# Screenshot of the subtitle programming. Spanish subtitles use the same programming.
+
+#PORD#
 
 #DROP# 2018 - How To Train Your Dragon: The Hidden World - DreamWorks
 
@@ -95,7 +138,7 @@ Screenshots:
 
 ### Intro:
 
-Assumed to be a pre-production re-release of the [1960 film](https://www.imdb.com/title/tt0053882/) pressed to Blu-ray.
+Assumed to be a pre-production re-release of the [1960 film](https://www.imdb.com/title/tt0053882/) pressed to Blu-ray. Not really a screener but somehow I have it. 
 
 ### Physical contents: 
 
@@ -516,3 +559,147 @@ These appear to be some of the most powerful and action-packed selections picked
 #CAPT# Images of all content before either episode starts. The last 2 images depend on which option was selected on the DVD menu.
 
 #PORD#
+
+#PORD#
+
+#DROP# 2002 - Emmy Consideration Set - Discovery Channel
+
+### Intro:
+
+Set of content mailed to guild members from the Discovery Channel. Every program on inside this set is a documentary.
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a cardboard fold-out case. There is only 3 disc slots despite shipping with 4 discs, so disc 1 and 2 are in the same slot.
+
+![](DiscoveryChannel2002/case.png)
+#CAPT# Top row is the exterior of the case, and  the bottom row is the interior.
+
+#### DVD:
+
+#IMGSML# DiscoveryChannel2002/dvd.png
+
+#### Program Card: 
+
+This card explains each program and which category they are eligible for. 
+
+![](DiscoveryChannel2002/card.png)
+#CAPT# Each row represents each side of the foldout card.
+
+### Digital content:
+
+#DROP# Disc 1 - Featured Program (Blue Planet: Seas of Life)
+
+**Intro:**
+
+[The Blue Planet](https://www.imdb.com/title/tt0296310/) is a water-focused nature documentary series. This is a *nearly 5 hour* presentation with some very impressive videography for the time. 
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    ├── VTS_01_7.VOB
+    └── VTS_01_8.VOB
+```
+
+**Screenshots:**
+![](DiscoveryChannel2002/preshow-featured.png)
+#CAPT# Disc directly loads into this DVD menu. Videos immediately play when feature is selected. 
+
+#PORD#
+
+#DROP# Disc 2 - Animated Programming
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    ├── VTS_01_7.VOB
+    └── VTS_01_8.VOB
+```
+
+**Screenshots:**
+![](DiscoveryChannel2002/preshow-animated.png)
+#CAPT# Disc directly loads into this DVD menu. Videos immediately play when feature is selected. 
+
+#PORD#
+
+#DROP# Disc 3 - Non-fiction/Reality Programming 1
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    ├── VTS_01_7.VOB
+    └── VTS_01_8.VOB
+```
+
+**Screenshots:**
+![](DiscoveryChannel2002/preshow-nonficreality1.png)
+#CAPT# Disc directly loads into this DVD menu. Videos immediately play when feature is selected. 
+
+#PORD#
+
+#DROP# Disc 4 - Non-fiction/Reality Programming 2
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    ├── VTS_01_7.VOB
+    └── VTS_01_8.VOB
+```
+
+**Screenshots:**
+![](DiscoveryChannel2002/preshow-nonficreality2.png)
+#CAPT# Disc directly loads into this DVD menu. Videos immediately play when feature is selected. 
+
+#PORD#
+
+#PORD# 
