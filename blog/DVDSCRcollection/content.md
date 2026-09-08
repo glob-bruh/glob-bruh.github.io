@@ -19,7 +19,7 @@ If you find yourself interested in my collection, or perhaps know something I do
 
 #NOTE# All entries are categorized by year. The year is determined from the year of the screeners production (the one printed on the box), not the year of the presentations release.
 
-#NOTE# Please note that these screeners can both physically and digitally contain sensitive information, such as personal details or watermarks that trace back to Screen Actor Guild (or other unionized) members or login codes to secure FYC portals. Personal or identifiable details have been redacted. 
+#NOTE# Please note that sensitive information contained on the screeners has been redacted. Please consult the FAQ for more information. 
 
 #DROP# FAQ
 
@@ -42,15 +42,96 @@ During award seasons piracy groups knew when FYC content would ship from studios
 ![](TC-seal1.png)
 #CAPT# Example of a Technicolor security seal with each side of the sticker put together.
 
+**Why is there so many things redacted?**
+
+Awards screeners both physically and digitally contain sensitive information, such as personal details, watermarks, or FYC portal login codes that trace directly back to Screen Actor Guild members or other unionized members. Studios also partnered with massive DVD pressing companies to make custom pressings of these discs, and as such some have hardware-level identifiers printed on them. In this blog, anything that could trace back to a guild member has been redacted as the punishments inside these circles for not destroying or returning copies is severe. Remember that these discs (at the time of their distribution) contained unreleased films, and piracy groups would do anything they could to get their hands on them. 
+
+![](guildwarn.png)
+#CAPT# This screener explains exactly what could happen to guild members whose screeners land in the hands of pirates seeking unreleased blockbuster hits. 
+
 #PORD#
 
 ## Collection: 
+
+#DROP# 2023 - Origin - NEON
+
+### Intro:
+
+[Priscilla](https://www.imdb.com/title/tt22041854/) is a film that follows Priscilla Presley, rock legend Elvis Presley's wife. Priscilla is also named as a writer for this film. 
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a standard mailer case. Case feels constructed from cardboard.
+
+![](Origin2023/covers.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case. 
+
+#### DVD: 
+
+DVD containing the film.
+
+#IMGSML# Origin2023/dvd.png
+
+**Redacted content:**
+1) Identifiable serial number/ID with barcode. 
+
+### Digital content:
+File listing: 
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    └── VTS_03_1.VOB
+```
+
+Screenshots:
+![](Origin2023/preshow.png)
+#CAPT# Images of all content before the film starts. Selecting the NO option does nothing.
+![](Origin2023/watermark.png)
+#CAPT# Screenshot of the watermark. This one is more intrusive than usual.
+![](Origin2023/subtitle.png)
+#CAPT# Screenshot of the subtitle programming.
+
+#PORD#
 
 #DROP# 2023 - Priscilla - A24
 
 ### Intro:
 
 [Priscilla](https://www.imdb.com/title/tt22041854/) is a film that follows Priscilla Presley, rock legend Elvis Presley's wife. Priscilla is also named as a writer for this film. 
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a standard mailer case. Case feels constructed from cardboard.
+
+![](Priscilla/case.png)
+#CAPT# TOP: Inside content of the case. BOTTOM: Exterior content of the case. 
+
+#### DVD: 
+
+DVD containing the film.
+
+#IMGSML# Priscilla/dvd.png
 
 ### Digital content:
 File listing: 
@@ -79,6 +160,77 @@ Screenshots:
 #CAPT# Screenshot of the watermark.
 ![](Priscilla/subtitle.png)
 #CAPT# Screenshot of the subtitle programming. Spanish subtitles use the same programming.
+
+#PORD#
+
+#DROP# 2020 - Herself - Amazon Studios
+
+### Intro:
+
+[Herself](https://www.imdb.com/title/tt9902160/) is a rather fascinating Irish film that follows a single mother building their own home. The films budget is not public (though based off the licensed music it must of been moderately high), but it did gross 3/4 of a million.
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a standard eco-friendly mailer.
+
+![](Herself/covers.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case. 
+
+#### DVD: 
+
+DVD containing the film. The disc's labeling is very to the point.
+
+#IMGSML# Herself/dvd.png
+
+**Redacted content:**
+1) Middle hub has suspicious notches imprinted into it. Its not known whether this is damage or some form of marking/keying, but its suspicious enough that it should be redacted. 
+2) Identifiable serial number/ID with barcode. 
+
+### Digital content:
+File listing: 
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_1.VOB
+    ├── VTS_04_0.BUP
+    ├── VTS_04_0.IFO
+    ├── VTS_04_0.VOB
+    ├── VTS_04_1.VOB
+    ├── VTS_05_0.BUP
+    ├── VTS_05_0.IFO
+    ├── VTS_05_1.VOB
+    ├── VTS_05_2.VOB
+    ├── VTS_05_3.VOB
+    ├── VTS_05_4.VOB
+    ├── VTS_05_5.VOB
+    ├── VTS_06_0.BUP
+    ├── VTS_06_0.IFO
+    ├── VTS_06_1.VOB
+    ├── VTS_07_0.BUP
+    ├── VTS_07_0.IFO
+    └── VTS_07_1.VOB
+```
+
+Screenshots:
+![](Herself/preshow.png)
+#CAPT# Images of all content before the film starts. Selecting the NO option returns DVDNAV_STOP, a command from the DVD letting the DVD player know to halt playback.
+![](Herself/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](Herself/subtitle.png)
+#CAPT# Screenshot of the subtitle programming. Other language subtitles use the same programming.
 
 #PORD#
 
@@ -131,6 +283,52 @@ Screenshots:
 #CAPT# Screenshot of the watermark.
 ![](HowToTrainYourDragonTheHiddenWorld/subtitle.png)
 #CAPT# Screenshot of the subtitle programming.
+
+#PORD#
+
+#DROP# 2017 - Call Me By Your Name - Sony Pictures Classics
+
+### Intro:
+
+This DVD contains the film [Call Me By Your Name](https://www.imdb.com/title/tt5726616/).
+
+#### DVD:
+
+A very to-the-point DVD with just the films logo and information on it.  
+
+#IMGSML# CallMeByYourName/dvd.png
+
+**Redacted content:**
+1) Identifiable serial number/ID with barcode. 
+
+### Digital content:
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    └── VTS_01_7.VOB
+```
+
+**Screenshots:**
+![](CallMeByYourName/preshow.png)
+#CAPT# Images of all content before starting the film. When selecting the accept option, the film should begin to play, however DVDNAV would crash when selecting accept. Selecting the decline option shows the last picture. The "No, take me back" option returns you to the accept/decline screen, and selecting "Yes, I'm sure" will halt the DVD (DVDNAV_STOP). We were able to play the film by bypassing all menu options when playing the disc. 
+![](CallMeByYourName/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](CallMeByYourName/subtitle.png)
+#CAPT# Screenshot of subtitle programming. This film also has burned-in subtitling for dialogue that is not English. 
 
 #PORD#
 
@@ -361,6 +559,93 @@ When I `cat` this file, it reveals a 15-character string. The first character is
 #CAPT# Screenshot of the watermark.
 ![](Hateful8/subtitle.png)
 #CAPT# Screenshot of the subtitle programming.
+
+#PORD#
+
+#DROP# 2011 - Big Bang Theory - Warner Brothers
+
+### Intro:
+
+This DVD contains 2 episodes from the TV series [Big Bang Theory](https://www.imdb.com/title/tt0898266/). 
+
+#### DVD:
+
+A standard DVD with the features branding on it.  
+
+#IMGSML# BigBang2011/dvd.png
+
+### Digital content:
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    └── VTS_02_2.VOB
+```
+
+**Screenshots:**
+![](BigBang2011/preshow.png)
+#CAPT# Images of all content before the episodes starts. 
+![](BigBang2011/watermark.png)
+#CAPT# Screenshot of the watermark.
+
+#PORD#
+
+#DROP# 2003 - 24 - 20th Century Fox
+
+### Intro:
+
+[24](https://www.imdb.com/title/tt0285331/) is a show that literally lasts 24 hours (more like 18 without commercial breaks). Does that technically make it a livestream VOD?
+
+#### Program Card: 
+
+A paper program card outlining which episodes are on the disc and the people behind the show. 
+
+![](24_2003/card.png)
+
+#### DVD:
+
+A branded dvd featuring the shows promotional artwork and a lengthy warning.
+
+#IMGSML# 24_2003/dvd.png
+
+### Digital content:
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    └── VTS_01_4.VOB
+```
+
+**Screenshots:**
+![](24_2003/preshow.png)
+#CAPT# Images of all content before starting the film. The DVD boots directly into a video file containing all the preshow content and the episodes themselves. The last row plays halfway through the episodes as they remind the viewer which episode they are watching.
+![](24_2003/endscreen.png)
+#CAPT# An odd screen that only appears at the end of the presentation instructing the viewer to press enter on their remote. Doing so just loops the video over again. Its likely this is some sort of DVD root menu that was never built or was a placeholder.
+![](24_2003/watermark.png)
+#CAPT# Screenshot of the watermark.
 
 #PORD#
 
@@ -703,3 +988,42 @@ This card explains each program and which category they are eligible for.
 #PORD#
 
 #PORD# 
+
+#DROP# Template
+
+### Intro:
+
+I am an intro with an [IMDB](https://www.imdb.com/title/tt5726616/) link.
+
+#### Case: 
+
+Just a case.
+
+![](FOLDER/covers.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case. 
+
+#### DVD:
+
+A dvd.
+
+#IMGSML# FOLDER/dvd.png
+
+**Redacted content:**
+1) Redacted stuff
+
+### Digital content:
+
+**File listing:**
+```
+TREE output here
+```
+
+**Screenshots:**
+![](FOLDER/preshow.png)
+#CAPT# Images of all content before starting the film. 
+![](FOLDER/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](FOLDER/subtitle.png)
+#CAPT# Screenshot of subtitle programming. This film also has burned-in subtitling for dialogue that is not English. 
+
+#PORD#
