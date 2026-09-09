@@ -505,6 +505,51 @@ Screenshots:
 ![](ManchesterByTheSea2016SAGAFTA/subtitle.png)
 #CAPT# Screenshot of the subtitle programming.
 
+### Content and watermark analysis:
+
+A fascinating discovery was that I have 2 copies of this screener, and with 2 copies we can determine if Amazon really did add unique watermarks to each disc. 
+
+The first thing we noticed was that the barcode and ID printed directly on the DVD was the exact same. This was already interesting because it means the label is not necessarily individually identifiable. 
+
+After this, we checked the associated information on each DVD using `dvdbackup` (with `-I` parameter) and `udfinfo`. The information was the exact same. 
+
+```
+diff ./disc1.txt ./disc2.txt
+[NO OUTPUT RETURNED]
+```
+
+Since we cannot natively perform analysis of the files off the DVD (due to returning I/O errors), and since `DD` does not have the capability to read commercial DVD's, we had to resort to using another tool. The tool we used was [dvdbackup](https://wiki.archlinux.org/title/Dvdbackup). DVDBackup allows copying the files contained on a commercial disc directly to internal drives.
+
+```
+$ find ScreenerD1/backup/Manchester\ By\ The\ Sea/VIDEO_TS -type f -exec sha256sum {} \;
+c1a3e083b1191d9cfea9fcb419dace526015052bc50e0375df04a6aa14041ee9  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_3.VOB
+4cac409ee429aea3ce4ced0fde05cc93e032337fe6b221a0d41eca7ae5b7afd0  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.VOB
+684172c3f2140c39c79ef8cd92677a86e0930fc59ecefe764e0ccb8be87688b2  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_4.VOB
+c6dc56cb3b022824f4e5bd945f2bdf3f92643305a907f6aa5474eb8648f54c7b  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.BUP
+73e82d9b348a379b58f4c8bfe6e986c7f4b6169296c83e600832da2196dc9213  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_1.VOB
+b4c41d17f1ae451519e4ba5317c61db8e782d462cabb18c2a990515ad81b37db  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_0.IFO
+4ecaeff1125d9b8a906af1316067df450d24112b2e3b244a8f1db75f86d5dddc  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_2.VOB
+b4c41d17f1ae451519e4ba5317c61db8e782d462cabb18c2a990515ad81b37db  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_0.BUP
+1aa19fb9a1b24ddba8746aa84ce94a931389f3702b4e619593ea5f201aa978b2  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_5.VOB
+c6dc56cb3b022824f4e5bd945f2bdf3f92643305a907f6aa5474eb8648f54c7b  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.IFO
+
+$ find ScreenerD2/backup/Manchester\ By\ The\ Sea/VIDEO_TS -type f -exec sha256sum {} \;
+c1a3e083b1191d9cfea9fcb419dace526015052bc50e0375df04a6aa14041ee9  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_3.VOB
+4cac409ee429aea3ce4ced0fde05cc93e032337fe6b221a0d41eca7ae5b7afd0  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.VOB
+684172c3f2140c39c79ef8cd92677a86e0930fc59ecefe764e0ccb8be87688b2  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_4.VOB
+c6dc56cb3b022824f4e5bd945f2bdf3f92643305a907f6aa5474eb8648f54c7b  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.BUP
+73e82d9b348a379b58f4c8bfe6e986c7f4b6169296c83e600832da2196dc9213  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_1.VOB
+b4c41d17f1ae451519e4ba5317c61db8e782d462cabb18c2a990515ad81b37db  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_0.IFO
+4ecaeff1125d9b8a906af1316067df450d24112b2e3b244a8f1db75f86d5dddc  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_2.VOB
+b4c41d17f1ae451519e4ba5317c61db8e782d462cabb18c2a990515ad81b37db  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_0.BUP
+1aa19fb9a1b24ddba8746aa84ce94a931389f3702b4e619593ea5f201aa978b2  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_5.VOB
+c6dc56cb3b022824f4e5bd945f2bdf3f92643305a907f6aa5474eb8648f54c7b  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.IFO
+```
+
+There was no point of even doing hex comparisons at this point because every single video file was cryptographically the exact same, meaning between each disc there is no unique watermarking in the video or audio itself.
+
+Its very likely that the watermark and traceability warnings burned into the discs is a scare-tactic, as between these 2 discs there is physically and virtually no difference.
+
 #PORD#
 
 #DROP# 2015 - The Hateful Eight - The Weinstein Company
