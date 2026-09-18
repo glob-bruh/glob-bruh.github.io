@@ -49,6 +49,10 @@ Awards screeners both physically and digitally contain sensitive information, su
 ![](guildwarn.png)
 #CAPT# This screener explains exactly what could happen to guild members whose screeners land in the hands of pirates seeking unreleased blockbuster hits. 
 
+**What are some of the products listed in the "built with" point?**
+
+The products listed in the `UDFINFO` output provide insight into exactly how the DVD was produced and burned. The one that appears most frequently is a product called `Sonic Scenarist 3.1`. This is an extremely expensive tool (will run you about $35,000 - $40,000) built by [Scenarist](https://www.scenarist.com/) and the Sonic Solutions technology company designed for advanced enterprise media authoring. [This post from 2002 on Doom9](https://www.doom9.org/index.html?/mpg/scenarist.htm) (a DVD conversion forum) showcases a user recreating a DVD menu from The Matrix, and provides significant technical details into `Scenarist NT`, which provides the same technical basis as its modern counterparts. Another one that pops up once in a while is `Spruce Technologies`. Based off of loose findings online, there was some competition between Apple (with their `DVD Studio Pro 1.0` product) and Spruce Technologies (with their `DVDMaestro` product). Eventually in 2001 Apple [purchased](https://www.macworld.com/article/162029/spruce.html) Spruce Technologies, and as such acquired their authoring software. `DVDMaestro` was then integrated into Apples authoring product to build `DVD Studio Pro 2.0`. 
+
 #PORD#
 
 ## Collection: 
@@ -78,6 +82,11 @@ DVD containing the film.
 1) Identifiable serial number/ID with barcode. 
 
 ### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `ImgBurn`.
+* APPID: `ImgBurn v2.5.8.0`.
+
 File listing: 
 ```
 ├── AUDIO_TS
@@ -134,6 +143,10 @@ DVD containing the film.
 #IMGSML# Priscilla/dvd.png
 
 ### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+
 File listing: 
 ```
 ├── AUDIO_TS
@@ -189,6 +202,10 @@ DVD containing the film. The disc's labeling is very to the point.
 2) Identifiable serial number/ID with barcode. 
 
 ### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+
 File listing: 
 ```
 ├── AUDIO_TS
@@ -234,6 +251,71 @@ Screenshots:
 
 #PORD#
 
+#DROP# 2019 - Avengers: Endgame - Marvel
+
+### Intro:
+
+2019's [Avengers: Endgame](https://www.imdb.com/title/tt4154796/) is a massive Marvel film that was nominated for the Oscars.
+
+#### Case: 
+
+Just a case.
+
+![](AvengerEndgame/cover.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case. 
+
+#### DVD:
+
+The included DVD. This one is unique in that its almost transparent, allowing you to see right through the label and disc itself.
+
+#IMGSML# AvengerEndgame/dvd1.png
+
+#IMGSML# AvengerEndgame/dvd2.jpg
+#CAPT# TOP: Scan of DVD face. BOTTOM: Demonstration of how transparent the disc actually is.
+
+**Redacted content:**
+1) Serial or ID number printed on the disc. 
+2) Barcode and other information around center of disc. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `AVENGERS_ENDGAME`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_02_4.VOB
+    ├── VTS_02_5.VOB
+    ├── VTS_02_6.VOB
+    └── VTS_02_7.VOB
+```
+
+**Screenshots:**
+![](AvengerEndgame/preshow.png)
+#CAPT# Images of all content before starting the film. The second last image appears if you select the "Play With Subtitles" option. The last image appears if you decline to watch the film in the second image. Declining to watch the film by selecting the "yes" option returns DVD_STOP, halting the player. 
+![](AvengerEndgame/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
+![](AvengerEndgame/postshow.png)
+#CAPT# From what I can only assume is a authoring mistake, this slide from the IPR Center is shown at the end of the film (after the main film and its credits end). After this slide, the title goes back to the main "Play/Play With Subtitles" menu. 
+
+#PORD#
+
 #DROP# 2018 - How To Train Your Dragon: The Hidden World - DreamWorks
 
 ### Intro: 
@@ -255,6 +337,11 @@ Branded DVD containing the film.
 #IMGSML# HowToTrainYourDragonTheHiddenWorld/dvd.png
 
 ### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* VSID: `THE_HIDDEN_WORLD_NTSC_ACADEMY_SCREENER_R0`.
+
 File listing: 
 ```
 ├── AUDIO_TS
@@ -302,6 +389,9 @@ A very to-the-point DVD with just the films logo and information on it.
 1) Identifiable serial number/ID with barcode. 
 
 ### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
 
 **File listing:**
 ```
@@ -481,6 +571,9 @@ This screener also contained a rather rare and interesting item, that being the 
 
 ### Digital content:
 
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+
 File listing: 
 ```
 ├── AUDIO_TS
@@ -574,6 +667,10 @@ Ships in a very to-the-point case that holds the DVD. DVD label contains no spec
 
 ### Digital content:
 
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* When scanning, this error was produced: `Warning: Second and third Anchor Volume Descriptor Pointer not found`.
+
 **File listing:**
 ```
 ├── AUDIO_TS
@@ -621,6 +718,10 @@ A standard DVD with the features branding on it.
 
 ### Digital content:
 
+**`UDFINFO` Findings:**
+* Built with: `Apple Computer, Inc.`
+* VSID: `APPLEDSPBB`.
+
 **File listing:**
 ```
 ├── AUDIO_TS
@@ -648,6 +749,52 @@ A standard DVD with the features branding on it.
 
 #PORD#
 
+#DROP# 2004 - 24 - 20th Century Fox
+
+### Intro:
+
+[24](https://www.imdb.com/title/tt0285331/) is a show that literally lasts 24 hours (more like 18 without commercial breaks). Does that technically make it a livestream VOD?
+
+#### DVD:
+
+A branded dvd featuring the shows promotional artwork and a lengthy warning.
+
+#IMGSML# 24_2004/dvd.png
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `DVD Producer 1.0`.
+* LABEL/VSID: `DVDVolume`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    └── VTS_01_6.VOB
+```
+
+**Screenshots:**
+![](24_2004/preshow.png)
+#CAPT# Images of all content before starting the film.
+![](24_2004/watermark.png)
+#CAPT# Screenshot of the watermark. This "watermark" works because these episodes contain no subtitling, rather the subtitle track is reserved for specifically printing the FYC message. Its unknown why it was implemented this way, as the viewer could just disable subtitling on their player. 
+![](24_2004/videoshot.png)
+#CAPT# A screenshot of one of the episodes. An oddity worth noting is that the rating and banner advertising availability for widescreen television suggest this was a copy either made for the air, or taken from it. 
+
+#PORD#
+
 #DROP# 2003 - 24 - 20th Century Fox
 
 ### Intro:
@@ -667,6 +814,9 @@ A branded dvd featuring the shows promotional artwork and a lengthy warning.
 #IMGSML# 24_2003/dvd.png
 
 ### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Spruce Technologies`.
 
 **File listing:**
 ```
@@ -703,6 +853,11 @@ A branded dvd featuring the shows promotional artwork and a lengthy warning.
 These 3 sets are from season 9. These screeners seem to have originally been VHS screeners copied to DVD, as the video contains VHS artifacts. What is also fascinating is that the episode "First Snowfall" appears on all 3 sets, which likely means the studio wanted to get as many eyes on this episode as possible. 
 
 I found out the general set was named such from the DVD volume name. The name burned to the DVD was `ER_GENERAL`.
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Spruce Technologies`.
 
 #DROP# Outstanding Performances Set
 
@@ -920,6 +1075,9 @@ This card explains each program and which category they are eligible for.
 
 ### Digital content:
 
+**`UDFINFO` Findings:**
+* Built with: `DVD Producer 1.0`.
+
 #DROP# Disc 1 - Featured Program (Blue Planet: Seas of Life)
 
 **Intro:**
@@ -1057,6 +1215,10 @@ A dvd.
 1) Redacted stuff
 
 ### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with:
+* Label:
 
 **File listing:**
 ```
