@@ -31,6 +31,9 @@ A long time ago before DVD's were mainstream, some guild members (and video rent
 
 Aside from my personal rules as described in the warnings above, many guilds and award ceremonies have simply phased out optical media entirely. Guild members will often access their content through codes emailed (or mailed) to them, and stream it from a dedicated FYC page provisioned by the studio/publisher. Optical media also had issues where it was easy to pass around, and studios often could not physically track where the disc itself went. With streaming, those risks are evaporated. Leaks and unauthorized logins are also extremely easy to remediate and troubleshoot with streaming, as there is a complete log of the members activity stored on the studios infrastructure. Optical media also had environmental risks, as guild members would be instructed to destroy their screener DVD's leading to significant plastic waste buildup.
 
+![](piratemessage.png)
+#CAPT# A standard issues message from a screener reminding the voter that pre-release piracy damages film studios and releases.
+
 **Why is the same show split into multiple sets of screeners, sometimes with different episodes?** 
 
 Award ceremonies (especially the Emmy's) work on very specific per-category basis, such as those separated by both genre and role. Studios will often press and ship multiple screeners to target these specific roles as opposed to one big screener collection. Think one disc set for the main actors, and another disc set for the guest actors. This also allows studios to physically separate the content you will be ingesting for that category, so that other episodes don't bleed into the voters decision-making, or leave them searching for the specific actor across multiple episodes. Online FYC portals still have the control to segment their content for voter accessibility and ease-of-use, however most award ceremonies no longer permit optical media to be mailed. 
@@ -53,6 +56,10 @@ Awards screeners both physically and digitally contain sensitive information, su
 
 The products listed in the `UDFINFO` output provide insight into exactly how the DVD was produced and burned. The one that appears most frequently is a product called `Sonic Scenarist 3.1`. This is an extremely expensive tool (will run you about $35,000 - $40,000) built by [Scenarist](https://www.scenarist.com/) and the Sonic Solutions technology company designed for advanced enterprise media authoring. [This post from 2002 on Doom9](https://www.doom9.org/index.html?/mpg/scenarist.htm) (a DVD conversion forum) showcases a user recreating a DVD menu from The Matrix, and provides significant technical details into `Scenarist NT`, which provides the same technical basis as its modern counterparts. Another one that pops up once in a while is `Spruce Technologies`. Based off of loose findings online, there was some competition between Apple (with their `DVD Studio Pro 1.0` product) and Spruce Technologies (with their `DVDMaestro` product). Eventually in 2001 Apple [purchased](https://www.macworld.com/article/162029/spruce.html) Spruce Technologies, and as such acquired their authoring software. `DVDMaestro` was then integrated into Apples authoring product to build `DVD Studio Pro 2.0`. 
 
+**Couldn't viewers of these screeners just press the HOME button on their remotes to bypass the warning messages?**
+
+On some screener discs, upon reaching the warning message forcing agreement or during the playback of the messages you can press the HOME button on the DVD remote or video player on your computer to immediately bypass most or all pre-show warning content. Pressing the HOME button usually will put you directly on the main menu that shows the "play" button. While this seems like a genius way for guild members to deny seeing the warning and excuse prohibited behaviors, it's important to remember that these are highly guarded, union-only items. It's likely the recipients union blanket-prohibits any sort of award-season screener sharing to begin with. Along with that, most screeners have either a warning that reminds you of your obligations to keep the disc private, or a security seal that boldly indicates that by breaking it you agree with the terms on the package. To put it simply, even if the menu can be skipped, the guild member still has union obligations to protect the property of studios. 
+
 #PORD#
 
 ## Collection: 
@@ -61,7 +68,7 @@ The products listed in the `UDFINFO` output provide insight into exactly how the
 
 ### Intro:
 
-[Priscilla](https://www.imdb.com/title/tt22041854/) is a film that follows Priscilla Presley, rock legend Elvis Presley's wife. Priscilla is also named as a writer for this film. 
+Origin is a [biographical drama film](https://www.imdb.com/title/tt13321244/) that follows journalist Isabel Wilkerson.
 
 ### Physical content: 
 
@@ -173,6 +180,63 @@ Screenshots:
 #CAPT# Screenshot of the watermark.
 ![](Priscilla/subtitle.png)
 #CAPT# Screenshot of the subtitle programming. Spanish subtitles use the same programming.
+
+#PORD#
+
+#DROP# 2022 - Women Talking - Orion Pictures/United Artists
+
+### Intro:
+
+This is a [pretty heavy film](https://www.imdb.com/title/tt13669038/) that follows women in an isolated religious community. It was originally a 2018 novel as well. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Apple Computer, Inc.`
+* Label: `WOMEN_TALKING_DVD`.
+* VSID: `APPLEDSPWOMEN_TALKING_DVD`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    ├── VTS_03_1.VOB
+    ├── VTS_03_2.VOB
+    ├── VTS_03_3.VOB
+    ├── VTS_03_4.VOB
+    ├── VTS_03_5.VOB
+    ├── VTS_03_6.VOB
+    ├── VTS_04_0.BUP
+    ├── VTS_04_0.IFO
+    ├── VTS_04_0.VOB
+    ├── VTS_04_1.VOB
+    ├── VTS_05_0.BUP
+    ├── VTS_05_0.IFO
+    ├── VTS_05_0.VOB
+    └── VTS_05_1.VOB
+```
+
+**Screenshots:**
+![](WomenTalking2021/preshow.png)
+#CAPT# Images of all content before starting the film. Selecting the "NO" option does nothing. Selecting the "YES" option proceeds. 
+![](WomenTalking2021/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](WomenTalking2021/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
 
 #PORD#
 
@@ -373,6 +437,46 @@ Screenshots:
 
 #PORD#
 
+#DROP# 2018 - VICE - Annapurna
+
+### Intro:
+
+[VICE](https://www.imdb.com/title/tt6266538/) is a highly acclaimed film following a vice president inside Washington.
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `VICE`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    └── VTS_01_7.VOB
+```
+
+**Screenshots:**
+![](VICE/preshow.png)
+#CAPT# Images of all content before starting the film. If you select no, the final screen is shown, which is presumably a black picture with a white box drawn by the navigation system. Selecting the box brings you back to the start of the warnings. Very strange. 
+![](VICE/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](VICE/subtitle.png)
+#CAPT# Screenshot of subtitle programming. This film also has burned-in subtitling for dialogue that is not English. 
+
+#PORD#
+
 #DROP# 2017 - Call Me By Your Name - Sony Pictures Classics
 
 ### Intro:
@@ -419,6 +523,56 @@ A very to-the-point DVD with just the films logo and information on it.
 #CAPT# Screenshot of the watermark.
 ![](CallMeByYourName/subtitle.png)
 #CAPT# Screenshot of subtitle programming. This film also has burned-in subtitling for dialogue that is not English. 
+
+#PORD#
+
+#DROP# 2017 - Fargo - FX
+
+### Intro:
+
+A very nicely-presented screener from FX, featuring 2 episodes of [Fargo](https://www.imdb.com/title/tt2802850/) (season 3). I liked Fargo season 1, but i've never seen season 3. After watching some of it though, my verdict is that the inclusion of "Crazy On You" in episode 1 is ingenious. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Apple Computer, Inc.`
+* Label: `FARGO`.
+* VSID: `APPLEDSPFARGO`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    ├── VTS_03_1.VOB
+    ├── VTS_03_2.VOB
+    └── VTS_03_3.VOB
+```
+
+**Screenshots:**
+#IMGSML# Fargo2017/preshow-scroll.png
+![](Fargo2017/preshow-menu.png)
+#CAPT# Images of all content before starting the film. The lengthy top image is a compilation of the various pieces of text that scrolls when the DVD is played. The bottom is the DVD menu it lands on after the scrolling text.
+![](Fargo2017/watermark.png)
+#CAPT# Screenshot of the watermark.
+
+**Redacted content:**
+1) When watching I noticed a very faint green border wrapped around the video frame. Im not sure if this is watermarking or just a technical issue, but out of an abundance of caution I have redacted it. 
 
 #PORD#
 
@@ -1192,11 +1346,86 @@ This card explains each program and which category they are eligible for.
 
 #PORD# 
 
+#DROP# 2002 - XXX - Columbia Pictures
+
+### Intro:
+
+Vin Diesel takes a step back from driving fast cars with loud music to [infiltrate Russian crime rings](https://www.imdb.com/title/tt0295701/) with loud music. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `SONY DVD Video` (as returned by IMPID).
+* Label: `XXX`.
+
+**File listing:**
+```
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    └── VTS_01_4.VOB
+```
+
+**Screenshots:**
+![](XXX/preshow.png)
+#CAPT# Images of all content before starting the film. 
+![](XXX/subtitleA.png)
+![](XXX/subtitleB.png)
+#CAPT# Screenshot of subtitle programming. Subtitles for Russian translations are separated from the English closed captioning. 
+
+#PORD#
+
+#DROP# 2001 - Harry Potter and the Sorcerers Stone - Warner Brothers
+
+### Intro:
+
+To be added
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `UDF Toshiba DVD Video`.
+* Label: The label cannot be included because it seems to be an individual ID. It consists of 10 characters. The first 6 are capital letters, the rest are a mix of letters and numbers. This label also appears appended to the end of the FULLVSID, where the disc UUID is prepended. 
+
+**File listing:**
+```
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    └── VTS_01_7.VOB
+```
+
+**Screenshots:**
+![](HPatSS2001/postshow.png)
+#CAPT# This DVD menu appears after the film ends. Selecting PLAY plays the film again. 
+![](HPatSS2001/watermark.png)
+#CAPT# Screenshot of the watermark.
+
+#PORD#
+
 #DROP# Template
 
 ### Intro:
 
 I am an intro with an [IMDB](https://www.imdb.com/title/tt5726616/) link.
+
+### Physical content: 
 
 #### Case: 
 
