@@ -60,6 +60,18 @@ The products listed in the `UDFINFO` output provide insight into exactly how the
 
 On some screener discs, upon reaching the warning message forcing agreement or during the playback of the messages you can press the HOME button on the DVD remote or video player on your computer to immediately bypass most or all pre-show warning content. Pressing the HOME button usually will put you directly on the main menu that shows the "play" button. While this seems like a genius way for guild members to deny seeing the warning and excuse prohibited behaviors, it's important to remember that these are highly guarded, union-only items. It's likely the recipients union blanket-prohibits any sort of award-season screener sharing to begin with. Along with that, most screeners have either a warning that reminds you of your obligations to keep the disc private, or a security seal that boldly indicates that by breaking it you agree with the terms on the package. To put it simply, even if the menu can be skipped, the guild member still has union obligations to protect the property of studios. 
 
+**Where can I find voter and guild websites?**
+
+Here is a list of award consideration/FYC pages from studios. Despite some of the homepages looking beautiful, content can only be accessed by guild members via codes. Most have been found via the screeners themselves.
+
+#DROP# FYC Pages
+* [Apple FYC](https://fyc.appletv.com/) - Apple's screening gateway for award members. Very non-public, immediately requesting the appropriate union/award show and code. 
+* [Disney Debut](https://debut.disney.com/) - This is the secure platform used by The Walt Disney Company for all academy screening across every company under the Disney umbrella. 
+* [Searchlight Pictures FYC](https://www.searchlightpictures.com/fyc) - This page now redirects to Disney Debut.
+* [The Weinstein Company FYC](https://web.archive.org/web/20170921050834/http://twcguilds.com/) - Totally defunct and was taken over by suspicious redirects. Wayback machine link used instead. Interestingly the screenplays to the films can be downloaded from this website.
+* [Universal Picture Awards](https://universalpicturesawards.com/) - Universal's awards page. 
+#PORD#
+
 #PORD#
 
 ## Collection: 
@@ -183,6 +195,113 @@ Screenshots:
 
 #PORD#
 
+#DROP# 2022 - Empire of Light - Searchlight Pictures
+
+### Intro:
+
+[Empire of Light](https://www.imdb.com/title/tt14402146/) is a romantic drama film that received very limited screenings and releases when it was made. 
+
+For some reason, we ran into significant issues playing this disc. We were able to load and inspect it in the OS, however we were unable to play the feature. We could see the volume label and the file listing, so the disc was not Blu-ray or some other unrecognizable format.  After physical inspection of the disc, it was a bit scratched but nothing too major. 
+
+This was what we would recieve in VLC:
+```
+dvdnav warning: Language 'en' not found, using '??' instead
+dvdnav info: Menu Languages available: ??
+dvdnav error: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed  
+```
+
+When using `dvdbackup` to check the disc's info we ran into similar issues:
+```
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+Cannot open VMG info.
+Guesswork of main feature film failed. 
+```
+
+After running into these issues, we made a byte-level backup of the film locally for further analysis. 
+
+To be continued...
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `EMPIRE_OF_LIGHT`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    ├── VTS_01_7.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_1.VOB
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    └── VTS_03_1.VOB
+```
+
+#PORD#
+
+#DROP# 2022 - NOPE - Universal
+
+### Intro:
+
+[NOPE](https://www.imdb.com/title/tt10954984/) is a sci-fi western horror film. Its very fascinating, a bit hard to explain.
+
+Despite the back of the mailer reading that this is a Blu-ray disc, the disc seems to be DVD. It plays on my computers DVD drive, and I know by feeling it that it's likely not Blu-ray. Most Blu-ray discs I have felt feel more smooth and glossy than a regular DVD on the edges. Whether this is a mess up from where I acquired this from, or a mess up at the plant, im not sure. It wouldn't really matter though because DVD can play on Blu-ray regardless. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `NOPE`.
+* VSID: `ACADEMY_SCREENER_NTSC`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_02_4.VOB
+    ├── VTS_02_5.VOB
+    ├── VTS_02_6.VOB
+    └── VTS_02_7.VOB
+```
+
+**Screenshots:**
+![](NOPE/preshow.png)
+#CAPT# Images of all content before starting the film. 
+![](NOPE/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](NOPE/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
+
+#PORD#
+
 #DROP# 2022 - Women Talking - Orion Pictures/United Artists
 
 ### Intro:
@@ -236,6 +355,51 @@ This is a [pretty heavy film](https://www.imdb.com/title/tt13669038/) that follo
 ![](WomenTalking2021/watermark.png)
 #CAPT# Screenshot of the watermark.
 ![](WomenTalking2021/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
+
+#PORD#
+
+#DROP# 2021 - Promising Young Woman - Focus Features
+
+### Intro:
+
+[Promising Young Woman](https://www.imdb.com/title/tt9620292/) is a black comedy thriller film that premiered at the Sundance film festival.
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `PROMISING_YOUNG_WOMAN`.
+* VSID: `ACADEMY_SCREENER_NTSC_R0`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_02_4.VOB
+    ├── VTS_02_5.VOB
+    ├── VTS_02_6.VOB
+    └── VTS_02_7.VOB
+```
+
+**Screenshots:**
+![](PromisingYoungWoman/preshow.png)
+#CAPT# Images of all content before starting the film. 
+![](PromisingYoungWoman/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](PromisingYoungWoman/subtitle.png)
 #CAPT# Screenshot of subtitle programming.
 
 #PORD#
@@ -377,6 +541,50 @@ The included DVD. This one is unique in that its almost transparent, allowing yo
 #CAPT# Screenshot of subtitle programming.
 ![](AvengerEndgame/postshow.png)
 #CAPT# From what I can only assume is a authoring mistake, this slide from the IPR Center is shown at the end of the film (after the main film and its credits end). After this slide, the title goes back to the main "Play/Play With Subtitles" menu. 
+
+#PORD#
+
+#DROP# 2019 - The Secret Life of Pets 2 - Illumination
+
+### Intro:
+
+The [second entry](https://www.imdb.com/title/tt5113040/) in "The Secret Life of Pets" films. The film opens on JAY-Z's "Empire State of Mind". As a wise man said, "any movie starting on a rap song has to be good". 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `THE_SECRET_LIFE_OF_PETS_2`.
+* VSID: `NTSC_ACADEMY_SCREENER_R0`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_02_4.VOB
+    ├── VTS_02_5.VOB
+    └── VTS_02_6.VOB
+```
+
+**Screenshots:**
+![](TSLOP2/preshow.png)
+#CAPT# Standard Universal screener preshow.
+![](TSLOP2/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
+![](TSLOP2/watermark.png)
+#CAPT# Standard Universal screener watermark.
 
 #PORD#
 
@@ -899,6 +1107,53 @@ A standard DVD with the features branding on it.
 ![](BigBang2011/preshow.png)
 #CAPT# Images of all content before the episodes starts. 
 ![](BigBang2011/watermark.png)
+#CAPT# Screenshot of the watermark.
+
+#PORD#
+
+#PORD#
+
+#DROP# 2011 - My Week With Marilyn - The Weinstein Company
+
+### Intro:
+
+This [film](https://www.imdb.com/title/tt1655420/) is a biographical drama based on books. The film documents the production of another film, The Prince and the Showgirl. In that case, is this film of the other film inside the film meta?
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Daikin U.S. Comtec Lab`.
+* Label: `MY_WEEK_WITH_MARILYN`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    └── VTS_03_1.VOB
+```
+
+**Screenshots:**
+![](MyWeekWithMarilyn/preshow.png)
+#CAPT# Image of all content before starting the film. Just a lone FBI warning. 
+![](MyWeekWithMarilyn/watermark.png)
 #CAPT# Screenshot of the watermark.
 
 #PORD#
@@ -1460,6 +1715,6 @@ TREE output here
 ![](FOLDER/watermark.png)
 #CAPT# Screenshot of the watermark.
 ![](FOLDER/subtitle.png)
-#CAPT# Screenshot of subtitle programming. This film also has burned-in subtitling for dialogue that is not English. 
+#CAPT# Screenshot of subtitle programming.
 
 #PORD#
