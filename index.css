@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    background-color: #070707;
+    margin: 5em auto;
+    width: 60em;
+    max-width: calc(100% - 6em);
+}
+
+@media (max-width: 500px) {
+    header > div#headerNav > button {
+        height: 60px;
+        margin-left: 3px;
+        margin-right: 3px;
+        padding: 0px;
+    }
+    header > div#headerNav {
+        width: 100%;
+    }
+    header > #titleTextDiv{
+        width: 100%;
+    }
+    div.projFeature > button {
+        width: 75%;
+    }
+    footer > #footerSites > img {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        width: 40px !important;
+    }
+    button {
+        margin-bottom: 5px;
+    }
+}
+
+header > h1 {
+    text-align: center;
+}
+
+div#headerNav {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Noto Sans';
+    background-color: #707070;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #a1a1a1;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+#headerNav > button {
+    min-height: 60px;
+}
+
+h2 {
+    color: #B0B0B0;
+    font-family: 'Noto Sans';
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Noto Sans';
+    text-decoration: underline;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Noto Sans';
+}
+
+#noScriptContatiner {
+    background-color: white;
+    border-radius: 20px;
+}
+
+p.noScripting {
+    text-align: center; 
+    font-size: 75%;
+    font-weight: bold;
+    color: black;
+}
+
+ul {
+    color: #ffffff;
+    font-family: 'Noto Sans';
+}
+
+a[href] {
+    color: #707070;
+    font-weight: bold;
+}
+
+a[href]:hover {
+    color: #a1a1a1;
+    transition-duration: 250ms;
+}
+
+footer {
+    padding-top: 1.5em;
+}
+
+footer > p {
+    text-align: center;
+    font-style: italic;
+    font-size: 75%;
+    font-weight: bold;
+}
+
+footer > #footerSites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > #footerSites > img {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 57px;
+}
+
+footer > #footerSites > img:hover {
+    filter: brightness(200%);
+    transition-duration: 250ms;
+    cursor: pointer;
+}
+
+#titleTextDiv {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 16 / 4;
+}
+
+#titleTextDiv > img {
+    position: absolute;
+    width: 100%;
+}
+
+#titleTextDiv > #titleTextOne {
+    z-index: 2;
+}
+
+#titleTextDiv > #titleTextTwo {
+    z-index: 1;
+    filter: blur(15px);
+}
+
+#titleLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 26.8px;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+#headIcon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#headIcon > img {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 3px;
+}
+
+.center {
+    text-align: center;
+}

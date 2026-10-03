@@ -1,0 +1,1730 @@
+
+!# Screener Collection
+
+!## A list of various screeners (and other cool) DVD's I have. 
+
+#IMGSML# graphic.png
+
+## Intro: 
+
+This article is an in-depth analysis and study into the film industry, its behaviors, and how it operates during the award season by using screener DVD's. 
+
+If you find yourself interested in my collection, or perhaps know something I don't, feel free to connect with me. 
+
+#WARN# Any enterprises seeking to contact the operator of this page regarding the content displayed should send their concerns and reasons for contact directly to the following addresses instead of the hosting provider: [email 1](mailto:g0@beyondgone.xyz), [email 2](mailto:globbruh@proton.me). Expect mail to be read between 24-48 hours. Any communication sent to these emails is subject to publication. 
+
+#WARN# All screeners contained in this blog have been legally acquired through second-hand marketplaces. I have always had a personal rule to never purchase any screeners for unreleased content, and to never purchase any screeners that have been produced in the last 12 months (to ensure that the content is no longer in the award season). This is done to deliberately avoid possessing stolen unreleased content, or content that has active confidentiality. 
+
+#WARN# This blog post will be extremely large, contains numerous images, and will be slated for migration to its own platform/website if it exceeds the size limit for my personal website repo. Despite lazy loading being enabled for the entire blog, be weary of your bandwidth usage. If the page migrates, please consult the homepage as a new link will likely be posted under the blogs section. 
+
+#NOTE# Most content has been post-edited to be stitched together, especially if cases folds out to be significantly long. All image collages read from left-to-right unless otherwise specified.
+
+#NOTE# All entries are categorized by year. The year is determined from the year of the screeners production (the one printed on the box), not the year of the presentations release.
+
+#NOTE# Please note that sensitive information contained on the screeners has been redacted. Please consult the FAQ for more information. 
+
+#DROP# FAQ
+
+**Why do some of the screeners on DVD mention videocassettes or look like they came from a tape?**
+
+A long time ago before DVD's were mainstream, some guild members (and video rental stores) would receive VHS screeners. These would be the production essentially copied to a videocassette tape, to which the recipient would then insert and play. During the VHS-to-DVD era from the early 2000's, some guild members had abandoned VHS in favor of DVD while others were still relying on VHS. This created a conundrum where studios needed to keep track of which members preferred which type of media, which led to high costs due to producing the same material across different media formats. Sometimes companies would cut costs by taking internal VHS copies of their production and burn the digitized version to DVD. This would sometimes leave mentions that the viewer was watching on a VHS or would have lower quality despite using optical media. 
+
+**Why are there no really recent titles (even with your self-imposed rules)?**
+
+Aside from my personal rules as described in the warnings above, many guilds and award ceremonies have simply phased out optical media entirely. Guild members will often access their content through codes emailed (or mailed) to them, and stream it from a dedicated FYC page provisioned by the studio/publisher. Optical media also had issues where it was easy to pass around, and studios often could not physically track where the disc itself went. With streaming, those risks are evaporated. Leaks and unauthorized logins are also extremely easy to remediate and troubleshoot with streaming, as there is a complete log of the members activity stored on the studios infrastructure. Optical media also had environmental risks, as guild members would be instructed to destroy their screener DVD's leading to significant plastic waste buildup.
+
+![](piratemessage.png)
+#CAPT# A standard issues message from a screener reminding the voter that pre-release piracy damages film studios and releases.
+
+**Why is the same show split into multiple sets of screeners, sometimes with different episodes?** 
+
+Award ceremonies (especially the Emmy's) work on very specific per-category basis, such as those separated by both genre and role. Studios will often press and ship multiple screeners to target these specific roles as opposed to one big screener collection. Think one disc set for the main actors, and another disc set for the guest actors. This also allows studios to physically separate the content you will be ingesting for that category, so that other episodes don't bleed into the voters decision-making, or leave them searching for the specific actor across multiple episodes. Online FYC portals still have the control to segment their content for voter accessibility and ease-of-use, however most award ceremonies no longer permit optical media to be mailed. 
+
+**What is a Technicolor security seal (or security seals in general)?**
+
+During award seasons piracy groups knew when FYC content would ship from studios and press factories to the voters. Studios knew that once discs left the warehouse, they needed to trust the mail system to ensure that the discs make it to their destination and remain confidential. Theft was becoming rampant due to intermediary groups from shipping companies or office associates being incentivized by piracy groups to steal the disc or mailer itself before the recipient could actually receive it. Once the disc (or a copy of it) is in the hands of a piracy group, they would rush as fast as possible to release the film illegally for scenegroup reputation, especially considering some of these films were HD versions of unreleased blockbuster hits. To discourage this, Technicolor made a security seal that would be stuck to the mailers covers to ensure the mailer cannot be opened until either the sticker is peeled off (which leaves VOID text on the package) or is cut, which is also noticeable. If the recipient received a mailer with a broken seal, they would be instructed to report the tampering to the studio who shipped it so they can investigate who is responsible. 
+
+![](TC-seal1.png)
+#CAPT# Example of a Technicolor security seal with each side of the sticker put together.
+
+**Why is there so many things redacted?**
+
+Awards screeners both physically and digitally contain sensitive information, such as personal details, watermarks, or FYC portal login codes that trace directly back to Screen Actor Guild members or other unionized members. Studios also partnered with massive DVD pressing companies to make custom pressings of these discs, and as such some have hardware-level identifiers printed on them. In this blog, anything that could trace back to a guild member has been redacted as the punishments inside these circles for not destroying or returning copies is severe. Remember that these discs (at the time of their distribution) contained unreleased films, and piracy groups would do anything they could to get their hands on them. 
+
+![](guildwarn.png)
+#CAPT# This screener explains exactly what could happen to guild members whose screeners land in the hands of pirates seeking unreleased blockbuster hits. 
+
+**What are some of the products listed in the "built with" point?**
+
+The products listed in the `UDFINFO` output provide insight into exactly how the DVD was produced and burned. The one that appears most frequently is a product called `Sonic Scenarist 3.1`. This is an extremely expensive tool (will run you about $35,000 - $40,000) built by [Scenarist](https://www.scenarist.com/) and the Sonic Solutions technology company designed for advanced enterprise media authoring. [This post from 2002 on Doom9](https://www.doom9.org/index.html?/mpg/scenarist.htm) (a DVD conversion forum) showcases a user recreating a DVD menu from The Matrix, and provides significant technical details into `Scenarist NT`, which provides the same technical basis as its modern counterparts. Another one that pops up once in a while is `Spruce Technologies`. Based off of loose findings online, there was some competition between Apple (with their `DVD Studio Pro 1.0` product) and Spruce Technologies (with their `DVDMaestro` product). Eventually in 2001 Apple [purchased](https://www.macworld.com/article/162029/spruce.html) Spruce Technologies, and as such acquired their authoring software. `DVDMaestro` was then integrated into Apples authoring product to build `DVD Studio Pro 2.0`. 
+
+**Couldn't viewers of these screeners just press the HOME button on their remotes to bypass the warning messages?**
+
+On some screener discs, upon reaching the warning message forcing agreement or during the playback of the messages you can press the HOME button on the DVD remote or video player on your computer to immediately bypass most or all pre-show warning content. Pressing the HOME button usually will put you directly on the main menu that shows the "play" button. While this seems like a genius way for guild members to deny seeing the warning and excuse prohibited behaviors, it's important to remember that these are highly guarded, union-only items. It's likely the recipients union blanket-prohibits any sort of award-season screener sharing to begin with. Along with that, most screeners have either a warning that reminds you of your obligations to keep the disc private, or a security seal that boldly indicates that by breaking it you agree with the terms on the package. To put it simply, even if the menu can be skipped, the guild member still has union obligations to protect the property of studios. 
+
+**Where can I find voter and guild websites?**
+
+Here is a list of award consideration/FYC pages from studios. Despite some of the homepages looking beautiful, content can only be accessed by guild members via codes. Most have been found via the screeners themselves.
+
+#DROP# FYC Pages
+* [Apple FYC](https://fyc.appletv.com/) - Apple's screening gateway for award members. Very non-public, immediately requesting the appropriate union/award show and code. 
+* [Disney Debut](https://debut.disney.com/) - This is the secure platform used by The Walt Disney Company for all academy screening across every company under the Disney umbrella. 
+* [Searchlight Pictures FYC](https://www.searchlightpictures.com/fyc) - This page now redirects to Disney Debut.
+* [The Weinstein Company FYC](https://web.archive.org/web/20170921050834/http://twcguilds.com/) - Totally defunct and was taken over by suspicious redirects. Wayback machine link used instead. Interestingly the screenplays to the films can be downloaded from this website.
+* [Universal Picture Awards](https://universalpicturesawards.com/) - Universal's awards page. 
+#PORD#
+
+#PORD#
+
+## Collection: 
+
+#DROP# 2023 - Origin - NEON
+
+### Intro:
+
+Origin is a [biographical drama film](https://www.imdb.com/title/tt13321244/) that follows journalist Isabel Wilkerson.
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a standard mailer case. Case feels constructed from cardboard.
+
+![](Origin2023/covers.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case. 
+
+#### DVD: 
+
+DVD containing the film.
+
+#IMGSML# Origin2023/dvd.png
+
+**Redacted content:**
+1) Identifiable serial number/ID with barcode. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `ImgBurn`.
+* APPID: `ImgBurn v2.5.8.0`.
+
+File listing: 
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    └── VTS_03_1.VOB
+```
+
+Screenshots:
+![](Origin2023/preshow.png)
+#CAPT# Images of all content before the film starts. Selecting the NO option does nothing.
+![](Origin2023/watermark.png)
+#CAPT# Screenshot of the watermark. This one is more intrusive than usual.
+![](Origin2023/subtitle.png)
+#CAPT# Screenshot of the subtitle programming.
+
+#PORD#
+
+#DROP# 2023 - Priscilla - A24
+
+### Intro:
+
+[Priscilla](https://www.imdb.com/title/tt22041854/) is a film that follows Priscilla Presley, rock legend Elvis Presley's wife. Priscilla is also named as a writer for this film. 
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a standard mailer case. Case feels constructed from cardboard.
+
+![](Priscilla/case.png)
+#CAPT# TOP: Inside content of the case. BOTTOM: Exterior content of the case. 
+
+#### DVD: 
+
+DVD containing the film.
+
+#IMGSML# Priscilla/dvd.png
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+
+File listing: 
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    └── VTS_01_7.VOB
+```
+
+Screenshots:
+![](Priscilla/preshow.png)
+#CAPT# Images of all content before the film starts. Selecting the NO option returns DVDNAV_STOP, a command from the DVD letting the DVD player know to halt playback.
+![](Priscilla/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](Priscilla/subtitle.png)
+#CAPT# Screenshot of the subtitle programming. Spanish subtitles use the same programming.
+
+#PORD#
+
+#DROP# 2022 - Empire of Light - Searchlight Pictures
+
+### Intro:
+
+[Empire of Light](https://www.imdb.com/title/tt14402146/) is a romantic drama film that received very limited screenings and releases when it was made. 
+
+For some reason, we ran into significant issues playing this disc. We were able to load and inspect it in the OS, however we were unable to play the feature. We could see the volume label and the file listing, so the disc was not Blu-ray or some other unrecognizable format.  After physical inspection of the disc, it was a bit scratched but nothing too major. 
+
+This was what we would recieve in VLC:
+```
+dvdnav warning: Language 'en' not found, using '??' instead
+dvdnav info: Menu Languages available: ??
+dvdnav error: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed  
+```
+
+When using `dvdbackup` to check the disc's info we ran into similar issues:
+```
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread: DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+Cannot open VMG info.
+Guesswork of main feature film failed. 
+```
+
+After running into these issues, we made a byte-level backup of the film locally for further analysis. 
+
+To be continued...
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `EMPIRE_OF_LIGHT`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    ├── VTS_01_7.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_1.VOB
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    └── VTS_03_1.VOB
+```
+
+#PORD#
+
+#DROP# 2022 - NOPE - Universal
+
+### Intro:
+
+[NOPE](https://www.imdb.com/title/tt10954984/) is a sci-fi western horror film. Its very fascinating, a bit hard to explain.
+
+Despite the back of the mailer reading that this is a Blu-ray disc, the disc seems to be DVD. It plays on my computers DVD drive, and I know by feeling it that it's likely not Blu-ray. Most Blu-ray discs I have felt feel more smooth and glossy than a regular DVD on the edges. Whether this is a mess up from where I acquired this from, or a mess up at the plant, im not sure. It wouldn't really matter though because DVD can play on Blu-ray regardless. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `NOPE`.
+* VSID: `ACADEMY_SCREENER_NTSC`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_02_4.VOB
+    ├── VTS_02_5.VOB
+    ├── VTS_02_6.VOB
+    └── VTS_02_7.VOB
+```
+
+**Screenshots:**
+![](NOPE/preshow.png)
+#CAPT# Images of all content before starting the film. 
+![](NOPE/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](NOPE/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
+
+#PORD#
+
+#DROP# 2022 - Women Talking - Orion Pictures/United Artists
+
+### Intro:
+
+This is a [pretty heavy film](https://www.imdb.com/title/tt13669038/) that follows women in an isolated religious community. It was originally a 2018 novel as well. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Apple Computer, Inc.`
+* Label: `WOMEN_TALKING_DVD`.
+* VSID: `APPLEDSPWOMEN_TALKING_DVD`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    ├── VTS_03_1.VOB
+    ├── VTS_03_2.VOB
+    ├── VTS_03_3.VOB
+    ├── VTS_03_4.VOB
+    ├── VTS_03_5.VOB
+    ├── VTS_03_6.VOB
+    ├── VTS_04_0.BUP
+    ├── VTS_04_0.IFO
+    ├── VTS_04_0.VOB
+    ├── VTS_04_1.VOB
+    ├── VTS_05_0.BUP
+    ├── VTS_05_0.IFO
+    ├── VTS_05_0.VOB
+    └── VTS_05_1.VOB
+```
+
+**Screenshots:**
+![](WomenTalking2021/preshow.png)
+#CAPT# Images of all content before starting the film. Selecting the "NO" option does nothing. Selecting the "YES" option proceeds. 
+![](WomenTalking2021/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](WomenTalking2021/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
+
+#PORD#
+
+#DROP# 2021 - Promising Young Woman - Focus Features
+
+### Intro:
+
+[Promising Young Woman](https://www.imdb.com/title/tt9620292/) is a black comedy thriller film that premiered at the Sundance film festival.
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `PROMISING_YOUNG_WOMAN`.
+* VSID: `ACADEMY_SCREENER_NTSC_R0`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_02_4.VOB
+    ├── VTS_02_5.VOB
+    ├── VTS_02_6.VOB
+    └── VTS_02_7.VOB
+```
+
+**Screenshots:**
+![](PromisingYoungWoman/preshow.png)
+#CAPT# Images of all content before starting the film. 
+![](PromisingYoungWoman/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](PromisingYoungWoman/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
+
+#PORD#
+
+#DROP# 2020 - Herself - Amazon Studios
+
+### Intro:
+
+[Herself](https://www.imdb.com/title/tt9902160/) is a rather fascinating Irish film that follows a single mother building their own home. The films budget is not public (though based off the licensed music it must of been moderately high), but it did gross 3/4 of a million.
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a standard eco-friendly mailer.
+
+![](Herself/covers.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case. 
+
+#### DVD: 
+
+DVD containing the film. The disc's labeling is very to the point.
+
+#IMGSML# Herself/dvd.png
+
+**Redacted content:**
+1) Middle hub has suspicious notches imprinted into it. Its not known whether this is damage or some form of marking/keying, but its suspicious enough that it should be redacted. 
+2) Identifiable serial number/ID with barcode. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+
+File listing: 
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_1.VOB
+    ├── VTS_04_0.BUP
+    ├── VTS_04_0.IFO
+    ├── VTS_04_0.VOB
+    ├── VTS_04_1.VOB
+    ├── VTS_05_0.BUP
+    ├── VTS_05_0.IFO
+    ├── VTS_05_1.VOB
+    ├── VTS_05_2.VOB
+    ├── VTS_05_3.VOB
+    ├── VTS_05_4.VOB
+    ├── VTS_05_5.VOB
+    ├── VTS_06_0.BUP
+    ├── VTS_06_0.IFO
+    ├── VTS_06_1.VOB
+    ├── VTS_07_0.BUP
+    ├── VTS_07_0.IFO
+    └── VTS_07_1.VOB
+```
+
+Screenshots:
+![](Herself/preshow.png)
+#CAPT# Images of all content before the film starts. Selecting the NO option returns DVDNAV_STOP, a command from the DVD letting the DVD player know to halt playback.
+![](Herself/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](Herself/subtitle.png)
+#CAPT# Screenshot of the subtitle programming. Other language subtitles use the same programming.
+
+#PORD#
+
+#DROP# 2019 - Avengers: Endgame - Marvel
+
+### Intro:
+
+2019's [Avengers: Endgame](https://www.imdb.com/title/tt4154796/) is a massive Marvel film that was nominated for the Oscars.
+
+#### Case: 
+
+Just a case.
+
+![](AvengerEndgame/cover.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case. 
+
+#### DVD:
+
+The included DVD. This one is unique in that its almost transparent, allowing you to see right through the label and disc itself.
+
+#IMGSML# AvengerEndgame/dvd1.png
+
+#IMGSML# AvengerEndgame/dvd2.jpg
+#CAPT# TOP: Scan of DVD face. BOTTOM: Demonstration of how transparent the disc actually is.
+
+**Redacted content:**
+1) Serial or ID number printed on the disc. 
+2) Barcode and other information around center of disc. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `AVENGERS_ENDGAME`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_02_4.VOB
+    ├── VTS_02_5.VOB
+    ├── VTS_02_6.VOB
+    └── VTS_02_7.VOB
+```
+
+**Screenshots:**
+![](AvengerEndgame/preshow.png)
+#CAPT# Images of all content before starting the film. The second last image appears if you select the "Play With Subtitles" option. The last image appears if you decline to watch the film in the second image. Declining to watch the film by selecting the "yes" option returns DVD_STOP, halting the player. 
+![](AvengerEndgame/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
+![](AvengerEndgame/postshow.png)
+#CAPT# From what I can only assume is a authoring mistake, this slide from the IPR Center is shown at the end of the film (after the main film and its credits end). After this slide, the title goes back to the main "Play/Play With Subtitles" menu. 
+
+#PORD#
+
+#DROP# 2019 - The Secret Life of Pets 2 - Illumination
+
+### Intro:
+
+The [second entry](https://www.imdb.com/title/tt5113040/) in "The Secret Life of Pets" films. The film opens on JAY-Z's "Empire State of Mind". As a wise man said, "any movie starting on a rap song has to be good". 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `THE_SECRET_LIFE_OF_PETS_2`.
+* VSID: `NTSC_ACADEMY_SCREENER_R0`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_02_4.VOB
+    ├── VTS_02_5.VOB
+    └── VTS_02_6.VOB
+```
+
+**Screenshots:**
+![](TSLOP2/preshow.png)
+#CAPT# Standard Universal screener preshow.
+![](TSLOP2/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
+![](TSLOP2/watermark.png)
+#CAPT# Standard Universal screener watermark.
+
+#PORD#
+
+#DROP# 2018 - How To Train Your Dragon: The Hidden World - DreamWorks
+
+### Intro: 
+A screener for one of DreamWorks [later installments](https://www.imdb.com/title/tt2386490/) in the How To Train Your Dragon series. 
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a relatively standard foldout-style mailer case. Case feels constructed from cardboard.
+
+![](HowToTrainYourDragonTheHiddenWorld/covers.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case. 
+
+#### DVD: 
+
+Branded DVD containing the film.
+
+#IMGSML# HowToTrainYourDragonTheHiddenWorld/dvd.png
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* VSID: `THE_HIDDEN_WORLD_NTSC_ACADEMY_SCREENER_R0`.
+
+File listing: 
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_02_4.VOB
+    ├── VTS_02_5.VOB
+    └── VTS_02_6.VOB
+```
+
+Screenshots:
+![](HowToTrainYourDragonTheHiddenWorld/preshow.png)
+#CAPT# Images of all content before the film starts (3 images per row). Another disc destruction warning on 3rd screen.
+![](HowToTrainYourDragonTheHiddenWorld/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](HowToTrainYourDragonTheHiddenWorld/subtitle.png)
+#CAPT# Screenshot of the subtitle programming.
+
+#PORD#
+
+#DROP# 2018 - VICE - Annapurna
+
+### Intro:
+
+[VICE](https://www.imdb.com/title/tt6266538/) is a highly acclaimed film following a vice president inside Washington.
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* Label: `VICE`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    └── VTS_01_7.VOB
+```
+
+**Screenshots:**
+![](VICE/preshow.png)
+#CAPT# Images of all content before starting the film. If you select no, the final screen is shown, which is presumably a black picture with a white box drawn by the navigation system. Selecting the box brings you back to the start of the warnings. Very strange. 
+![](VICE/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](VICE/subtitle.png)
+#CAPT# Screenshot of subtitle programming. This film also has burned-in subtitling for dialogue that is not English. 
+
+#PORD#
+
+#DROP# 2017 - Call Me By Your Name - Sony Pictures Classics
+
+### Intro:
+
+This DVD contains the film [Call Me By Your Name](https://www.imdb.com/title/tt5726616/).
+
+#### DVD:
+
+A very to-the-point DVD with just the films logo and information on it.  
+
+#IMGSML# CallMeByYourName/dvd.png
+
+**Redacted content:**
+1) Identifiable serial number/ID with barcode. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    └── VTS_01_7.VOB
+```
+
+**Screenshots:**
+![](CallMeByYourName/preshow.png)
+#CAPT# Images of all content before starting the film. When selecting the accept option, the film should begin to play, however DVDNAV would crash when selecting accept. Selecting the decline option shows the last picture. The "No, take me back" option returns you to the accept/decline screen, and selecting "Yes, I'm sure" will halt the DVD (DVDNAV_STOP). We were able to play the film by bypassing all menu options when playing the disc. 
+![](CallMeByYourName/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](CallMeByYourName/subtitle.png)
+#CAPT# Screenshot of subtitle programming. This film also has burned-in subtitling for dialogue that is not English. 
+
+#PORD#
+
+#DROP# 2017 - Fargo - FX
+
+### Intro:
+
+A very nicely-presented screener from FX, featuring 2 episodes of [Fargo](https://www.imdb.com/title/tt2802850/) (season 3). I liked Fargo season 1, but i've never seen season 3. After watching some of it though, my verdict is that the inclusion of "Crazy On You" in episode 1 is ingenious. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Apple Computer, Inc.`
+* Label: `FARGO`.
+* VSID: `APPLEDSPFARGO`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    ├── VTS_03_1.VOB
+    ├── VTS_03_2.VOB
+    └── VTS_03_3.VOB
+```
+
+**Screenshots:**
+#IMGSML# Fargo2017/preshow-scroll.png
+![](Fargo2017/preshow-menu.png)
+#CAPT# Images of all content before starting the film. The lengthy top image is a compilation of the various pieces of text that scrolls when the DVD is played. The bottom is the DVD menu it lands on after the scrolling text.
+![](Fargo2017/watermark.png)
+#CAPT# Screenshot of the watermark.
+
+**Redacted content:**
+1) When watching I noticed a very faint green border wrapped around the video frame. Im not sure if this is watermarking or just a technical issue, but out of an abundance of caution I have redacted it. 
+
+#PORD#
+
+#DROP# 2017 - The 3 Worlds of Gulliver Pre-Production Blu-ray - Powerhouse
+
+### Intro:
+
+Assumed to be a pre-production re-release of the [1960 film](https://www.imdb.com/title/tt0053882/) pressed to Blu-ray. Not really a screener but somehow I have it. 
+
+### Physical contents: 
+
+#### DVD:
+
+#IMGSML# 3WorldsGulliver/dvd.png
+
+**Redacted content:**
+1) Text-based product code.
+2) Day and month of creation date. Use unknown, could be linked back to individual pressings if limited.
+
+### Digital content:
+
+Screenshots: 
+![](3WorldsGulliver/preshow.png)
+#CAPT# Images of all content before the film starts. The first image on row 2 is the special features, and the second image on row 2 is the setup menu.
+
+#PORD#
+
+#DROP# 2016 - Emmy Screener Set - Netflix
+
+### Intro:
+
+This thing was **infamous** during the awards season for the sheer size and weight of the set. It [made the news](https://www.independent.co.uk/arts-entertainment/tv/news/netflix-makes-a-statement-by-sending-emmy-voters-20-pounds-worth-of-screeners-a7068476.html), and weighed in at [over 20 pounds](https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/06/07/08/emmys.jpg). Even more impressive is that guild members who received this behemoth never actually paid for it, they were shipped courtesy of Netflix for the award season. 
+
+And I got one. 
+
+I bought my unit still sealed in the plastic wrap, however I had to unseal it just to see what I was missing out on. Each box comes with a program card and the DVD booklets for each show and film. 
+
+### Physical contents: 
+
+#### Case: 
+
+Box Photos: 
+
+![](Netflix2016BoxSet/pkg1.jpg)
+
+![](Netflix2016BoxSet/pkg2.jpg)
+
+![](Netflix2016BoxSet/pkg3.jpg)
+
+Program Card: 
+
+![](Netflix2016BoxSet/programcard.png)
+#CAPT# Volume 1's program card included in the box. Other program cards wont be included as they are all completely identical (as shown previously). TOP: Front and back of card. BOTTOM: Inside of card.
+
+Volume specific: 
+
+#DROP# Volume 1
+Dimensions: 
+* Height: 6 1/2 inches.
+* Width: 7 1/4 inches.
+* Depth: 5 1/2 inches.
+
+Case:
+![](Netflix2016BoxSet/vol1pkg.png)
+#CAPT# Scan of volume 1 box. In order: left side, front side, right side. The rear side of this box has nothing (white).
+#PORD#
+
+#DROP# Volume 2
+Dimensions: 
+* Height: 6 1/2 inches.
+* Width: 7 1/4 inches.
+* Depth: 3 inches. 
+
+Case:
+![](Netflix2016BoxSet/vol2pkg.png)
+#CAPT# Scan of volume 2 box. In order: left side, front side, right side, back side.
+#PORD#
+
+#DROP# Volume 3
+Dimensions: 
+* Height: 6 1/2 inches.
+* Width: 7 1/4 inches.
+* Depth: 5 1/2 inches. 
+
+Case:
+![](Netflix2016BoxSet/vol3pkg.png)
+#CAPT# Scan of volume 3 box. In order: left side, front side, right side, back side.
+#PORD#
+
+#DROP# Volume 4
+Dimensions: 
+* Height: 6 1/2 inches.
+* Width: 7 1/4 inches.
+* Depth: 3 inches. 
+
+Case:
+![](Netflix2016BoxSet/vol4pkg.png)
+#CAPT# Scan of volume 4 box. In order: left side, front side, right side, back side.
+#PORD#
+
+### Subsequent Programs:
+
+#DROP# Book 1/27: House of Cards
+Nothing yet. 
+#PORD# 
+
+#DROP# Book 2/27: Longmire
+Nothing yet
+#PORD# 
+
+#PORD# 
+
+#DROP# 2016 - Manchester By The Sea - Amazon Studios
+
+### Intro:
+
+A screener for the film [Manchester By The Sea](https://www.imdb.com/title/tt4034228/) for the SAG-AFTRA awards consideration. I watched a bit of the film from the screener disc and its a very well-made film.
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a relatively standard foldout-style case. Case feels constructed from cardboard. 
+
+![](ManchesterByTheSea2016SAGAFTA/covers.png)
+#CAPT# TOP: Exterior content of the case that folds out. BOTTOM: Inside content of the case that folds out. 
+
+#### DVD:
+
+The disc itself is pretty much a standard Amazon issued disc. It contains none of the features branding or artwork. 
+
+#IMGSML# ManchesterByTheSea2016SAGAFTA/dvd.png
+
+**Redacted content:**
+1) Identifiable serial number/ID with barcode. 
+
+#### SAG-AFTRA Voting Card: 
+
+This screener also contained a rather rare and interesting item, that being the SAG-AFTRA calling card still inside the screeners case.    
+
+![](ManchesterByTheSea2016SAGAFTA/votingcard.png)
+
+**Redacted content:**
+1) Handwritten 7-character code, likely either a code to sign in digitally or tracking information.
+2) ZIP code for recipient.
+3) Intelligent mail barcode. 
+4) Recipient name. 
+5) Recipient address. 
+6) Internal postal tracking codes. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+
+File listing: 
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    └── VTS_01_5.VOB
+```
+
+Screenshots: 
+![](ManchesterByTheSea2016SAGAFTA/preshow.png)
+#CAPT# Images of all content before the film starts (3 images per row). Notice how the 4th screen literally instructs the viewer to destroy the DVD when they are finished with it. 
+![](ManchesterByTheSea2016SAGAFTA/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](ManchesterByTheSea2016SAGAFTA/subtitle.png)
+#CAPT# Screenshot of the subtitle programming.
+
+### Content and watermark analysis:
+
+A fascinating discovery was that I have 2 copies of this screener, and with 2 copies we can determine if Amazon really did add unique watermarks to each disc. 
+
+The first thing we noticed was that the barcode and ID printed directly on the DVD was the exact same. This was already interesting because it means the label is not necessarily individually identifiable. 
+
+After this, we checked the associated information on each DVD using `dvdbackup` (with `-I` parameter) and `udfinfo`. The information was the exact same. 
+
+```
+diff ./disc1.txt ./disc2.txt
+[NO OUTPUT RETURNED]
+```
+
+Since we cannot natively perform analysis of the files off the DVD (due to returning I/O errors), and since `DD` does not have the capability to read commercial DVD's, we had to resort to using another tool. The tool we used was [dvdbackup](https://wiki.archlinux.org/title/Dvdbackup). DVDBackup allows copying the files contained on a commercial disc directly to internal drives.
+
+```
+$ find ScreenerD1/backup/Manchester\ By\ The\ Sea/VIDEO_TS -type f -exec sha256sum {} \;
+c1a3e083b1191d9cfea9fcb419dace526015052bc50e0375df04a6aa14041ee9  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_3.VOB
+4cac409ee429aea3ce4ced0fde05cc93e032337fe6b221a0d41eca7ae5b7afd0  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.VOB
+684172c3f2140c39c79ef8cd92677a86e0930fc59ecefe764e0ccb8be87688b2  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_4.VOB
+c6dc56cb3b022824f4e5bd945f2bdf3f92643305a907f6aa5474eb8648f54c7b  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.BUP
+73e82d9b348a379b58f4c8bfe6e986c7f4b6169296c83e600832da2196dc9213  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_1.VOB
+b4c41d17f1ae451519e4ba5317c61db8e782d462cabb18c2a990515ad81b37db  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_0.IFO
+4ecaeff1125d9b8a906af1316067df450d24112b2e3b244a8f1db75f86d5dddc  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_2.VOB
+b4c41d17f1ae451519e4ba5317c61db8e782d462cabb18c2a990515ad81b37db  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_0.BUP
+1aa19fb9a1b24ddba8746aa84ce94a931389f3702b4e619593ea5f201aa978b2  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VTS_01_5.VOB
+c6dc56cb3b022824f4e5bd945f2bdf3f92643305a907f6aa5474eb8648f54c7b  ScreenerD1/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.IFO
+
+$ find ScreenerD2/backup/Manchester\ By\ The\ Sea/VIDEO_TS -type f -exec sha256sum {} \;
+c1a3e083b1191d9cfea9fcb419dace526015052bc50e0375df04a6aa14041ee9  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_3.VOB
+4cac409ee429aea3ce4ced0fde05cc93e032337fe6b221a0d41eca7ae5b7afd0  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.VOB
+684172c3f2140c39c79ef8cd92677a86e0930fc59ecefe764e0ccb8be87688b2  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_4.VOB
+c6dc56cb3b022824f4e5bd945f2bdf3f92643305a907f6aa5474eb8648f54c7b  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.BUP
+73e82d9b348a379b58f4c8bfe6e986c7f4b6169296c83e600832da2196dc9213  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_1.VOB
+b4c41d17f1ae451519e4ba5317c61db8e782d462cabb18c2a990515ad81b37db  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_0.IFO
+4ecaeff1125d9b8a906af1316067df450d24112b2e3b244a8f1db75f86d5dddc  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_2.VOB
+b4c41d17f1ae451519e4ba5317c61db8e782d462cabb18c2a990515ad81b37db  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_0.BUP
+1aa19fb9a1b24ddba8746aa84ce94a931389f3702b4e619593ea5f201aa978b2  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VTS_01_5.VOB
+c6dc56cb3b022824f4e5bd945f2bdf3f92643305a907f6aa5474eb8648f54c7b  ScreenerD2/backup/Manchester By The Sea/VIDEO_TS/VIDEO_TS.IFO
+```
+
+There was no point of even doing hex comparisons at this point because every single video file was cryptographically the exact same, meaning between each disc there is no unique watermarking in the video or audio itself.
+
+Its very likely that the watermark and traceability warnings burned into the discs is a scare-tactic, as between these 2 discs there is physically and virtually no difference.
+
+#PORD#
+
+#DROP# 2015 - The Hateful Eight - The Weinstein Company
+
+### Intro: 
+
+Oscar-winning film [The Hateful Eight](https://www.imdb.com/title/tt3460252/) is a post-civil-war drama and thriller directed by Quentin Tarantino. 
+
+One interesting fact about this film was that before it released, it [was reported to have leaked online](https://www.hollywoodreporter.com/movies/movie-news/hateful-eight-pirated-screener-traced-850899/) during awards consideration season by scenegroup `Hive-CM8`. The group claims the film was acquired by a street vendor at the time. 
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a very to-the-point case that holds the DVD. DVD label contains no special branding.
+
+![](Hateful8/covers.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case, including DVD.
+
+**Redacted content:**
+1) Identifiable serial number/ID with barcode. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Sonic Scenarist 3.1`.
+* When scanning, this error was produced: `Warning: Second and third Anchor Volume Descriptor Pointer not found`.
+
+**File listing:**
+```
+├── AUDIO_TS
+├── DISC.ID
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    └── VTS_01_7.VOB
+```
+
+**What is `DISC.ID`?**
+
+When I `cat` this file, it reveals a 15-character string. The first character is a lowercase letter, with the rest being numbers. This is most definitely a weak method of watermarking, however it does not exclude the fact that watermarking may be burned into the video and audio tracks. This is likely a deterrent to prevent copying, or a way to very quickly identify whose copy it is if someone gets lazy and uploads it without stripping the file out. The numbers in this string has no apparent correlation with the numbers printed on the DVD. 
+
+**Screenshots:**
+![](Hateful8/preshow.png)
+#CAPT# Images of all content before the film starts. 
+![](Hateful8/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](Hateful8/subtitle.png)
+#CAPT# Screenshot of the subtitle programming.
+
+### In-depth analysis: 
+
+**Hive-CM8's NFO File:**
+
+When the release for this screener was dropped, the following NFO (info) file was included. Do note that this screenshot was from an obscure site that automatically mirrored the NFO file rather than taken directly from the torrent. It boldly claims that this group (at the time) possessed 40 screeners of unreleased films. 
+
+#WARN# Please do not visit the links in this picture. This is a very old bootleg release and these domains may no longer be hosting the content. 
+
+#IMGSML# Hateful8/HIVE8-nfo.png
+
+#PORD#
+
+#DROP# 2011 - Big Bang Theory - Warner Brothers
+
+### Intro:
+
+This DVD contains 2 episodes from the TV series [Big Bang Theory](https://www.imdb.com/title/tt0898266/). 
+
+#### DVD:
+
+A standard DVD with the features branding on it.  
+
+#IMGSML# BigBang2011/dvd.png
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Apple Computer, Inc.`
+* VSID: `APPLEDSPBB`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    └── VTS_02_2.VOB
+```
+
+**Screenshots:**
+![](BigBang2011/preshow.png)
+#CAPT# Images of all content before the episodes starts. 
+![](BigBang2011/watermark.png)
+#CAPT# Screenshot of the watermark.
+
+#PORD#
+
+#DROP# 2011 - My Week With Marilyn - The Weinstein Company
+
+### Intro:
+
+This [film](https://www.imdb.com/title/tt1655420/) is a biographical drama based on books. The film documents the production of another film, The Prince and the Showgirl. In that case, is this film of the other film inside the film meta?
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Daikin U.S. Comtec Lab`.
+* Label: `MY_WEEK_WITH_MARILYN`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    └── VTS_03_1.VOB
+```
+
+**Screenshots:**
+![](MyWeekWithMarilyn/preshow.png)
+#CAPT# Image of all content before starting the film. Just a lone FBI warning. 
+![](MyWeekWithMarilyn/watermark.png)
+#CAPT# Screenshot of the watermark.
+
+#PORD#
+
+#DROP# 2004 - 24 - 20th Century Fox
+
+### Intro:
+
+[24](https://www.imdb.com/title/tt0285331/) is a show that literally lasts 24 hours (more like 18 without commercial breaks). Does that technically make it a livestream VOD?
+
+#### DVD:
+
+A branded dvd featuring the shows promotional artwork and a lengthy warning.
+
+#IMGSML# 24_2004/dvd.png
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `DVD Producer 1.0`.
+* LABEL/VSID: `DVDVolume`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    └── VTS_01_6.VOB
+```
+
+**Screenshots:**
+![](24_2004/preshow.png)
+#CAPT# Images of all content before starting the film.
+![](24_2004/watermark.png)
+#CAPT# Screenshot of the watermark. This "watermark" works because these episodes contain no subtitling, rather the subtitle track is reserved for specifically printing the FYC message. Its unknown why it was implemented this way, as the viewer could just disable subtitling on their player. 
+![](24_2004/videoshot.png)
+#CAPT# A screenshot of one of the episodes. An oddity worth noting is that the rating and banner advertising availability for widescreen television suggest this was a copy either made for the air, or taken from it. 
+
+#PORD#
+
+#DROP# 2003 - 24 - 20th Century Fox
+
+### Intro:
+
+[24](https://www.imdb.com/title/tt0285331/) is a show that literally lasts 24 hours (more like 18 without commercial breaks). Does that technically make it a livestream VOD?
+
+#### Program Card: 
+
+A paper program card outlining which episodes are on the disc and the people behind the show. 
+
+![](24_2003/card.png)
+
+#### DVD:
+
+A branded dvd featuring the shows promotional artwork and a lengthy warning.
+
+#IMGSML# 24_2003/dvd.png
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Spruce Technologies`.
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    └── VTS_01_4.VOB
+```
+
+**Screenshots:**
+![](24_2003/preshow.png)
+#CAPT# Images of all content before starting the film. The DVD boots directly into a video file containing all the preshow content and the episodes themselves. The last row plays halfway through the episodes as they remind the viewer which episode they are watching.
+![](24_2003/endscreen.png)
+#CAPT# An odd screen that only appears at the end of the presentation instructing the viewer to press enter on their remote. Doing so just loops the video over again. Its likely this is some sort of DVD root menu that was never built or was a placeholder.
+![](24_2003/watermark.png)
+#CAPT# Screenshot of the watermark.
+
+#PORD#
+
+#DROP# 2003 - ER - Warner Brothers
+
+### Intro:
+
+[ER](https://www.imdb.com/title/tt0108757/) was a television medical drama that lasted from 1994 to 2009. It was very well received and was awarded many times during its time on the air. DVD's ship in a black plastic DVD case. While previewing the episodes I actually got hooked on the episodes across these discs, and the show is very well made. Turns out the covers can be very deceiving, as this show can get quite graphic despite the very heavenly-like white and black artwork printed on the front and back (which I should of seen coming for a medical drama). The labels on the discs themselves feels like its a sticker, not so much an actual professional print.
+
+These 3 sets are from season 9. These screeners seem to have originally been VHS screeners copied to DVD, as the video contains VHS artifacts. What is also fascinating is that the episode "First Snowfall" appears on all 3 sets, which likely means the studio wanted to get as many eyes on this episode as possible. 
+
+I found out the general set was named such from the DVD volume name. The name burned to the DVD was `ER_GENERAL`.
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `Spruce Technologies`.
+
+#DROP# Outstanding Performances Set
+
+### Intro: 
+
+These appear to be some of the most powerful and action-packed selections picked out for guild consideration.  
+
+### Physical content: 
+
+#### Case: 
+
+![](ER2003/OutstandingPerformance/cover.png)
+
+#### DVD:
+
+![](ER2003/OutstandingPerformance/dvd.png)
+
+### Digital content:
+
+#DROP# Disc 1
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    ├── VTS_03_1.VOB
+    ├── VTS_03_2.VOB
+    ├── VTS_04_0.BUP
+    ├── VTS_04_0.IFO
+    ├── VTS_04_0.VOB
+    └── VTS_04_1.VOB
+```
+
+**Screenshots:**
+#IMGSML# ER2003/OutstandingPerformance/D1/preshow.png
+#CAPT# Images of all content before either episode starts. The last 3 rows of images depend on which option was selected on the DVD menu. 
+
+#PORD#
+
+#DROP# Disc 2
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    ├── VTS_03_1.VOB
+    ├── VTS_03_2.VOB
+    ├── VTS_04_0.BUP
+    ├── VTS_04_0.IFO
+    ├── VTS_04_0.VOB
+    ├── VTS_04_1.VOB
+    ├── VTS_04_2.VOB
+    ├── VTS_05_0.BUP
+    ├── VTS_05_0.IFO
+    ├── VTS_05_0.VOB
+    ├── VTS_05_1.VOB
+    └── VTS_05_2.VOB
+```
+
+**Screenshots:**
+#IMGSML# ER2003/OutstandingPerformance/D2/preshow.png
+#CAPT# Images of all content before either episode starts. The last 4 images depend on which option was selected on the DVD menu. 
+
+#PORD#
+
+#PORD#
+
+#DROP# Guest Performances Set
+
+### Physical content: 
+
+#### Case: 
+
+![](ER2003/GuestPerformance/covers.png)
+
+#### DVD:
+
+#IMGSML# ER2003/GuestPerformance/dvd.png
+
+### Digital content:
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    └── VTS_03_1.VOB
+```
+
+**Screenshots:**
+![](ER2003/GuestPerformance/preshow.png)
+#CAPT# Images of all content before either episode starts. The last 2 images depend on which option was selected on the DVD menu. 
+
+#PORD#
+
+#DROP# General Set 
+
+### Physical content: 
+
+#### Case: 
+
+![](ER2003/General/covers.png)
+
+#### DVD:
+
+#IMGSML# ER2003/General/dvd.png
+
+### Digital content:
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_02_0.BUP
+    ├── VTS_02_0.IFO
+    ├── VTS_02_0.VOB
+    ├── VTS_02_1.VOB
+    ├── VTS_02_2.VOB
+    ├── VTS_02_3.VOB
+    ├── VTS_03_0.BUP
+    ├── VTS_03_0.IFO
+    ├── VTS_03_0.VOB
+    └── VTS_03_1.VOB
+```
+
+**Screenshots:**
+![](ER2003/General/preshow.png)
+#CAPT# Images of all content before either episode starts. The last 2 images depend on which option was selected on the DVD menu.
+
+#PORD#
+
+#PORD#
+
+#DROP# 2002 - Emmy Consideration Set - Discovery Channel
+
+### Intro:
+
+Set of content mailed to guild members from the Discovery Channel. Every program on inside this set is a documentary.
+
+### Physical content: 
+
+#### Case: 
+
+Ships in a cardboard fold-out case. There is only 3 disc slots despite shipping with 4 discs, so disc 1 and 2 are in the same slot.
+
+![](DiscoveryChannel2002/case.png)
+#CAPT# Top row is the exterior of the case, and  the bottom row is the interior.
+
+#### DVD:
+
+#IMGSML# DiscoveryChannel2002/dvd.png
+
+#### Program Card: 
+
+This card explains each program and which category they are eligible for. 
+
+![](DiscoveryChannel2002/card.png)
+#CAPT# Each row represents each side of the foldout card.
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `DVD Producer 1.0`.
+
+#DROP# Disc 1 - Featured Program (Blue Planet: Seas of Life)
+
+**Intro:**
+
+[The Blue Planet](https://www.imdb.com/title/tt0296310/) is a water-focused nature documentary series. This is a *nearly 5 hour* presentation with some very impressive videography for the time. 
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    ├── VTS_01_7.VOB
+    └── VTS_01_8.VOB
+```
+
+**Screenshots:**
+![](DiscoveryChannel2002/preshow-featured.png)
+#CAPT# Disc directly loads into this DVD menu. Videos immediately play when feature is selected. 
+
+#PORD#
+
+#DROP# Disc 2 - Animated Programming
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    ├── VTS_01_7.VOB
+    └── VTS_01_8.VOB
+```
+
+**Screenshots:**
+![](DiscoveryChannel2002/preshow-animated.png)
+#CAPT# Disc directly loads into this DVD menu. Videos immediately play when feature is selected. 
+
+#PORD#
+
+#DROP# Disc 3 - Non-fiction/Reality Programming 1
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    ├── VTS_01_7.VOB
+    └── VTS_01_8.VOB
+```
+
+**Screenshots:**
+![](DiscoveryChannel2002/preshow-nonficreality1.png)
+#CAPT# Disc directly loads into this DVD menu. Videos immediately play when feature is selected. 
+
+#PORD#
+
+#DROP# Disc 4 - Non-fiction/Reality Programming 2
+
+**File listing:**
+```
+├── AUDIO_TS
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    ├── VTS_01_7.VOB
+    └── VTS_01_8.VOB
+```
+
+**Screenshots:**
+![](DiscoveryChannel2002/preshow-nonficreality2.png)
+#CAPT# Disc directly loads into this DVD menu. Videos immediately play when feature is selected. 
+
+#PORD#
+
+#PORD# 
+
+#DROP# 2002 - XXX - Columbia Pictures
+
+### Intro:
+
+Vin Diesel takes a step back from driving fast cars with loud music to [infiltrate Russian crime rings](https://www.imdb.com/title/tt0295701/) with loud music. 
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `SONY DVD Video` (as returned by IMPID).
+* Label: `XXX`.
+
+**File listing:**
+```
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VIDEO_TS.VOB
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    └── VTS_01_4.VOB
+```
+
+**Screenshots:**
+![](XXX/preshow.png)
+#CAPT# Images of all content before starting the film. 
+![](XXX/subtitleA.png)
+![](XXX/subtitleB.png)
+#CAPT# Screenshot of subtitle programming. Subtitles for Russian translations are separated from the English closed captioning. 
+
+#PORD#
+
+#DROP# 2001 - Harry Potter and the Sorcerers Stone - Warner Brothers
+
+### Intro:
+
+To be added
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with: `UDF Toshiba DVD Video`.
+* Label: The label cannot be included because it seems to be an individual ID. It consists of 10 characters. The first 6 are capital letters, the rest are a mix of letters and numbers. This label also appears appended to the end of the FULLVSID, where the disc UUID is prepended. 
+
+**File listing:**
+```
+└── VIDEO_TS
+    ├── VIDEO_TS.BUP
+    ├── VIDEO_TS.IFO
+    ├── VTS_01_0.BUP
+    ├── VTS_01_0.IFO
+    ├── VTS_01_0.VOB
+    ├── VTS_01_1.VOB
+    ├── VTS_01_2.VOB
+    ├── VTS_01_3.VOB
+    ├── VTS_01_4.VOB
+    ├── VTS_01_5.VOB
+    ├── VTS_01_6.VOB
+    └── VTS_01_7.VOB
+```
+
+**Screenshots:**
+![](HPatSS2001/postshow.png)
+#CAPT# This DVD menu appears after the film ends. Selecting PLAY plays the film again. 
+![](HPatSS2001/watermark.png)
+#CAPT# Screenshot of the watermark.
+
+#PORD#
+
+#DROP# Template
+
+### Intro:
+
+I am an intro with an [IMDB](https://www.imdb.com/title/tt5726616/) link.
+
+### Physical content: 
+
+#### Case: 
+
+Just a case.
+
+![](FOLDER/covers.png)
+#CAPT# TOP: Exterior content of the case. BOTTOM: Inside content of the case. 
+
+#### DVD:
+
+A dvd.
+
+#IMGSML# FOLDER/dvd.png
+
+**Redacted content:**
+1) Redacted stuff
+
+### Digital content:
+
+**`UDFINFO` Findings:**
+* Built with:
+* Label:
+
+**File listing:**
+```
+TREE output here
+```
+
+**Screenshots:**
+![](FOLDER/preshow.png)
+#CAPT# Images of all content before starting the film. 
+![](FOLDER/watermark.png)
+#CAPT# Screenshot of the watermark.
+![](FOLDER/subtitle.png)
+#CAPT# Screenshot of subtitle programming.
+
+#PORD#
