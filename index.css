@@ -98,8 +98,14 @@ p.noScripting {
     color: black;
 }
 
+div.ul {
+    text-align: center;
+}
+
 ul {
-    color: #ffffff;
+    display: inline-block;
+    text-align: left;
+    color: white;
     font-family: 'Noto Sans';
 }
 

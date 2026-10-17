@@ -42,3 +42,28 @@ div.projFeature > p {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+p.stage-active {
+    color: #88ff00;
+    font-weight: bold;
+}
+
+p.stage-released {
+    color: #458200;
+    font-weight: bold;
+}
+
+p.stage-indev {
+    color: #009eff;
+    font-weight: bold;
+}
+
+p.stage-prototype {
+    color: #8000ff;
+    font-weight: bold;
+}
+
+p.stage-concept {
+    color: #ff0088;
+    font-weight: bold;
+}

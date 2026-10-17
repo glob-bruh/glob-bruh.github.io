@@ -17,6 +17,31 @@ function project_buildSection(k, z) {
         elemParent.append(document.createElement("br"));
     }
 
+    y = document.createElement("p");
+    switch (z["status"]) {
+        case "active":
+            y.className = "stage-active";
+            y.innerText = "Active Development";
+            break;
+        case "released":
+            y.className = "stage-released";
+            y.innerText = "Stable Release";
+            break;
+        case "indev":
+            y.className = "stage-indev";
+            y.innerText = "In Development";
+            break;
+        case "prototype":
+            y.className = "stage-prototype";
+            y.innerText = "Prototyped";
+            break;
+        case "conceptual":
+            y.className = "stage-concept";
+            y.innerText = "Conceptual";
+            break;
+    }
+    elemParent.append(y);
+
     if (z["buttons"]["hasGithub"] == true) {
         y = document.createElement("button");
         y.innerText = "GitHub Page";

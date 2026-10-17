@@ -87,6 +87,14 @@ function genReducedImage(line) {
   return elem;
 }
 
+function genTwoImages(line) {
+  x = ( getDir() + "/" );
+  const text = line.split(" ").slice(1).join(" ");
+  y = text.split(",");
+  elem = "<div id='forceSameLine'><img loading='lazy' src='" + (x + y[0]) + "'><img src='" + (x + y[1]) + "'></div>";
+  return elem;
+}
+
 function genTwoReducedImages(line) {
   x = ( getDir() + "/" );
   const text = line.split(" ").slice(1).join(" ");
@@ -124,6 +132,7 @@ function markdownExtensions(l) {
           case "#WARN#": l[i] = genWarning(l[i], l[i-1]); break;
           case "#NOTE#": l[i] = genNote(l[i], l[i-1]); break;
           case "#IMGSML#": l[i] = genReducedImage(l[i]); break;
+          case "#IMGTWO#": l[i] = genTwoImages(l[i]); break;
           case "#IMGTWOR#": l[i] = genTwoReducedImages(l[i]); break;
           case "#CAPT#": l[i] = genCaption(l[i]); break;
           case "#DROP#": l[i] = genDrop(l[i]); break;
