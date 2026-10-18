@@ -1,7 +1,7 @@
 
 {
     "Personal Homelab": {
-        "desc": "Blog page outlining my personal homelab setup.",
+        "desc": "Detailed architectural writeup of multi-server homelab environment.",
         "status": "active",
         "picture": {
             "hasPicture": false,
@@ -51,8 +51,8 @@
         }
     },
 
-    "CrossJoin (As Maintainer)": {
-        "desc": "Discord bot designed to monitor and post information from the Alberta Electric System Operator (AESO) and Alberta 511.",
+    "CrossJoin": {
+        "desc": "Operating as project maintainer.\n\nDiscord bot designed to monitor and post information from the Alberta Electric System Operator (AESO) and Alberta 511. Engineered the Alberta 511 API integration, API secret management, and production DevOps pipeline",
         "status": "active",
         "picture": {
             "hasPicture": true,
@@ -69,7 +69,7 @@
     },
 
     "AOSCS": {
-        "desc": "Advanced Open-Source Certification System.\n\n An successor to both TIGRS and OGRS independent media rating systems, while also being compatible with FreeDesktop AppStream. AOSCS is the 'be-all-end-all' solution to independent rating and certification services.",
+        "desc": "Advanced Open-Source Certification System (AOSCS).\n\nBuilt a Jekyll/JS dynamic generator that transforms detailed content taxonomies into open standards with customizable visual branding assets.",
         "status": "indev",
         "picture": {
             "hasPicture": true,
@@ -85,8 +85,25 @@
         }
     },
 
+    "DVDSCRPWN": {
+        "desc": "Image forensics and anti-steganography research toolkit designed for static screenshot analysis. Features CSPRNG-based image modification tools for payload disruption, overlay mapping, and cryptographic filelisting for zero-knowledge asset comparison.\n\nAvailable to authorized users upon request.",
+        "status": "released",
+        "picture": {
+            "hasPicture": true,
+            "pictureURL": "/asset/dvdscrpwn.png"
+        },
+        "buttons": {
+            "hasGithub": false,
+            "hasWebsite": true,
+            "hasBlogPage": false, 
+            "githubURL": "",
+            "websiteURL": "mailto:g0@beyondgone.xyz",
+            "blogPageURL": ""
+        }
+    },
+
     "EmbedTube": {
-        "desc": "Browser extension designed to replace the built-in YouTube video player with embedded versions.",
+        "desc": "Firefox extension prototype developed to circumvent playback blocks by dynamically replacing YouTube's main player with lightweight embedded iframe instances.",
         "status": "prototype",
         "picture": {
             "hasPicture": true,
@@ -103,7 +120,7 @@
     },
 
     "NoQuoraLogin": {
-        "desc": "UserScript that allows users visiting Quora to circumvent requests to login and use features that would normally require a account.",
+        "desc": "Lightweight JavaScript UserScript that circumvents sign-up overlays on Quora by automatically manipulating URL parameters and providing custom light/dark theme controls.",
         "status": "active",
         "picture": {
             "hasPicture": true,
@@ -120,7 +137,7 @@
     },
 
     "GSARS": {
-        "desc": "gl0bSECURE Automated Redundancy System\n\n Linux script designed to automatically replicate contents from one drive to another. Its intended use is to have data replication without the use of RAID.",
+        "desc": "gl0bSECURE Automated Redundancy System\n\nAutomated Linux data redundancy and backup tool built for mixed drive types in storage pools. Its intended use is to have data replication without the use of RAID.",
         "status": "active",
         "picture": {
             "hasPicture": false,
@@ -137,7 +154,7 @@
     },
 
     "Lost Media Wiki Retheme": {
-        "desc": "UserScript that adaptively changes how pages look on the Lost Media Wiki based on what categories they have been assigned. This is achieved by injecting CSS pages from an external source.",
+        "desc": "Adaptive JavaScript UserScript that dynamically parses Lost Media Wiki page categories to conditionally inject custom layouts and CSS themes across the website.",
         "status": "released",
         "picture": {
             "hasPicture": false,
@@ -154,7 +171,7 @@
     },
 
     "Wake on LAN Website": {
-        "desc": "Website built in PHP designed to send Wake on LAN magic packets to hosts on an internal network by MAC address.",
+        "desc": "PHP and JavaScript network management tool that broadcasts Wake-on-LAN magic packets across local subnets. Features dynamic target host management.",
         "status": "active",
         "picture": {
             "hasPicture": true, 
@@ -170,8 +187,8 @@
         }
     },
 
-    "Youtube Download-and-Delete": {
-        "desc": "Website built with PHP designed to provide a simple-to-use frontend for YT-DLP. Its built for low-capacity systems and designed for temporary viewing and downloading of media.",
+    "YouTube Download-and-Delete": {
+        "desc": "Lightweight PHP web interface for YT-DLP engineered for low-capacity systems. Enables ephemeral media streaming and automated storage cleanup to allow for local network playback without persistent server disk overhead.",
         "status": "active",
         "picture": {
             "hasPicture": true, 
@@ -188,7 +205,7 @@
     },
 
     "Filespeed": {
-        "desc": "Created for a college midterm, FileSpeed is a simple file sharing website that uses randomly generated filenames for shareable links. The website is built with PHP and features a SHA1 upload blacklist and extensive logging.",
+        "desc": "PHP file-sharing web application featuring an automated abuse-filtering pipeline. Combines payload blacklisting, file extension controls, randomized URL obfuscation, execution-restricted directory policies, and detailed audit logging.",
         "status": "active",
         "picture": {
             "hasPicture": true, 
@@ -205,7 +222,7 @@
     },
 
     "Cisco4FPBX": {
-        "desc": "Script designed to simplify TFTP configuration for Cisco phones using FreePBX.",
+        "desc": "Python automation tool engineered to streamline TFTP provisioning and XML configuration management for enterprise Cisco IP phones integrated with FreePBX virtual instances.",
         "status": "conceptual",
         "picture": {
             "hasPicture": false, 
@@ -239,7 +256,7 @@
     },
 
     "Slack Door Access Notify": {
-        "desc": "Lightweight PHP webpage designed to post users IP address and user agent to a Slack webhook. Intended to notify someone inside the room that someone else is at the door.",
+        "desc": "Lightweight PHP utility that captures visitor information, routing arrival events directly to Slack webhooks for real-time occupant notifications.",
         "status": "indev",
         "picture": {
             "hasPicture": false, 
@@ -256,7 +273,7 @@
     },
 
     "JS DVD Menu Simulator": {
-        "desc": "Client-side web framework designed to simulate menu systems from DVD's.",
+        "desc": "Client-side web framework engineered to simulate interactive DVD video menus. Utilizes vanilla JavaScript state mapping to manage branching navigation paths, media player switching, and responsive UI overlays with zero backend dependencies.",
         "status": "prototype",
         "picture": {
             "hasPicture": false, 
@@ -273,7 +290,7 @@
     },
 
     "Test Drive Pong for Windows": {
-        "desc": "Created for an assignment and released with permission from the instructor, this Windows form project is a remake of the loading screen from the racing video-game Test Drive on the PlayStation 2.",
+        "desc": "C# Windows Forms application recreating the loading screen of the PlayStation 2 racing game Test Drive.",
         "status": "released",
         "picture": {
             "hasPicture": false, 
@@ -290,7 +307,7 @@
     },
 
     "DiskSmasher": {
-        "desc": "Open-source version of a proprietary disk scanning script built in PowerShell. It has also been written from scratch and does not modify settings (only scans).",
+        "desc": "Open-source PowerShell disk-scanning and storage visualization tool. Developed via clean-room design to perform non-destructive, read-only system analysis for drive consumption tracking without altering configuration settings.",
         "status": "active",
         "picture": {
             "hasPicture": false, 
@@ -307,7 +324,7 @@
     },
 
     "BrowserNeedle": {
-        "desc": "PowerShell script designed to analyze web browsers on a Windows system. It can extract browser history, installed extensions, and other relevant data from popular browsers like Microsoft Edge, Google Chrome, and Mozilla Firefox. Used for both blue-team and red-team purposes.",
+        "desc": "Advanced PowerShell forensic utility engineered for cross-browser artifact analysis on Windows. Extracts browsing history, installed extensions, and profile metadata across Edge, Chrome, and Firefox for incident response and security auditing.",
         "status": "indev",
         "picture": {
             "hasPicture": false, 
@@ -324,7 +341,7 @@
     },
 
     "AuditDeepscan": {
-        "desc": "PowerShell script designed to process audit log entries from a Microsoft Purview Audit Export CSV file, extracts IP addresses, and queries an external API to retrieve detailed information about those IPs. It enriches the audit log entries with this information and provides options to filter based on multiple criteria such as IP type, UserID, and Operation type.",
+        "desc": "PowerShell SecOps and threat-hunting utility for Microsoft Purview audit log analysis. Ingests CSV exports, enriches IP addresses with external threat intelligence API (flagging VPNs, proxies, and hosting nodes), and features JSON dataset caching to respect rate limits.",
         "status": "released",
         "picture": {
             "hasPicture": false, 

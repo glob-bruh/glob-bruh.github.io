@@ -10,12 +10,14 @@ function project_buildSection(k, z) {
     y.innerText = k;
     elemParent.append(y);
 
+    y = document.createElement("img");
     if (z["picture"]["hasPicture"] == true) {
-        y = document.createElement("img");
         y.src = z["picture"]["pictureURL"];
-        elemParent.append(y)
-        elemParent.append(document.createElement("br"));
+    } else {
+        y.src = "/asset/gear.png";
     }
+    elemParent.append(y)
+    elemParent.append(document.createElement("br"));
 
     y = document.createElement("p");
     switch (z["status"]) {
@@ -51,7 +53,11 @@ function project_buildSection(k, z) {
 
     if (z["buttons"]["hasWebsite"] == true) {
         y = document.createElement("button");
-        y.innerText = "Visit Webpage";
+        if (z["buttons"]["websiteURL"].startsWith("mailto:")) {
+            y.innerText = "Send Email";
+        } else {
+            y.innerText = "Visit Webpage";
+        }
         y.onclick = function(){openInNewTab(z["buttons"]["websiteURL"])};
         elemParent.append(y);
     }

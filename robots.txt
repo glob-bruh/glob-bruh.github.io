@@ -1,2 +1,4 @@
-User-Agent: *
-Allow: /
+User-agent: *
+Disallow: /asset/
+Disallow: /blog/drawdown/
+Disallow: /admin/.env
