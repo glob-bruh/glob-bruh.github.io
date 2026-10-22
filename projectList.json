@@ -95,10 +95,10 @@
         "buttons": {
             "hasGithub": false,
             "hasWebsite": true,
-            "hasBlogPage": false, 
+            "hasBlogPage": true, 
             "githubURL": "",
             "websiteURL": "mailto:g0@beyondgone.xyz",
-            "blogPageURL": ""
+            "blogPageURL": "DVDSCRcollection"
         }
     },
 
@@ -306,7 +306,7 @@
         }
     },
 
-    "DiskSmasher": {
+    "FOSS Disk Searcher": {
         "desc": "Open-source PowerShell disk-scanning and storage visualization tool. Developed via clean-room design to perform non-destructive, read-only system analysis for drive consumption tracking without altering configuration settings.",
         "status": "active",
         "picture": {
@@ -317,7 +317,7 @@
             "hasGithub": true,
             "hasWebsite": false, 
             "hasBlogPage": false, 
-            "githubURL": "https://github.com/glob-bruh/DiskSmasher",
+            "githubURL": "https://github.com/glob-bruh/FOSSDiskSearcher",
             "websiteURL": "", 
             "blogPageURL": ""
         }
